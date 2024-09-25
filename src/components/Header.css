@@ -1,0 +1,46 @@
+.header {
+    background-color: #00bfa6; /* Green color */
+    height: 350px;  /* Adjust this based on your design */
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(9, 9, 9); /* White text color */
+  }
+  .logo{
+    width: 200px;
+    height: 75px;
+    margin-right: 20px;
+  }
+
+  .header-content {
+    width: 100%;  /* Make sure content spans the full width */
+    display: flex;
+    justify-content: space-between;  /* Distribute items across the width */
+    align-items: center;  /* Vertically center items */
+    padding: 0 20px;  /* Add some padding to the sides */
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .donate-button {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donate-button:hover {
+    background-color: #e04d4f;
+  }
