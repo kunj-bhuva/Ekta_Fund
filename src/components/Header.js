@@ -8,10 +8,10 @@ function Header() {
       <div className="header-content">
         <img src={logo} alt="EktaFund Logo" className="logo" />  
         
-          <h2 className='h22'>About</h2>
-          <h2 className='h22'>Services</h2>
-          <h2 className='h22'>Contact</h2>
-          <h2 className='h22'>Something</h2>
+          <h4 className='h22'>About</h4>
+          <h4 className='h22'>Services</h4>
+          <h4 className='h22'>Contact</h4>
+          <h4 className='h22'>Something</h4>
 
         
       </div>
