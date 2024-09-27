@@ -1,66 +1,69 @@
 .header {
-  padding-top: 0%;
-    background-color: #00bfa6; /* Green color */
-    height: 350px;  /* Adjust this based on your design */
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    color: rgb(9, 9, 9); /* White text color */
+  background-color: #1BC2A4; /* Green color */
+  min-height: 350px; /* Adjust this based on your design */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  display: flex;
+  justify-content: space-between; /* Align items to the edges */
+  align-items: center; /* Vertically center items */
+  text-align: center;
+  color: rgb(9, 9, 9); /* Dark text color */
+  padding: 0 50px; /* Add padding to the sides for spacing */
+}
 
+@media (max-width: 992px) {
+  .header {
+    min-height: 280px; /* Smaller height for tablet and below */
   }
-  .logo{
-    width: 200px;
-    height: 75px;
-    margin-right: 20px;
-    background-color: transparent;
-  }
+}
 
-  .header-content {
-    width: 100%;  /* Make sure content spans the full width */
-    display: flex;
-    justify-content:space-around;  /* Distribute items across the width */
-    
-    align-items: center;  /* Vertically center items */
-    padding: 0 15px;  /* Add some padding to the sides */
+@media (max-width: 768px) {
+  .logo {
+    width: 120px; /* Even smaller logo on smaller screens */
   }
-
-  .header-navBar{
-    background-color: #00bfa6;
-    border:none;
-    font-size: 1.5rem;
-    cursor: pointer;
+  .h22 {
+    font-size: 16px; /* Adjust font size for smaller screens */
   }
-
-  .header-navBar:hover{
-    background-color: #00bfa6;
-    color: white;
-    opacity: 75%;
-  }
-
-  h1 {
-    font-size: 48px;
-    margin: 0;
-  }
-  
-  p {
-    font-size: 18px;
-    margin-top: 10px;
-  }
-  
   .donate-button {
-    font-size: 1.45rem;
-    background-color: #ff5a5f;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-right: 4rem;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 8px 16px; /* Adjust padding */
   }
-  
-  .donate-button:hover {
-    
-    background-color: #e04d4f;
-  }
+}
+
+.logo {
+  width: 200px;
+  height: auto; /* Maintain aspect ratio */
+  margin-right: auto; /* Push all other elements to the right */
+  transform: translateY(-20px); /* Shift logo up */
+    background-color: transparent;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around; /* Distribute space evenly */
+  margin-left: 10px;
+  align-items: center; /* Vertically center items */
+  width: calc(100% - 250px); /* Adjust width taking logo into account */
+  transform: translateY(-20px); /* Shift all header content up */
+}
+
+.header-navBar {
+  font-size: 24px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background for readability */
+  padding: 5px 10px; /* Padding for better text visibility */
+  border-radius: 5px; /* Rounded corners for aesthetic */
+  font-family: Arial, sans-serif; /* Setting Arial as the font, with sans-serif as a fallback */
+}
+
+.donate-button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translateY(-20px); /* Shift button up */
+}
+
+.donate-button:hover {
+  background-color: #e04d4f;
+}
