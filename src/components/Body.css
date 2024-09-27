@@ -7,14 +7,28 @@
     /* height: 100vh; Optional: make the div take the full viewport height */
 }
 
-.content {
-    display: flex;
-    align-items: flex-start; /* Ensures the text and image are aligned at the top */
+
+
+.content{
+    margin-left: 15rem;
+   position: absolute;
+   top:200px;
+    align-items: flex-start;
+    display: inline;
     color:black;
+    text-align: left;
+    
 }
 
-.login-image {
+
+.content-headline{
+    font-size: 2.7rem;
+}
+.login-image {  
+    position: absolute;
+    top: 0px;
+    left: 160%;
     width: 400px; /* Adjust the width as needed */
     height: auto; /* Maintain the image aspect ratio */
-    margin-left: 20px; /* Space between h1 and image */
+    padding-top: 2rem;
 }
