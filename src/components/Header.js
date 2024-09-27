@@ -6,12 +6,14 @@ function Header() {
   return (
     <div className="header">
       <div className="header-content">
-      <img src={logo} alt="EktaFund Logo" className="logo" />  {/* Use the imported image */}
-      <h2>About</h2>
-      <h2>Donate</h2>
-      <h2>Services</h2>
-      <h2>Contact</h2>
-      
+        <img src={logo} alt="EktaFund Logo" className="logo" />  
+        
+          <h2 className='h22'>About</h2>
+          <h2 className='h22'>Services</h2>
+          <h2 className='h22'>Contact</h2>
+          <h2 className='h22'>Something</h2>
+
+        
       </div>
       <button className="donate-button">Donate</button> {/* Donate button aligned to the right */}
     </div>
