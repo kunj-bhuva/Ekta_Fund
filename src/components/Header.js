@@ -8,11 +8,11 @@ function Header() {
   return (
     <div className="header">
       <div className="header-content">
-        <img src={logo} alt="EktaFund Logo" className="logo" />  {/* Use the imported image */}
+        <div><img src={logo} alt="EktaFund Logo" className="logo" /> </div> {/* Use the imported image */}
         <button className="header-navBar"> About</button>
         <button className="header-navBar">Services</button>
         <button className="header-navBar">Contact</button>
-      <button className="donate-button">Donate</button> {/* Donate button aligned to the right */}
+        <button className="donate-button">Donate</button> {/* Donate button aligned to the right */}
       </div>
      
     </div>

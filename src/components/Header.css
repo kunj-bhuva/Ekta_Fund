@@ -1,13 +1,25 @@
 .header {
   background-color: #1BC2A4; /* Green color */
   min-height: 350px; /* Adjust this based on your design */
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
   display: flex;
   justify-content: space-between; /* Align items to the edges */
   align-items: center; /* Vertically center items */
   text-align: center;
   color: rgb(9, 9, 9); /* Dark text color */
   padding: 0 50px; /* Add padding to the sides for spacing */
+}
+
+.header-content{
+  margin-left:20rem;
+  display: flex;
+  justify-content: space-between; /* Align items to the edges */
+  align-items: center; /* Vertically center items */
+  text-align: center;
+}
+
+.header-navBar{
+  color: rgb(9, 9, 9);
 }
 
 @media (max-width: 992px) {
@@ -18,9 +30,9 @@
 
 @media (max-width: 768px) {
   .logo {
-    width: 120px; /* Even smaller logo on smaller screens */
+    width: 130px; /* Even smaller logo on smaller screens */
   }
-  .h22 {
+  .header-navBar {
     font-size: 16px; /* Adjust font size for smaller screens */
   }
   .donate-button {
@@ -29,11 +41,12 @@
 }
 
 .logo {
-  width: 200px;
+  margin-top: 40px;
+  width: 265px;
   height: auto; /* Maintain aspect ratio */
   margin-right: auto; /* Push all other elements to the right */
   transform: translateY(-20px); /* Shift logo up */
-    background-color: transparent;
+   background-color: transparent;
 }
 
 .header-content {
@@ -48,15 +61,23 @@
 .header-navBar {
   font-size: 24px;
   margin: 10px;
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background for readability */
+  background-color: #1BC2A4; /* Semi-transparent background for readability */
   padding: 5px 10px; /* Padding for better text visibility */
-  border-radius: 5px; /* Rounded corners for aesthetic */
+  border: none;
   font-family: Arial, sans-serif; /* Setting Arial as the font, with sans-serif as a fallback */
 }
 
+.header-navBar:hover{
+  color: aliceblue;
+  opacity: 80%;
+  cursor: pointer;
+}
+
 .donate-button {
+  margin-top: 40px;
   background-color: #ff5a5f;
-  color: white;
+  color: rgb(9, 9, 9);
+  font-size: 1.5rem;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
