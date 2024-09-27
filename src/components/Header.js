@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';  // Import the CSS for the Header component
 import logo from '../images/logo_big.png'; 
+import loginImage from '../images/Mobile-login-Cristina 1.png'; 
+
 
 function Header() {
   return (
@@ -10,10 +12,9 @@ function Header() {
         <button className="header-navBar"> About</button>
         <button className="header-navBar">Services</button>
         <button className="header-navBar">Contact</button>
-      
-      
       <button className="donate-button">Donate</button> {/* Donate button aligned to the right */}
       </div>
+     
     </div>
   );
 }
