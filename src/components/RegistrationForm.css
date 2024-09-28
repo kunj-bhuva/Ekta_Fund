@@ -12,7 +12,7 @@
 .about{
     display:flex;
     align-items: center; /* Vertically center items */
-  text-align: center;
+    text-align: center;
 }
 
 .box{
@@ -55,10 +55,14 @@
 
 .input{
     width: 220px;
+    padding: 20px;
+    margin: 20px;
 }
+
 #options{
     width: 230px;
 }
+
 #description{
     width: 448px;
     height: 2rem;
