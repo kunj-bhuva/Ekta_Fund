@@ -1,0 +1,68 @@
+.RegistrationForm{
+    padding: 0;
+    margin: 0;
+}
+.form {
+    /* border: solid 1px black; */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.about{
+    display:flex;
+    align-items: center; /* Vertically center items */
+  text-align: center;
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    background-color: #1BC2A4;
+    margin-right: 10px;
+    border-radius: 25%;
+}
+
+
+
+.inputs input, .inputs select {
+    max-width: 550px; /* Set a maximum width for larger screens */
+    padding: 10px; /* Add some padding inside the input for better readability */
+    margin: 10px; /* Add spacing between the inputs */
+    margin-left: 0px;
+    padding-left: 0px;
+   
+}
+
+.inputs select{
+    display: inline;
+}
+
+.inputs {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.inline-fields {
+    display: flex; /* Use flexbox to align elements in a row */
+    gap: 10px; /* Add space between the input and dropdown */
+}
+
+.inline-fields input, .inline-fields select {
+    flex: 1; /* Ensure both elements grow equally */
+}
+
+
+.input{
+    width: 220px;
+}
+#options{
+    width: 230px;
+}
+#description{
+    width: 448px;
+    height: 2rem;
+    padding-left: 15px;
+}
+
+
