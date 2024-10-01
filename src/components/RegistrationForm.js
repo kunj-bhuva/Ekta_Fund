@@ -13,10 +13,19 @@ export default function RegistrationForm() {
             </div>
             
             <form className="inputs">
-                <input type="text" placeholder="Enter Organaization Name"  className='input'/>
-                <input type="text" placeholder="Headquater Location" className='input'/>
+                <input type="text" 
+                    placeholder="Enter Organaization Name"  
+                    className='input'/>
+
+                <input type="text" 
+                    placeholder="Headquater Location" 
+                    className='input'/>
+
                 <br/>
-                <input type="text" placeholder="Active Since(Year)" className='input'/>
+
+                <input type="text" 
+                    placeholder="Active Since(Year)" 
+                    className='input'/>
                 
                     <label htmlFor="options"></label>
                     <select id="options" name="options" className='input'>
@@ -26,7 +35,13 @@ export default function RegistrationForm() {
                     </select>
                 
                 <br/>
-                <input type="text" placeholder='Description' id='description'/>
+
+                <input type="text" 
+                    placeholder='Description' 
+                    id='description' 
+                    className='Description'/>
+
+
             </form>
 
 
@@ -38,8 +53,12 @@ export default function RegistrationForm() {
             </div>
             
             <form className="inputs">
-                <input type="text" placeholder="Sectors"  className='input'/>
-                <input type="text" placeholder="Other Sectors" className='input'/>
+                <input type="text" 
+                    placeholder="Sectors"  
+                    className='input'/>
+                <input type="text" 
+                    placeholder="Other Sectors" 
+                    className='input'/>
                 <br/>
             </form>
 
@@ -53,11 +72,26 @@ export default function RegistrationForm() {
             </div>
             
             <form className="inputs">
-                <input type="text" placeholder='Vision of your Organaization' id='description'/>
-                <input type="text" placeholder='Missions of your Organaization' id='description'/>
+                <input type="text" 
+                    placeholder='Vision of your Organization' 
+                    id='vision' 
+                    name='vision'
+                    className='Description'/>
+
+            
+                <input type="text" 
+                    placeholder='Missions of your Organization' 
+                    id='mission' 
+                    name='mission'
+                    className='Description'/>
+
+            
                 <br/>
             </form>
             
         </div>
     );
 }
+
+// correct this forms
+
