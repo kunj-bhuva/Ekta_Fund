@@ -27,8 +27,9 @@
 .login-image {  
     position: absolute;
     top: 0px;
-    left: 160%;
+    left: calc(120% - 5rem); /* Move 100px to the left */
     width: 400px; /* Adjust the width as needed */
     height: auto; /* Maintain the image aspect ratio */
     padding-top: 2rem;
 }
+
