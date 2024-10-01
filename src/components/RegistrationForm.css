@@ -9,7 +9,7 @@
     margin: 10px 0;
 }
 
-.about{
+.section{
     display:flex;
     align-items: center; /* Vertically center items */
     text-align: center;
@@ -63,10 +63,18 @@
     width: 230px;
 }
 
-.Description{
-    width: 448px;
+.description{
+    width: 460px;
     height: 2rem;
     padding-left: 15px;
+}
+
+#submit{
+    background-color: #1BC2A4;
+    height: 2rem;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 230px;
 }
 
 
