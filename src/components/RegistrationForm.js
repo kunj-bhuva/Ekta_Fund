@@ -41,7 +41,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="organizationName"
-                    placeholder="Enter Organization Name"
+                    placeholder=" Enter Organization Name"
                     className='input'
                     value={formData.organizationName}
                     onChange={handleChange}
@@ -51,7 +51,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="headquartersLocation"
-                    placeholder="Headquarters Location"
+                    placeholder=" Headquarters Location"
                     className='input'
                     value={formData.headquartersLocation}
                     onChange={handleChange}
@@ -61,7 +61,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="activeSince"
-                    placeholder="Active Since (Year)"
+                    placeholder=" Active Since (Year)"
                     className='input'
                     value={formData.activeSince}
                     onChange={handleChange}
@@ -86,7 +86,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="description"
-                    placeholder="Description"
+                    placeholder=" Description"
                     className='description'
                     value={formData.description}
                     onChange={handleChange}
@@ -100,7 +100,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="sectors"
-                    placeholder="Sectors"
+                    placeholder=" Sectors"
                     className='input'
                     value={formData.sectors}
                     onChange={handleChange}
@@ -108,7 +108,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="otherSectors"
-                    placeholder="Other Sectors"
+                    placeholder=" Other Sectors"
                     className='input'
                     value={formData.otherSectors}
                     onChange={handleChange}
@@ -122,7 +122,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="vision"
-                    placeholder="Vision of your Organization"
+                    placeholder=" Vision of your Organization"
                     className='description'
                     value={formData.vision}
                     onChange={handleChange}
@@ -131,7 +131,7 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="mission"
-                    placeholder="Missions of your Organization"
+                    placeholder=" Missions of your Organization"
                     className='description'
                     value={formData.mission}
                     onChange={handleChange}

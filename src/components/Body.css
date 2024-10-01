@@ -22,13 +22,17 @@
 
 
 .content-headline{
-    font-size: 2.7rem;
+    font-size: 3.5rem;
 }
 .login-image {  
     position: absolute;
     top: 0px;
-    left: 160%;
-    width: 400px; /* Adjust the width as needed */
+    left: 80%;
+    width: 500px; /* Adjust the width as needed */
     height: auto; /* Maintain the image aspect ratio */
     padding-top: 2rem;
+}
+
+p{
+    font-size: 1.15rem;
 }
