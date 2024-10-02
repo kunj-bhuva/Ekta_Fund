@@ -1,19 +1,20 @@
 .Body {
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    align-self: self-start;
+
 }
 
 .content {
-    margin-left: 15rem;
+    
     position: absolute;
     top: 200px;
     align-items: flex-start;
     display: inline-block;
     color: black;
+    margin: 0 0 0 0;
     text-align: left;
 }
 
@@ -24,10 +25,11 @@
 .login-image {
     position: absolute;
     top: 0;
-    left: 100%;
+    left: 120%;
     width: 500px;
     height: auto;
-    padding-top: 2rem;
+    padding-top: 0;
+    margin-left: 5rem;
 }
 
 p {
@@ -212,4 +214,9 @@ p {
     p {
         font-size: 1.5rem;
     }
+}
+
+.content{
+    margin: 0 0 0 0;
+    margin-left: 8.5rem;
 }
