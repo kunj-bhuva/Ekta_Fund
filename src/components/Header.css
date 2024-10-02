@@ -187,7 +187,7 @@
 
 .logo {
   margin-top: 2rem;
-  width: 16rem;
+  width: 25rem;
   height: auto;
   margin-right: auto;
   transform: translateY(-1.5rem);
@@ -202,7 +202,7 @@
 }
 
 .header-navBar {
-  font-size: 24px;
+  font-size: 2rem;
   margin: 10px;
   background-color: #1BC2A4;
   padding: 5px 10px;
@@ -217,10 +217,10 @@
 }
 
 .donate-button {
-  margin-top: 2rem;
+  font-size: 2rem;
   background-color: #ff5a5f;
   color: rgb(9, 9, 9);
-  font-size: 1.5rem;
   border: none;
   padding: 10px 20px;
+  border-radius: 20px;
 }

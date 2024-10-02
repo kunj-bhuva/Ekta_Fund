@@ -1,9 +1,10 @@
 .Body {
     padding: 0;
-    margin-top: 0;
+    margin: 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    align-self: self-start;
 }
 
 .content {
@@ -17,13 +18,13 @@
 }
 
 .content-headline {
-    font-size: 3.5rem;
+    font-size: 3.25rem;
 }
 
 .login-image {
     position: absolute;
     top: 0;
-    left: 80%;
+    left: 100%;
     width: 500px;
     height: auto;
     padding-top: 2rem;
