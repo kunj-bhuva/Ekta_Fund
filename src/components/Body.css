@@ -1,40 +1,214 @@
 .Body {
-    padding: 0px;
-    margin-top: 0px;
-    display: flex-start;
-    justify-content: flex-start; /* Aligns the content to the left (optional, can be changed) */
-    align-items: flex-start; /* Aligns the content to the top */
-    /* height: 100vh; Optional: make the div take the full viewport height */
-}
-
-
-
-.content{
-    margin-left: 15rem;
-   position: absolute;
-   top:200px;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
     align-items: flex-start;
-    display: inline;
-    color:black;
-    text-align: left;
-    
 }
 
+.content {
+    margin-left: 15rem;
+    position: absolute;
+    top: 200px;
+    align-items: flex-start;
+    display: inline-block;
+    color: black;
+    text-align: left;
+}
 
-.content-headline{
+.content-headline {
     font-size: 3.5rem;
 }
-.login-image {  
-    position: absolute;
-    top: 0px;
 
+.login-image {
+    position: absolute;
+    top: 0;
     left: 80%;
-    width: 500px; /* Adjust the width as needed */
-    height: auto; /* Maintain the image aspect ratio */
+    width: 500px;
+    height: auto;
     padding-top: 2rem;
 }
 
-
-p{
+p {
     font-size: 1.15rem;
+}
+
+@media (max-width: 992px) {
+    .content {
+        margin-left: 5rem;
+        top: 150px;
+    }
+
+    .content-headline {
+        font-size: 3rem;
+    }
+
+    .login-image {
+        left: 75%;
+        width: 350px; /* Reduced for smaller screens */
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-left: 2rem;
+        top: 120px;
+    }
+
+    .content-headline {
+        font-size: 2.5rem;
+    }
+
+    .login-image {
+        left: 65%;
+        width: 250px; /* Further reduced */
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .content {
+        margin-left: 1rem;
+        top: 100px;
+    }
+
+    .content-headline {
+        font-size: 1rem;
+    }
+
+    .login-image {
+        left: 45%;
+        width: 180px; /* Further reduced for smaller screens */
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        margin-left: 0.5rem;
+        top: 80px;
+    }
+
+    .content-headline {
+        font-size: 1.8rem;
+    }
+
+    .login-image {
+        left: 40%;
+        width: 130px; /* Reduced for very small screens */
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .content {
+        margin-left: 0.25rem;
+        top: 60px;
+    }
+
+    .content-headline {
+        font-size: 1.5rem;
+    }
+
+    .login-image {
+        left: 35%;
+        width: 100px; /* Further reduced */
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .content {
+        margin-left: 0;
+        top: 40px;
+    }
+
+    .content-headline {
+        font-size: 1.2rem;
+    }
+
+    .login-image {
+        left: 30%;
+        width: 80px; /* Smallest size for the smallest devices */
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        margin-left: 18rem;
+        top: 220px;
+    }
+
+    .content-headline {
+        font-size: 4rem;
+    }
+
+    .login-image {
+        left: 82%;
+        width: 450px; /* Increased size for larger screens */
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .content {
+        margin-left: 20rem;
+        top: 250px;
+    }
+
+    .content-headline {
+        font-size: 4.5rem;
+    }
+
+    .login-image {
+        left: 85%;
+        width: 500px; /* Increased further for larger screens */
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .content {
+        margin-left: 22rem;
+        top: 300px;
+    }
+
+    .content-headline {
+        font-size: 5rem;
+    }
+
+    .login-image {
+        left: 88%;
+        width: 550px; /* Maximum size for very large screens */
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
 }

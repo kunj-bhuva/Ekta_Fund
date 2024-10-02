@@ -1,27 +1,20 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Ensures padding doesn't affect the width */
-/* } */ 
-
 .header {
-  background-color: #1BC2A4; /* Green color */
-  width: 100vw; /* Make the header stretch to the full width of the viewport */
-  min-height: 30px; /* Adjust this based on your design, replaced px with rem */
+  background-color: #1BC2A4;
+  width: 100vw;
+  min-height: 30px;
   display: flex;
-  justify-content: space-between; /* Align items to the edges */
-  align-items: center; /* Vertically center items */
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  color: rgb(9, 9, 9); /* Dark text color */
-  padding: 0 50px; /* Add padding to the sides for spacing */
+  color: rgb(9, 9, 9);
+  padding: 0 50px;
 }
 
-
 .header-content {
-  margin-left: 7rem; /* Adjusted margin to rem */
+  margin-left: 7rem;
   display: flex;
-  justify-content: space-between; /* Align items to the edges */
-  align-items: center; /* Vertically center items */
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
 }
 
@@ -31,48 +24,188 @@
 
 @media (max-width: 992px) {
   .header {
-    min-height: 17rem; /* Smaller height for tablet and below */
-    padding: 0 2rem; /* Reduce side padding */
+      min-height: 10rem;
+      padding: 0 2rem;
   }
 
   .header-content {
-    margin-left: 5rem; /* Adjust based on screen size */
+      margin-left: 5rem;
   }
 }
 
 @media (max-width: 768px) {
   .logo {
-    width: 130px; /* Even smaller logo on smaller screens */
+      width: 130px;
   }
+
   .header-navBar {
-    font-size: 16px; /* Adjust font size for smaller screens */
+      font-size: 16px;
   }
+
   .donate-button {
-    padding: 0.5rem 1rem; /* Adjust padding */
+      padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+      min-height: 10rem;
+      padding: 0 1.5rem;
+  }
+
+  .header-content {
+      margin-left: 4rem;
+  }
+
+  .logo {
+      width: 100px;
+  }
+
+  .header-navBar {
+      font-size: 14px;
+  }
+
+  .donate-button {
+      padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+      min-height: 10rem;
+      padding: 0 1rem;
+  }
+
+  .header-content {
+      margin-left: 3rem;
+  }
+
+  .logo {
+      width: 80px;
+  }
+
+  .header-navBar {
+      font-size: 12px;
+  }
+
+  .donate-button {
+      padding: 0.3rem 0.7rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+      min-height: 10rem;
+      padding: 0 0.5rem;
+  }
+
+  .header-content {
+      margin-left: 2rem;
+  }
+
+  .logo {
+      width: 60px;
+  }
+
+  .header-navBar {
+      font-size: 10px;
+  }
+
+  .donate-button {
+      padding: 0.2rem 0.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+      min-height: 10rem;
+      padding: 0 4rem;
+  }
+
+  .header-content {
+      margin-left: 8rem;
+  }
+
+  .logo {
+      width: 180px;
+  }
+
+  .header-navBar {
+      font-size: 18px;
+  }
+
+  .donate-button {
+      padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header {
+      min-height: 9rem;
+      padding: 0 5rem;
+  }
+
+  .header-content {
+      margin-left: 10rem;
+  }
+
+  .logo {
+      width: 200px;
+  }
+
+  .header-navBar {
+      font-size: 20px;
+  }
+
+  .donate-button {
+      padding: 0.7rem 1.5rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .header {
+      min-height: 24rem;
+      padding: 0 6rem;
+  }
+
+  .header-content {
+      margin-left: 12rem;
+  }
+
+  .logo {
+      width: 220px;
+  }
+
+  .header-navBar {
+      font-size: 22px;
+  }
+
+  .donate-button {
+      padding: 0.8rem 1.8rem;
   }
 }
 
 .logo {
   margin-top: 2rem;
-  width: 16rem; /* Adjust width to rem */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: auto; /* Push all other elements to the right */
-  transform: translateY(-1.5rem); /* Shift logo up */
+  width: 16rem;
+  height: auto;
+  margin-right: auto;
+  transform: translateY(-1.5rem);
 }
 
 .header-content {
   display: flex;
-  justify-content: space-around; /* Distribute space evenly */
+  justify-content: space-around;
   margin-left: 2rem;
-  align-items: center; /* Vertically center items */
-  width: calc(100% - 20rem); /* Adjust width taking logo into account */
+  align-items: center;
+  width: calc(100% - 20rem);
 }
 
 .header-navBar {
   font-size: 24px;
   margin: 10px;
-  background-color: #1BC2A4; /* Semi-transparent background for readability */
-  padding: 5px 10px; /* Padding for better text visibility */
+  background-color: #1BC2A4;
+  padding: 5px 10px;
   border: none;
   font-family: Arial, sans-serif;
 }
@@ -90,11 +223,4 @@
   font-size: 1.5rem;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transform: translateY(-1rem); /* Move the button up by 0.5rem */
-}
-
-.donate-button:hover {
-  background-color: #e04d4f;
 }

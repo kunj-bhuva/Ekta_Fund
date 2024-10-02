@@ -1,7 +1,5 @@
 .header {
-  background-color: #0ea47a; /* Green color */
-  /* height: 100px; */
-  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+  background-color: #0ea47a;
 }
 
 .content {
@@ -12,4 +10,34 @@
 
 h1 {
   font-size: 36px;
+}
+
+@media (max-width: 992px) {
+  .content {
+      padding: 30px;
+  }
+
+  h1 {
+      font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+      padding: 20px;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .content {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
 }
