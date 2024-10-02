@@ -13,8 +13,7 @@
   align-items: center; /* Vertically center items */
   text-align: center;
   color: rgb(9, 9, 9); /* Dark text color */
-  padding: 0 3rem; /* Add padding to the sides for spacing */
-  position: relative; /* Keeps it in the document flow */
+  padding: 0 50px; /* Add padding to the sides for spacing */
 }
 
 
@@ -43,13 +42,10 @@
 
 @media (max-width: 768px) {
   .logo {
-    width: 8rem; /* Adjust logo size */
-  }
-  .header-content {
-    margin-left: 2rem; /* Adjust the header content margin */
+    width: 130px; /* Even smaller logo on smaller screens */
   }
   .header-navBar {
-    font-size: 1rem; /* Adjust font size */
+    font-size: 16px; /* Adjust font size for smaller screens */
   }
   .donate-button {
     padding: 0.5rem 1rem; /* Adjust padding */
@@ -73,10 +69,10 @@
 }
 
 .header-navBar {
-  font-size: 1.5rem; /* Adjust to rem */
-  margin: 1rem;
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background for readability */
-  padding: 0.5rem 1rem; /* Adjust padding to rem */
+  font-size: 24px;
+  margin: 10px;
+  background-color: #1BC2A4; /* Semi-transparent background for readability */
+  padding: 5px 10px; /* Padding for better text visibility */
   border: none;
   font-family: Arial, sans-serif;
 }
@@ -93,8 +89,8 @@
   color: rgb(9, 9, 9);
   font-size: 1.5rem;
   border: none;
-  padding: 0.8rem 1.5rem; /* Adjust padding using rem */
-  border-radius: 5rem;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
   transform: translateY(-1rem); /* Move the button up by 0.5rem */
 }

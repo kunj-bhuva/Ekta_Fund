@@ -57,6 +57,9 @@
     width: 220px;
     padding: 20px;
     margin: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 #options{
@@ -67,6 +70,9 @@
     width: 460px;
     height: 2rem;
     padding-left: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 #submit{
@@ -75,6 +81,7 @@
     width: auto;
     margin-top: 10px;
     margin-left: 230px;
+    border-radius: 5px;
 }
 
 
