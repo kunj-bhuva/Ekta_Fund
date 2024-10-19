@@ -35,7 +35,7 @@
 
 @media (max-width: 768px) {
   .logo {
-      width: 130px;
+      width: 80px;
   }
 
   .header-navBar {
@@ -58,7 +58,7 @@
   }
 
   .logo {
-      width: 100px;
+      width: 80px;
   }
 
   .header-navBar {
@@ -81,7 +81,7 @@
   }
 
   .logo {
-      width: 80px;
+      width: 20px;
   }
 
   .header-navBar {
@@ -104,7 +104,7 @@
   }
 
   .logo {
-      width: 60px;
+      width: 40px;
   }
 
   .header-navBar {
@@ -127,7 +127,7 @@
   }
 
   .logo {
-      width: 180px;
+      width: 100px;
   }
 
   .header-navBar {
@@ -186,7 +186,7 @@
 }
 
 .logo {
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 25rem;
   height: auto;
   margin-right: auto;
