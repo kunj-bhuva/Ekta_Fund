@@ -1,14 +1,14 @@
 import React from 'react';
-import "./..node_modeules/bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS correctly
 import './App.css';  // Importing the App-specific CSS file
-import Header from './components/Header';  // Importing the Header component (from your example)
-import Body from './components/Body'; 
+import Header from './components/Header';  // Importing the Header component
+import Body from './components/Body';  // Importing the Body component
 
 function App() {
   return (
     <div className="App">
-      <Header /> 
-      <Body/> 
+      <Header />
+      <Body />
     </div>
   );
 }

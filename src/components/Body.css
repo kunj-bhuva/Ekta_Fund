@@ -10,7 +10,7 @@
 .content {
     
     position: absolute;
-    top: 200px;
+    top: 100px;
     align-items: flex-start;
     display: inline-block;
     color: black;
@@ -19,14 +19,14 @@
 }
 
 .content-headline {
-    font-size: 3.25rem;
+    font-size: 3rem;
 }
 
 .login-image {
     position: absolute;
     top: 0;
-    left: 120%;
-    width: 500px;
+    /* left: 120%; */
+    width: 400px;
     height: auto;
     padding-top: 0;
     margin-left: 5rem;
