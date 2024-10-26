@@ -10,9 +10,16 @@
 
 .nav-item
 {
-    margin-left: 2rem;
+    margin-left: 6rem;
 }
-/* .header {
+
+.fixed-top
+{
+    background-color: #1BC2A4 !important;
+    height: 7rem;
+}
+/*
+ .header {
   background-color: #1BC2A4;
   width: 100vw;
   min-height: 30px;
@@ -51,6 +58,8 @@
   .logo {
       width: 80px;
   }
+
+  
 
   .header-navBar {
       font-size: 16px;
@@ -223,6 +232,8 @@
   border: none;
   font-family: Arial, sans-serif;
 }
+*/
+
 
 .header-navBar:hover {
   color: aliceblue;
@@ -230,7 +241,7 @@
   cursor: pointer;
 }
 
- */
+ 
  .button {
     font-size: 1rem;
     background-color: #ff5a5f;
