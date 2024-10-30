@@ -17,17 +17,15 @@
 }
 
 .content-headline {
-    font-size: 3rem;
+    font-family: 'Poppins', sans-serif; /* 'Montserrat' or 'Impact' if Poppins isn't available */
+    font-weight: 900; /* Use the heaviest weight */
+    font-size: 3.5em; /* Adjust size as needed */
+    color: black;
+    line-height: 1.1; /* Tighten line height slightly */
+    text-align: left;
 }
 
-.login-image {
-    position: absolute;
-    top: 0;
-    width: 25rem; /* 400px converted to rem */
-    height: auto;
-    padding-top: 0;
-    margin-left: 5rem;
-}
+
 
 p {
     font-size: 1.15rem;

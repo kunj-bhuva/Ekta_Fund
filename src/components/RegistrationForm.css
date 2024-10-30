@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+.about-one{
+    transform: translateX(10rem);
+}
+
 .box{
     width: 25px;
     height: 25px;
@@ -84,5 +88,6 @@
     margin-left: 230px;
     border-radius: 5px;
 }
+
 
 

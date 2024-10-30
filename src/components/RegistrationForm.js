@@ -32,7 +32,7 @@ export default function RegistrationForm() {
 
     return (
         <div className='registration-form'>
-            <div className='section'>
+            <div className='section about-one'>
                 <div className='box'></div>
                 <h3>About</h3>
             </div>
@@ -91,11 +91,11 @@ export default function RegistrationForm() {
                     value={formData.description}
                     onChange={handleChange}
                 />
-
+                
                 <div className='section'>
-                    <div className='box'></div>
-                    <h3>Cause Area</h3>
-                </div>
+                <div className='box'></div>
+                <h3>Cause Area</h3>
+            </div>
 
                 <input
                     type="text"
@@ -136,9 +136,9 @@ export default function RegistrationForm() {
                     value={formData.mission}
                     onChange={handleChange}
                 />
-
+                
                 <br/>
-
+                
                 <button type="submit" id='submit'>Submit</button>
             </form>
         </div>

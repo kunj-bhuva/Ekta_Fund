@@ -8,6 +8,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Opaque header when in hamburger view */
+.navbar-collapse.show {
+    opacity: ; /* Adjust opacity to your preference */
+    background-color: #1BC2A4 !important; /* Same color as header with opacity */
+    transition: opacity 0.0001s ease;
+}
+
+/* Optional: Styles for the links inside the dropdown for better visibility */
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1f1f1;
+}
+
+
 .nav-item
 {
     margin-left: 6rem;
