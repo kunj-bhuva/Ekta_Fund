@@ -10,7 +10,7 @@
 
 /* Opaque header when in hamburger view */
 .navbar-collapse.show {
-    opacity: ; /* Adjust opacity to your preference */
+    opacity: 0.9; /* Adjust opacity to your preference */
     background-color: #1BC2A4 !important; /* Same color as header with opacity */
     transition: opacity 0.0001s ease;
 }
@@ -21,13 +21,14 @@
 }
 
 .navbar-nav .nav-link:hover {
-    color: #f1f1f1;
+    color: black;
 }
 
 
 .nav-item
 {
     margin-left: 6rem;
+    color: white;
 }
 
 .fixed-top
@@ -259,11 +260,19 @@
 }
 
  
- .button {
+.button {
     font-size: 1rem;
     background-color: #ff5a5f;
     color: rgb(9, 9, 9);
     border: none;
-    padding: 0.1rem 0.1rem ;
-    border-radius: 1rem ;
-  }
+    padding: 0.1rem 0.1rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+    background-color: #ff5a5f; /* Slightly lighter background color */
+    color: rgb(230, 218, 218); /* Change text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    cursor: pointer; /* Change cursor to pointer */
+}
