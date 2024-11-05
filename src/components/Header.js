@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';  // Import the CSS for the Header component
+import './Header.css'; // Import the CSS for the Header component
 import logo from '../images/logo_big.png'; 
 import loginImage from '../images/Mobile-login-Cristina 1.png'; 
 
@@ -10,10 +10,12 @@ function Header() {
                 <a className="navbar-brand" href="#">
                     <img className="somee" src={logo} alt="Logo" style={{ height: '6rem' }} />
                 </a>
+                
                 {/* Hamburger button for collapsing menu on small screens */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
+                
                 {/* Collapsible menu */}
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
@@ -27,12 +29,14 @@ function Header() {
                             <a className="nav-link" href="#">Contact Us</a>
                         </li>
                         <li className="nav-item">
-                            <button className='button'>
-                            <a className="nav-link text-white" aria-disabled="true" >DONATE</a>
+                            <button className="button">
+                                <a className="nav-link text-white" aria-disabled="true">DONATE</a>
                             </button>
                         </li>
                     </ul>
                 </div>
+                
+               
             </div>
         </nav>
     );

@@ -1,328 +1,93 @@
+/* Main Navbar Styling */
 .navbar {
-    background-color: #1BC2A4 !important;  /* Green background for the navbar */
+    background-color: #1BC2A4 !important; /* Green background for the navbar */
     padding: 1rem; /* Add padding for better spacing */
 }
-.container {
-    transform: translateX(4.5rem);
-    color: rgb(9, 9, 9);
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
+
+.fixed-top {
+    background-color: #1BC2A4 !important;
+    height: auto; /* Allow height to adjust based on content */
 }
 
-
-
-/* Opaque header when in hamburger view */
-.navbar-collapse.show {
-    opacity: 0.9; /* Adjust opacity to your preference */
-    background-color: #1BC2A4 !important; /* Same color as header with opacity */
-    transition: opacity 0.0001s ease;
-}
-
-/* Optional: Styles for the links inside the dropdown for better visibility */
+/* Navbar Link Styles */
 .navbar-nav .nav-link {
     color: #fff;
 }
-
 .navbar-nav .nav-link:hover {
     color: black;
 }
-.nav-item
-{
-    margin-left: 6rem;
-    color: white;
-}
 
-.fixed-top
-{
-    background-color: #1BC2A4 !important;
-    height: 8rem;
-}
-.header-navBar:hover {
-  color: aliceblue;
-  opacity: 80%;
-  cursor: pointer;
-}
-
- 
+/* Button Styles */
 .button {
-    font-size: 1rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ff5a5f;
     color: rgb(9, 9, 9);
     border: none;
-    padding: 0.1rem 0.1rem;
+    padding-top: 2px;
     border-radius: 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
-
 .button:hover {
-    background-color: #ff787b; /* Slightly lighter background color */
-    color: rgb(230, 218, 218); /* Change text color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    cursor: pointer; /* Change cursor to pointer */
+    background-color: #ff787b;
+    color: rgb(230, 218, 218);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
-
-/* Style for the collapsed state (when the menu is hidden) */
+/* Collapsed Menu Styles */
 .navbar-collapse:not(.show) {
-    background-color: #1BC2A4; /* Example: Dark background */
-    color: #fff;            /* Text color */
-    opacity: 0.8;           /* Optional: Slightly transparent */
+    background-color: #1BC2A4;
+    color: #fff;
+    opacity: 0.8;
 }
-
-/* Style for the expanded menu (when the menu is visible) */
 .navbar-collapse.show {
-    background-color: #1BC2A4; /* Example: Darker background on expand */
-    padding: 10px;          /* Add padding */
-    border-radius: 5px;     /* Rounded corners */
+    background-color: #1BC2A4;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
 }
 
-/* Style for the menu items specifically in collapsed view */
-.navbar-collapse .nav-link {
-    color: #fff !important; /* Ensure links are visible on dark background */
-}
-
-/* Style the donate button separately if needed */
+/* Extra Button Styles Inside Collapsible Menu */
 .navbar-collapse .button {
-    background-color: #ff5a5f; /* Button background color */
+    background-color: #ff5a5f;
     border: none;
     padding: 8px 16px;
     color: #fff;
     border-radius: 4px;
 }
 
-
-/*
- .header {
-  background-color: #1BC2A4;
-  width: 100vw;
-  min-height: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  color: rgb(9, 9, 9);
-  padding: 0 50px;
+.flexbox{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
 }
 
-.header-content {
-  margin-left: 7rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+.nav-item{
+    font-size: 1.25rem;
+    font-weight:bold;
+    margin-right: 30px;
 }
 
-.header-navBar {
-  color: rgb(9, 9, 9);
-}
-
-@media (max-width: 992px) {
-  .header {
-      min-height: 10rem;
-      padding: 0 2rem;
-  }
-
-  .header-content {
-      margin-left: 5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .logo {
-      width: 80px;
-  }
-
-  
-
-  .header-navBar {
-      font-size: 16px;
-  }
-
-  .donate-button {
-      padding: 0.5rem 1rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .header {
-      min-height: 10rem;
-      padding: 0 1.5rem;
-  }
-
-  .header-content {
-      margin-left: 4rem;
-  }
-
-  .logo {
-      width: 80px;
-  }
-
-  .header-navBar {
-      font-size: 14px;
-  }
-
-  .donate-button {
-      padding: 0.4rem 0.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .header {
-      min-height: 10rem;
-      padding: 0 1rem;
-  }
-
-  .header-content {
-      margin-left: 3rem;
-  }
-
-  .logo {
-      width: 20px;
-  }
-
-  .header-navBar {
-      font-size: 12px;
-  }
-
-  .donate-button {
-      padding: 0.3rem 0.7rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .header {
-      min-height: 10rem;
-      padding: 0 0.5rem;
-  }
-
-  .header-content {
-      margin-left: 2rem;
-  }
-
-  .logo {
-      width: 40px;
-  }
-
-  .header-navBar {
-      font-size: 10px;
-  }
-
-  .donate-button {
-      padding: 0.2rem 0.6rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .header {
-      min-height: 10rem;
-      padding: 0 4rem;
-  }
-
-  .header-content {
-      margin-left: 8rem;
-  }
-
-  .logo {
-      width: 100px;
-  }
-
-  .header-navBar {
-      font-size: 18px;
-  }
-
-  .donate-button {
-      padding: 0.6rem 1.2rem;
-  }
-}
-
-@media (min-width: 1400px) {
-  .header {
-      min-height: 9rem;
-      padding: 0 5rem;
-  }
-
-  .header-content {
-      margin-left: 10rem;
-  }
-
-  .logo {
-      width: 200px;
-  }
-
-  .header-navBar {
-      font-size: 20px;
-  }
-
-  .donate-button {
-      padding: 0.7rem 1.5rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .header {
-      min-height: 24rem;
-      padding: 0 6rem;
-  }
-
-  .header-content {
-      margin-left: 12rem;
-  }
-
-  .logo {
-      width: 220px;
-  }
-
-  .header-navBar {
-      font-size: 22px;
-  }
-
-  .donate-button {
-      padding: 0.8rem 1.8rem;
-  }
-}
-
-.logo {
-  margin-top: 1rem;
-  width: 25rem;
-  height: auto;
-  margin-right: auto;
-  transform: translateY(-1.5rem);
-}
-
-.header-content {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 2rem;
-  align-items: center;
-  width: calc(100% - 20rem);
-}
-
-.header-navBar {
-  font-size: 2rem;
-  margin: 10px;
-  background-color: #1BC2A4;
-  padding: 5px 10px;
-  border: none;
-  font-family: Arial, sans-serif;
-}
-
-/* Media Queries for Responsive Design */
-@media (max-width: 768px) {
+/* Responsive Style Changes for Small Screens */
+@media (max-width: 991px) { /* Apply at lg breakpoint and smaller */
     .navbar {
-        padding: 0.5rem; /* Reduce padding on smaller screens */
+        padding: 0.5rem; /* Reduce padding */
     }
 
-    .container {
-        transform: translateX(0); /* Reset transform on smaller screens */
-        text-align: center; /* Center text on smaller screens */
+    
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
     }
 
-    .nav-item {
-        margin-left: 0; /* Reset margin on smaller screens */
-        margin-bottom: 1rem; /* Add spacing between items */
-    }
-
-    .fixed-top {
-        height: auto; /* Adjust height for smaller screens */
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-top: 5px; /* Optional spacing between items */
     }
 }
