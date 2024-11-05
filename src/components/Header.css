@@ -1,5 +1,6 @@
 .navbar {
     background-color: #1BC2A4 !important;  /* Green background for the navbar */
+    padding: 1rem; /* Add padding for better spacing */
 }
 .container {
     transform: translateX(4.5rem);
@@ -7,6 +8,8 @@
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 /* Opaque header when in hamburger view */
 .navbar-collapse.show {
@@ -23,8 +26,6 @@
 .navbar-nav .nav-link:hover {
     color: black;
 }
-
-
 .nav-item
 {
     margin-left: 6rem;
@@ -34,8 +35,62 @@
 .fixed-top
 {
     background-color: #1BC2A4 !important;
-    height: 7rem;
+    height: 8rem;
 }
+.header-navBar:hover {
+  color: aliceblue;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+ 
+.button {
+    font-size: 1rem;
+    background-color: #ff5a5f;
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 0.1rem 0.1rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+    background-color: #ff787b; /* Slightly lighter background color */
+    color: rgb(230, 218, 218); /* Change text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+
+/* Style for the collapsed state (when the menu is hidden) */
+.navbar-collapse:not(.show) {
+    background-color: #1BC2A4; /* Example: Dark background */
+    color: #fff;            /* Text color */
+    opacity: 0.8;           /* Optional: Slightly transparent */
+}
+
+/* Style for the expanded menu (when the menu is visible) */
+.navbar-collapse.show {
+    background-color: #1BC2A4; /* Example: Darker background on expand */
+    padding: 10px;          /* Add padding */
+    border-radius: 5px;     /* Rounded corners */
+}
+
+/* Style for the menu items specifically in collapsed view */
+.navbar-collapse .nav-link {
+    color: #fff !important; /* Ensure links are visible on dark background */
+}
+
+/* Style the donate button separately if needed */
+.navbar-collapse .button {
+    background-color: #ff5a5f; /* Button background color */
+    border: none;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
 /*
  .header {
   background-color: #1BC2A4;
@@ -250,29 +305,24 @@
   border: none;
   font-family: Arial, sans-serif;
 }
-*/
 
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem; /* Reduce padding on smaller screens */
+    }
 
-.header-navBar:hover {
-  color: aliceblue;
-  opacity: 80%;
-  cursor: pointer;
-}
+    .container {
+        transform: translateX(0); /* Reset transform on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
 
- 
-.button {
-    font-size: 1rem;
-    background-color: #ff5a5f;
-    color: rgb(9, 9, 9);
-    border: none;
-    padding: 0.1rem 0.1rem;
-    border-radius: 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
-}
+    .nav-item {
+        margin-left: 0; /* Reset margin on smaller screens */
+        margin-bottom: 1rem; /* Add spacing between items */
+    }
 
-.button:hover {
-    background-color: #ff5a5f; /* Slightly lighter background color */
-    color: rgb(230, 218, 218); /* Change text color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
-    cursor: pointer; /* Change cursor to pointer */
+    .fixed-top {
+        height: auto; /* Adjust height for smaller screens */
+    }
 }
