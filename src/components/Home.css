@@ -1,0 +1,11 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Body {
+    flex: 1; /* Take up remaining space */
+    padding: 1rem; /* Add padding for better spacing */
+    margin-bottom: 3rem; /* Add margin to avoid overlap with footer */
+}

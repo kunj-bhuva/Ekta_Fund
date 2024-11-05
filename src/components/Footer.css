@@ -1,9 +1,53 @@
 .footer {
-    background-color: black;
-    color: white; /* Ensure text is visible */
-    width: 100%; /* Full width of the viewport */
-    position: fixed; /* Fix to the bottom of the page */
-    bottom: 0; /* Align to the bottom */
-    padding: 1rem; /* Add padding for better spacing */
-    text-align: center; /* Center the text */
-}
+    background-color: #5BDBC4;
+  }
+  
+  .text-black {
+    color: black !important;
+  }
+  
+
+  .footer-container a {
+    color: black;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-container a:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5BDBC4; /* Custom background color */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    font-size: 1.5rem;
+  }
+  
+  .footer .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .footer a {
+    color: black;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Optional underline on hover */
+  }
+  
+  .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+  }
+
+  .text-uppercase{
+    font-weight: 900;
+    font-size: 1.7rem;
+  }
+  
