@@ -30,6 +30,7 @@
     background-color: #c94b4b; /* Red background similar to the image */
     color: white; /* White text */
     font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.5rem 1.5rem; /* Adjust padding for size */
     border: none;
     border-radius: 20px; /* Rounded corners */
@@ -77,6 +78,7 @@
 
 .nav-item {
     font-size: 1.35rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-right: 30px;
 }
@@ -102,4 +104,5 @@
 
 .write{
     transform: translateY(0.3rem);
+    transform: translateY(rem);
 }

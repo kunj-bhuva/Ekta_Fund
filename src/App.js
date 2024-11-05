@@ -9,7 +9,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
+<<<<<<< Updated upstream
       <Footer/>
+=======
+      {/* <Header/> */}
+      <Body />
+>>>>>>> Stashed changes
     </div>
   );
 }

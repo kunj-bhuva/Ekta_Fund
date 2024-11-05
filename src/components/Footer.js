@@ -1,4 +1,7 @@
 import React from 'react';
+=======
+import React, { useState } from 'react';
+>>>>>>> Stashed changes
 import './Footer.css';
 
 export default function Footer() {
