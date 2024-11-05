@@ -9,3 +9,36 @@
     padding: 1rem; /* Add padding for better spacing */
     margin-bottom: 3rem; /* Add margin to avoid overlap with footer */
 }
+
+.heads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Outfit';
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.impact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Outfit';
+    font-weight: 800;
+    font-size: 3rem;
+    border-color: black ;
+    gap: 7rem; /* Add gap between flex items */
+}
+
+.achieve{
+    font-size:1.1rem;
+    font-weight: 500;
+    font-family: 'Outfit';
+    color: rgb(74, 74, 74);
+
+}

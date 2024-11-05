@@ -1,7 +1,7 @@
 /* Main Navbar Styling */
 .navbar {
     background-color: #ffffff !important;
-    padding: 1rem;
+    padding: 0.2rem;
 }
 
 .fixed-top {
@@ -33,7 +33,7 @@
     padding: 0.5rem 1.5rem; /* Adjust padding for size */
     border: none;
     border-radius: 20px; /* Rounded corners */
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -53,7 +53,7 @@
 
 .navbar-collapse.show {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 3px;
     border-radius: 5px;
     opacity: 0.9;
     transition: opacity 0.3s ease;
@@ -76,15 +76,15 @@
 }
 
 .nav-item {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
     margin-right: 30px;
 }
 
 /* Responsive Styles for Small Screens */
 @media (max-width: 991px) {
     .navbar {
-        padding: 0.5rem;
+        padding: 0.1rem;
     }
 
     .navbar-nav {

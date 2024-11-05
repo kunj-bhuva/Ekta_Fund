@@ -5,17 +5,15 @@ import Header from './components/Header_white';  // Importing the Header compone
 import Footer from './components/Footer';
 
 
-
+import Body from './components/Home.js';  // Importing the Body component
 
 function App() {
   return (
     <div className="App">
-<<<<<<< Updated upstream
-      <Footer/>
-=======
-      {/* <Header/> */}
+      =======
+      <Header/>
       <Body />
->>>>>>> Stashed changes
+      <Footer />
     </div>
   );
 }

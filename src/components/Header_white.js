@@ -7,7 +7,7 @@ function Header() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div className="container">
                 <a className="navbar-brand" href="#">
-                    <img className="somee" src={logo} alt="Logo" style={{ height: '6rem' }} />
+                    <img className="somee" src={logo} alt="Logo" style={{ height: '4rem' }} />
                 </a>
                 
                 {/* Hamburger button for collapsing menu on small screens */}
