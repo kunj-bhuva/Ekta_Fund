@@ -1,9 +1,13 @@
-<<<<<<< Updated upstream
 import React from 'react';
-=======
-import React, { useState } from 'react';
->>>>>>> Stashed changes
 import './Footer.css';
+import insta from "../images/insta.png";
+import github from "../images/github.png";
+import telegram from "../images/telegram.png";
+import fb from "../images/fb.png";
+import mailbox from "../images/mailbox.png";
+import location from "../images/location.png";
+import logo from "../images/footer_logo.png";
+
 
 export default function Footer() {
   return (
@@ -19,6 +23,9 @@ export default function Footer() {
               <li><a href="#!" className="text-black">Careers</a></li>
               <li><a href="#!" className="text-black">Mission</a></li>
               <li><a href="#!" className="text-black">Contact Us</a></li>
+              <li>
+              <img  id='logo' src={logo}/>
+              </li>
             </ul>
           </div>
           {/* Another Grid column */}
@@ -40,12 +47,17 @@ export default function Footer() {
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 className="text-uppercase">Contact Us</h5>
             <ul className="list-unstyled">
-              <li><a href="#!" className="text-black">DA-IICT Gandhinagar</a></li>
-              <li><a href="#!" className="text-black">support@ektafund.com</a></li>
+              <li><a href="#!" className="text-black" id='1'> <img src={location}/>DA-IICT Gandhinagar</a></li>
+              <li><a href="#!" className="text-black" id='2'> <img src={mailbox}/>support@ektafund.com</a></li>
             </ul>
             <h5 className="text-uppercase">Follow Us</h5>
             <ul className="list-unstyled">
-              <li><a href="#!" className="text-black">Insta</a></li>
+              <li><a href="#!" className="text-black">
+                <img src={fb}/>
+                <img src={github}/>
+                <img src={telegram}/>
+                <img src={insta}/>
+                </a></li>
             </ul>
           </div>
         </div>
