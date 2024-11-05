@@ -1,8 +1,12 @@
 /* Main Navbar Styling */
+
+
 .navbar {
     background-color: #1BC2A4 !important; /* Green background for the navbar */
     padding: 1rem; /* Add padding for better spacing */
 }
+
+
 
 .fixed-top {
     background-color: #1BC2A4 !important;
@@ -58,13 +62,13 @@
     border: none;
     padding: 8px 16px;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 25px;
 }
 
 .flexbox{
     display:flex;
-    justify-content: center;
-    justify-items: center;
+    justify-content: right;
+    justify-items: right;
 }
 
 .nav-item{

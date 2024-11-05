@@ -18,11 +18,10 @@ function Header() {
                 
                 {/* Collapsible menu */}
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <div className="flexbox">
-    
-                        <ul className="navbar-nav ms-auto">
+                    <div className="ms-auto flexbox">
+                        <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page"  id="home" href="#">Home</a>
+                                <a className="nav-link active" aria-current="page" id="home" href="#">Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">About</a>
@@ -36,11 +35,8 @@ function Header() {
                                 </button>
                             </li>
                         </ul>
-
                     </div>
                 </div>
-                
-               
             </div>
         </nav>
     );

@@ -4,16 +4,18 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    /* border: 1px solid black; */
 }
 
 .content {
     position: absolute;
-    top: 100px;
+    top: 50px;
     align-items: flex-start;
     display: inline-block;
     color: black;
     margin: 0 0 0 0;
     text-align: left;
+    /* border: 1px solid black; */
 }
 
 .content-headline {
@@ -212,6 +214,6 @@ p {
 }
 
 .content {
-    margin: 0 0 0 0;
-    margin-left: 8.5rem;
+    margin: -3.5rem 0  0 1rem ;
+    margin-left: 15rem;
 }
