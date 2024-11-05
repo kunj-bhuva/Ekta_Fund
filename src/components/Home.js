@@ -1,13 +1,16 @@
 import React from 'react';
-import './Home.css';  // Import the CSS for the Header component 
+import './Home.css';  // Import the CSS for the Home component
+import Header from './Header.js';  // Import the Header component
+import Footer from './Footer.js';  // Import the Footer component
 
-
-export default function Body() {
+export default function Home() {
     return (
-        <div className="Body">
-            
+        <div className="Home">
+            <Header />
+            <div className="Body">
+                {/* Add your main content here */}
+            </div>
+            <Footer />
         </div>
     );
 }
-
-
