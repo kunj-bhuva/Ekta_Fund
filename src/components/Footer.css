@@ -1,3 +1,9 @@
-.footer{
+.footer {
     background-color: black;
+    color: white; /* Ensure text is visible */
+    width: 100%; /* Full width of the viewport */
+    position: fixed; /* Fix to the bottom of the page */
+    bottom: 0; /* Align to the bottom */
+    padding: 1rem; /* Add padding for better spacing */
+    text-align: center; /* Center the text */
 }
