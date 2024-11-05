@@ -21,10 +21,10 @@ function Header() {
                     <div className="ms-auto flexbox">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" id="home" href="#">Home</a>
+                                <a className="nav-link " aria-current="page" id="home" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
+                                <a className="nav-link " href="#">About</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Contact Us</a>
