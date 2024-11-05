@@ -98,3 +98,7 @@
         margin-top: 5px; /* Optional spacing between items */
     }
 }
+
+.write{
+    transform: translateY(0.3rem);
+}

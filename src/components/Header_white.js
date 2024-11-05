@@ -1,7 +1,6 @@
 import React from 'react';
-import './Header.css'; // Import the CSS for the Header component
-import logo from '../images/logo_big.png'; 
-import loginImage from '../images/Mobile-login-Cristina 1.png'; 
+import './Header_white.css'; // Import the CSS for the Header component
+import logo from '../images/white.png'; 
 
 function Header() {
     return (
@@ -20,8 +19,8 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <div className="ms-auto flexbox">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link " aria-current="page"href="#">Home</a>
+                            <li className="nav-item write">
+                                <a className="nav-link " aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item write">
                                 <a className="nav-link " href="#">About</a>
@@ -29,7 +28,7 @@ function Header() {
                             <li className="nav-item write">
                                 <a className="nav-link" href="#">Contact Us</a>
                             </li>
-                            <li className="nav-item write">
+                            <li className="nav-item">
                                 <button className="button">
                                     <a className="nav-link text-white" aria-disabled="true">DONATE</a>
                                 </button>
