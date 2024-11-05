@@ -19,8 +19,7 @@
 
 /* Button Styles */
 .button {
-    height: 3rem;
-    display: flex;
+    text-align: center; 
     justify-content: center;
     align-items: center;
     background-color: #ff5a5f;
@@ -67,10 +66,12 @@
 }
 
 .nav-item{
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight:bold;
     margin-right: 30px;
 }
+
+
 
 /* Responsive Style Changes for Small Screens */
 @media (max-width: 991px) { /* Apply at lg breakpoint and smaller */
