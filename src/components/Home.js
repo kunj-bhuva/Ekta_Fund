@@ -31,6 +31,8 @@ export default function Home() {
                     </div>
                 </div> {/* Closing div for .impact */}
 
+                <h1 className='maahi'>Hi maahi</h1>
+
                 <TickerTape />
 
                 <h1 className='heads'>OUR MISSIONS</h1>

@@ -11,9 +11,14 @@ import FAQs from './components/FAQs.js';  // Importing the FAQs component
 function App() {
   return (
     <div className="App">
+<<<<<<< Updated upstream
       <Header />
       <Home />
       <FAQs /> 
+=======
+      <Header/>
+      <Body />
+>>>>>>> Stashed changes
       <Footer />
     </div>
   );
