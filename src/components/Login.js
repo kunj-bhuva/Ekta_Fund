@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios'; // Import axios for making API calls
 import './Login.css';
 import logo from "../images/logo_big.png";
-
-//works with user@example.com and password123
-//API integration left
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -13,9 +11,9 @@ export default function Login() {
   const navigate = useNavigate(); // Hook to navigate between pages
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     // Basic validation
     if (!email || !password) {
       setError('Please enter both email and password.');
@@ -23,7 +21,7 @@ export default function Login() {
     }
 
     // Simple email format validation (using regex)
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zAZ0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailPattern.test(email)) {
       setError('Please enter a valid email address.');
       return;
@@ -35,13 +33,28 @@ export default function Login() {
       return;
     }
 
-    // Simulate checking credentials (could be an API call here)
-    if (email === 'user@example.com' && password === 'password123') {
-      // Clear the error and redirect to home page
-      setError('');
-      navigate('/home'); // Redirect to Home page
-    } else {
+    // Reset any previous error
+    setError('');
+
+    try {
+      // API Request to validate user credentials
+      const response = await axios.post('https://your-api-url.com/api/login', {
+        email: email,
+        password: password
+      });
+
+      // Assuming API returns a JWT token
+      const { token } = response.data;
+
+      // Store the token in localStorage (or sessionStorage)
+      localStorage.setItem('authToken', token);
+
+      // Navigate to the home page
+      navigate('/home');
+    } catch (error) {
+      // Handle error (invalid credentials or API failure)
       setError('Invalid email or password.');
+      console.error('Login error:', error);
     }
   };
 
@@ -68,7 +81,7 @@ export default function Login() {
                           className="fas fa-cubes fa-2x me-3"
                           style={{ color: '#ff6219' }}
                         ></i>
-                        <span className="h1 fw-bold mb-0"><img src={logo}/></span>
+                    <span className="h1 fw-bold mb-0"><img src={logo}/></span>
                       </div>
 
                       <h5 className="fw-normal mb-3 pb-3" style={{ letterSpacing: '1px' }}>
@@ -112,12 +125,12 @@ export default function Login() {
                         </button>
                       </div>
 
-                      <a className="small text-muted" href="#!">
+                      <a className="small text-muted" href="#!" onClick={() => navigate('/forgot-password')}>
                         Forgot password?
                       </a>
                       <p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>
                         Don't have an account?{' '}
-                        <a href="#!" style={{ color: '#393f81' }}>
+                        <a href="#!" style={{ color: '#393f81' }} onClick={() => navigate('/register')}>
                           Register here
                         </a>
                       </p>
