@@ -39,15 +39,7 @@
     font-size:1.1rem;
     font-weight: 500;
     font-family: 'Outfit';
-    color: rgb(74, 74, 74);
+    color: #101817;
+    opacity: 25%;
 
-}
-.maahi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'Outfit';
-    color: rgb(74, 74, 74);
 }

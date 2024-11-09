@@ -3,12 +3,13 @@ body {
 }
 
 .news {
-    width: 160px;
+    width: 5rem;
 }
 
 .news-scroll a {
     text-decoration: none;
     color: black;
+    border: black;
 }
 
 .dot {
@@ -22,7 +23,12 @@ body {
     display: inline-block;
     transform: translateY(-0.21rem);
 }
-
+.separator {
+    display: inline-block;
+    width: 4rem;
+    margin-left: 4rem;
+    margin-right: rem;
+}
 
 .breaking-news {
     display: flex;
@@ -35,16 +41,25 @@ body {
     white-space: nowrap;
     width: 100%;
     position: relative;
-    background-color: #9ed2c8;
+    background-color:   #b0e6db;
 }
  
 .scroll-content {
     display: inline-block;
     padding-left: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: -0.4rem;
+    align-items: center;
+
     animation: scroll-left 15s linear infinite;
+    
+    
+    
 }
+
 .Money{
-    color: #70daa3;
+    color: #03b358;
 }
 
 .news-scroll.paused .scroll-content {
@@ -58,4 +73,9 @@ body {
     100% {
         transform: translateX(-100%);
     }
+}
+
+.scroll-content{
+    font-family: Roboto;
+    font-size: 1.3rem;
 }

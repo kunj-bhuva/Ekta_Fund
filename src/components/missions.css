@@ -1,0 +1,60 @@
+.missions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.mission-image {
+    width: 22rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    position: relative;
+    gap: 2rem;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Scale Up and Shadow on Hover */
+.mission-image:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+}
+
+/* Optional: Add Overlay on Hover */
+.mission-image::after {
+    content: "Mission"; /* Example text, replace with dynamic content if needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent overlay */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+    border-radius: 10px; /* Match the border-radius of the image */
+}
+
+.mission-image:hover::after {
+    opacity: 1; /* Show overlay text on hover */
+}
+
+.see-more-image {
+    height: 3rem;
+    margin-top: 2rem;
+    transform: translateX(69.8rem);
+    transition: transform 0.3s ease, height 0.3s ease; /* Smooth transitions */
+}
+
+.see-more-image:hover {
+    transform: translateX(69.8rem) scale(1.1); /* Slight zoom effect */
+    height: 3.5rem; /* Increase size on hover */
+    cursor: pointer; /* Change cursor to pointer */
+
+}

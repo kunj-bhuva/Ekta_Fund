@@ -3,7 +3,9 @@ import './Home.css';  // Import the CSS for the Home component
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IndividualIntervalsExample from './slider.js';  // Import the slider component   
 import TickerTape from './tickertape.js';
+import MMM from './missions.js';
 
+import Bands from './band.js';
 
 export default function Home() {
     return (
@@ -31,12 +33,21 @@ export default function Home() {
                     </div>
                 </div> {/* Closing div for .impact */}
 
-                <h1 className='maahi'>Hi maahi</h1>
 
                 <TickerTape />
 
                 <h1 className='heads'>OUR MISSIONS</h1>
+
+                <MMM/>
+
+                <h1 className='heads'>OUR TRUSTED NGO PARTNERS</h1>
+
+                <Bands/>
+
+                <h1 className='heads'>NEWS</h1>
+
             </div>
         </div>
     );
 }
+

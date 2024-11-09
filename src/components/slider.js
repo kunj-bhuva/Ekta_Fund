@@ -1,25 +1,24 @@
 import Carousel from 'react-bootstrap/Carousel';
-import slide1 from '../images/slidebar/p1.png';
-import slide2 from '../images/slidebar/p2.png';
-import slide3 from '../images/slidebar/p3.png';
 import './slider.css';
 
-function IndividualIntervalsExample() {
+// Assuming you have a file named data.js exporting an array of image paths like:
+// export default ['/images/slidebar/p1.png', '/images/slidebar/p2.png', '/images/slidebar/p3.png'];
+import imagePaths from './sliderphoto.js';
+
+function DynamicCarousel() {
   return (
     <div className="carousel-wrapper">
       <Carousel className="carousel">
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src={slide1} alt="First slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src={slide2} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img className="d-block w-100" src={slide3} alt="Third slide" />
-        </Carousel.Item>
+        {
+          imagePaths.map((imagePath, index) => (
+          <Carousel.Item key={index} interval={3000}>
+            <img className="d-block w-100" src={imagePath} alt={`Slide ${index + 1}`} />
+          </Carousel.Item>
+          ))
+        }
       </Carousel>
     </div>
   );
 }
 
-export default IndividualIntervalsExample;
+export default DynamicCarousel;
