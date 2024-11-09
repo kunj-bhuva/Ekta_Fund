@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './Home.css';  // Import the CSS for the Home component
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IndividualIntervalsExample from './slider.js';  // Import the slider component   
