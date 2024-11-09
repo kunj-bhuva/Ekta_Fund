@@ -1,14 +1,30 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios'; // Import axios for making API calls
+import axios from 'axios';
+import MockAdapter from 'axios-mock-adapter';
 import './Login.css';
 import logo from "../images/logo_big.png";
+
+// Create an Axios Mock Adapter instance
+const mock = new MockAdapter(axios);
+
+// Mock the POST request to your API endpoint for testing
+mock.onPost('https://your-api-url.com/api/login').reply((config) => {
+  const { email, password } = JSON.parse(config.data);
+
+  // Simulate successful login with test credentials
+  if (email === 'test@example.com' && password === 'password123') {
+    return [200, { token: 'mocked_jwt_token' }];
+  }
+  // Simulate login failure
+  return [401, { message: 'Invalid email or password' }];
+});
 
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // Hook to navigate between pages
+  const navigate = useNavigate();
 
   // Handle form submission
   const handleSubmit = async (e) => {
@@ -21,7 +37,7 @@ export default function Login() {
     }
 
     // Simple email format validation (using regex)
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zAZ0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailPattern.test(email)) {
       setError('Please enter a valid email address.');
       return;
@@ -46,7 +62,7 @@ export default function Login() {
       // Assuming API returns a JWT token
       const { token } = response.data;
 
-      // Store the token in localStorage (or sessionStorage)
+      // Store the token in localStorage
       localStorage.setItem('authToken', token);
 
       // Navigate to the home page
@@ -81,7 +97,9 @@ export default function Login() {
                           className="fas fa-cubes fa-2x me-3"
                           style={{ color: '#ff6219' }}
                         ></i>
-                    <span className="h1 fw-bold mb-0"><img src={logo}/></span>
+                        <span className="h1 fw-bold mb-0">
+                          <img src={logo} alt="Logo" />
+                        </span>
                       </div>
 
                       <h5 className="fw-normal mb-3 pb-3" style={{ letterSpacing: '1px' }}>

@@ -55,7 +55,6 @@ import Home from './components/Home.js';
 
 function App() {
   return (
-<<<<<<< Updated upstream
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
@@ -65,16 +64,6 @@ function App() {
         <Route path="/home" element={<Home />} />
       </Routes>
     </Router>
-=======
-    <div className="App">
-      <Header />
-      <Home />
-      <FAQs /> 
-      {/* <Header/> */}
-      {/* <Body /> */}
-      <Footer />
-    </div>
->>>>>>> Stashed changes
   );
 }
 
