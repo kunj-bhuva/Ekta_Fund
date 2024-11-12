@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
 
 body {
-    display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -11,16 +10,7 @@ body {
     margin: 0;
 }
 
-.container {
-    text-align: center;
-    background-color: #e0f7f4;
-    padding: 60px 20px; /* Increase padding for taller container */
-    border-radius: 15px; /* Curved edges */
-    width: 100vw; /* Full viewport width */
-    max-width: 90%; /* Slight margin from edges on very large screens */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for better contrast */
-    position: relative;
-}
+
 
 .logo {
     display: flex;
