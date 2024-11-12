@@ -46,7 +46,7 @@
 
 /* Collapsed Menu Styles */
 .navbar-collapse:not(.show) {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     color: #000000;
     opacity: 0.8;
 }

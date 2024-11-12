@@ -28,12 +28,10 @@ const FAQs = () => {
           justifyContent: 'center', // Center the content horizontally
         }}
       >
-        <div className="container" style={{ width: '1296px', margin: '0 auto' }}>
+        <div className="container" >
           <div className="row justify-content-center">
-            <div className="col-12 col-sm-8 col-lg-10">
-              {/* Section Heading */}
+            <div className="col col-sm-8 col-lg-10">
               <div className="section_heading text-center wow fadeInUp" data-wow-delay="0.2s">
-                <h2 id="faq" style={{ fontSize: '4rem' }}>FAQs</h2>
                 <h6 style={{ fontSize: '1.2rem' }}>For more queries please reach out to us</h6>
                 <h6 style={{ fontSize: '1.2rem' }}>
                   at: <a href="mailto:support@ektafund.com" style={{ color: 'black' }}>support@ektafund.com</a>
@@ -61,7 +59,7 @@ const FAQs = () => {
                       justifyContent: 'space-between',
                       alignItems: 'center',
                       width: '100%', // Ensure it spans full width inside container
-                      transition: 'width 0.3s ease', // Smooth transition on width change
+                      transition: 'width 1s ease', // Smooth transition on width change
                     }}
                   >
                     <h6 className="mb-0" style={{ fontSize: '24px', fontWeight: 'bold' }}>

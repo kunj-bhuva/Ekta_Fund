@@ -5,13 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import IndividualIntervalsExample from './slider.js';  // Import the slider component   
 import TickerTape from './tickertape.js';
 import MMM from './missions.js';
-
+import Header_white from "./Header_white.js";
+import FAA from './FAQs.js'
 import Bands from './band.js';
 
 export default function Home() {
     return (
         <div>
             <div className="Body">
+                <Header_white/>
                 <IndividualIntervalsExample />
 
                 <h1 className='heads'>OUR IMPACT</h1>
@@ -45,9 +47,14 @@ export default function Home() {
 
                 <Bands/>
 
-                <h1 className='heads'>NEWS</h1>
+                <h1 className='heads'>FAQs</h1>
+                
+
+                <FAA/>
+                
 
             </div>
+            
         </div>
     );
 }

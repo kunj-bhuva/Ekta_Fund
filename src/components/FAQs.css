@@ -1,28 +1,25 @@
 body {
-    margin-top: 20px;
+    margin-top: 20rem;
     font-family: roboto;
     font-size: 24px;
+    border-radius: 12px;
   }
   
   .section_padding_130 {
     padding-top: 130px;
     padding-bottom: 130px;
+    border-radius: 18px;
   }
   
   .faq_area {
     position: relative;
     z-index: 1;
     background-color: #f5f5ff;
-<<<<<<< Updated upstream
-    padding: 50px; /* Add padding to the entire FAQ box */
-  }
-  
-  #faq {
-=======
+    border-radius: 18px;
 }
 
+
 .faq{
->>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,21 +28,26 @@ body {
     font-family: 'Outfit';
     font-weight: 900;
     font-size: 3rem;
+    border-radius: 18px;
   }
   
   .faq-accordion {
     position: relative;
     z-index: 1;
+    border-radius: 18px;
   }
   
   .faq-accordion .card {
     position: relative;
     z-index: 1;
     margin-bottom: 1.5rem;
+    
+    border-radius: 18px;
   }
   
   .faq-accordion .card:last-child {
     margin-bottom: 0;
+    border-radius: 18px;
   }
   
   .faq-accordion .card .card-header {
@@ -54,6 +56,7 @@ body {
     border-bottom-color: #ebebeb;
     font-size: 28px !important; /* Increase font size of questions */
     font-weight: bold; /* Make questions bold */
+    border-radius: 18px;
   }
   
   .faq-accordion .card .card-header h6 {
@@ -71,35 +74,42 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-size: 24px; /* Set font size of questions */
+    border-radius: 18px;
   }
   
   .faq-accordion .card .card-header h6 span {
     font-size: 1.5rem;
+    border-radius: 18px;
   }
   
   .faq-accordion .card .card-body {
     padding: 1rem; /* Add padding to the answers */
     font-size: 24px !important; /* Increase font size of answers */
+    border-radius: 18px;
   }
   
   .faq-accordion .card .card-body p:last-child {
     margin-bottom: 0;
+    border-radius: 18px;
   }
   
   @media only screen and (max-width: 575px) {
     .support-button p {
       font-size: 14px;
+      border-radius: 18px;
     }
   }
   
   .support-button i {
     color: #3f43fd;
     font-size: 1.25rem;
+    border-radius: 18px;
   }
   
   @media only screen and (max-width: 575px) {
     .support-button i {
       font-size: 1rem;
+      border-radius: 18px;
     }
   }
   
@@ -111,22 +121,29 @@ body {
   @media only screen and (max-width: 575px) {
     .support-button a {
       font-size: 13px;
+      border-radius: 18px;
+
     }
   }
   
 
   .faq-accordion .card .card-header h6 {
     font-size: 24px !important;
+    border-radius: 18px;
   }
   
   .faq-accordion .card .card-body {
     font-size: 24px !important;
+    border-radius: 18px;
+    
+
   }
 
   .faqs {
     padding: 2rem; /* Add padding to the entire FAQ box */
     background-color: #f9f9f9;
     color: #333;
+    border-radius: 18px;
   }
 
   /* Add to your CSS file, e.g., styles.css */
@@ -135,25 +152,27 @@ body {
 .faq_area {
     background-color: #73e0cc;
     padding-bottom: 50px; /* Adds padding to the bottom */
+    border-radius: 18px;
   }
   
   /* Make the text size larger */
   .faq_area h2, .faq_area h6, .faq_area p {
-    font-size: 1.2em; /* Increase font size */
+    /* font-size: 1.2em; Increase font size */
   }
   
   .faq_area ul {
-    font-size: 1.1em; /* Slightly larger list items */
+    /* font-size: 1.1em; Slightly larger list items */
   }
   
   /* For Accordion Item headers */
   .card-header h6 {
-    font-size: 1.2em; /* Larger text for accordion headers */
+    /* font-size: 1.2em; Larger text for accordion headers */
   }
   
   /* Optionally, adjust card body padding */
   .card-body {
     padding: 20px;
+    border-radius: 18px;
   }
   
   /* External CSS file (styles.css) */
@@ -185,3 +204,13 @@ body {
     padding: 20px;
   }
   
+  .faqss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Outfit';
+    font-weight: 900;
+    font-size: 3rem;
+  }
