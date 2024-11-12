@@ -1,8 +1,8 @@
-.RegistrationForm{
+.RegistrationForm {
     padding: 0;
-    margin: 0;
-    
+    margin: 80px 0 0 0;  /* Add top margin to create space for the header */
 }
+
 .form {
     /* border: solid 1px black; */
     border-radius: 5px;
@@ -72,6 +72,7 @@
 }
 
 .description{
+    display:block;
     width: 460px;
     height: 2rem;
     padding-left: 15px;
@@ -89,5 +90,9 @@
     border-radius: 5px;
 }
 
+
+Registration-form-h3{
+    text-align: left;
+}
 
 

@@ -34,7 +34,7 @@ export default function RegistrationForm() {
         <div className='registration-form'>
             <div className='section about-one'>
                 <div className='box'></div>
-                <h3>About</h3>
+                <h3 classname='Registration-form-h3'>About</h3>
             </div>
 
             <form className="inputs" onSubmit={handleSubmit}>
@@ -48,15 +48,7 @@ export default function RegistrationForm() {
                     required
                 />
 
-                <input
-                    type="text"
-                    name="headquartersLocation"
-                    placeholder=" Headquarters Location"
-                    className='input'
-                    value={formData.headquartersLocation}
-                    onChange={handleChange}
-                    required
-                />
+                
 
                 <input
                     type="text"
@@ -68,20 +60,56 @@ export default function RegistrationForm() {
                     required
                 />
 
-                <label htmlFor="options"></label>
-                <select
-                    id="options"
-                    name="option"
+
+                <input
+                    type="text"
+                    name="contactPersonName"
+                    placeholder=" Enter Contact Person Name"
                     className='input'
-                    value={formData.option}
+                    value={formData.contactPersonName}
                     onChange={handleChange}
                     required
-                >
-                    <option value="">Select an option</option>
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
-                </select>
+                />
+
+
+
+                <input
+                    type="tel"
+                    name="contactPersonNumber"
+                    placeholder=" Enter Contact Number"
+                    className='input'
+                    value={formData.contactPersonNumber}
+                    onChange={handleChange}
+                    required
+                />
+
+                <input
+                    type="text"
+                    name="email"
+                    placeholder=" Email"
+                    className='description'
+                    value={formData.email}
+                    onChange={handleChange}
+                />
+
+                <input
+                    type="text"
+                    name="password"
+                    placeholder=" Enter your Password"
+                    className='description'
+                    value={formData.password}
+                    onChange={handleChange}
+                />
+
+                <input
+                    type="text"
+                    name="headquartersLocation"
+                    placeholder=" Headquarters Location"
+                    className='description'
+                    value={formData.headquartersLocation}
+                    onChange={handleChange}
+                    required
+                />
 
                 <input
                     type="text"
@@ -91,32 +119,35 @@ export default function RegistrationForm() {
                     value={formData.description}
                     onChange={handleChange}
                 />
+
+
+                <input
+                    type="text"
+                    name="address"
+                    placeholder=" Address"
+                    className='description'
+                    value={formData.address}
+                    onChange={handleChange}
+                />
                 
                 <div className='section'>
                 <div className='box'></div>
-                <h3>Cause Area</h3>
+                <h3 Registration-form-h3> Cause Area</h3>
             </div>
 
                 <input
                     type="text"
                     name="sectors"
                     placeholder=" Sectors"
-                    className='input'
+                    className='description'
                     value={formData.sectors}
                     onChange={handleChange}
                 />
-                <input
-                    type="text"
-                    name="otherSectors"
-                    placeholder=" Other Sectors"
-                    className='input'
-                    value={formData.otherSectors}
-                    onChange={handleChange}
-                />
+                
 
                 <div className='section'>
                     <div className='box'></div>
-                    <h3>Vision & Missions</h3>
+                    <h3 Registration-form-h3>Vision & Missions</h3>
                 </div>
 
                 <input

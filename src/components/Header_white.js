@@ -4,7 +4,7 @@ import logo from '../images/white.png';
 
 function Header() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" style={{ backgroundColor: " #ffffff " }}>
             <div className="container">
                 <a className="navbar-brand" href="#">
                     <img className="somee" src={logo} alt="Logo" style={{ height: '4rem' }} />

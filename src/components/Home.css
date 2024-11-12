@@ -4,7 +4,7 @@
     min-height: 100vh;
 }
 
-.Body {
+.Home-Body {
     flex: 1; /* Take up remaining space */
     /* padding: 1rem; Add padding for better spacing */
     /* margin-bottom: 3rem; Add margin to avoid overlap with footer */
@@ -16,6 +16,17 @@
     align-items: center;
     margin-top: 4rem;
     margin-bottom: 2rem;
+    font-family: 'Outfit';
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.home-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
     font-family: 'Outfit';
     font-weight: 900;
     font-size: 3rem;
