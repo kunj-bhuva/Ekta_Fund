@@ -8,7 +8,6 @@ const FAQs = () => {
   };
 
   return (
-<<<<<<< Updated upstream
     <>
       {/* Add Outfit font dynamically in the head */}
       <style>
@@ -41,18 +40,6 @@ const FAQs = () => {
                 </h6>
                 <div className="line"></div>
               </div>
-=======
-    <div className="faq_area section_padding_130" id="faq">
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-12 col-sm-8 col-lg-6">
-            {/* Section Heading */}
-            <div className="section_heading text-center wow fadeInUp" data-wow-delay="0.2s">
-              <p className="faq">FAQs</p>
-                <h6>For more queries please reach out to us</h6>
-                <h6>at:support@ektafund.com</h6>
-              <div className="line"></div>
->>>>>>> Stashed changes
             </div>
           </div>
           <div className="row justify-content-center">
