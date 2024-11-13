@@ -1,12 +1,31 @@
 import React from 'react';
-import './Header_white.css'; // Import the CSS for the Header component
+import { useNavigate } from 'react-router-dom'; // Import useNavigate hook for navigation
+import './Header_white.css'; 
 import logo from '../images/white.png'; 
 
-function Header() {
+function Header_white() {
+    const navigate = useNavigate();  // Initialize navigate function
+
+    const handleDonateClick = () => {
+        navigate('/donate');  // Navigate to the donate page
+    };
+
+    const handleHomeClick = () => {
+        navigate('/home');  // Navigate to the home page
+    };
+
+    const handleAboutClick = () => {
+        navigate('/about');  // Navigate to the about page
+    };
+
+    const handleContactUsClick = () => {
+        navigate('/contact-us');  // Navigate to the contact us page
+    };
+
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" style={{ backgroundColor: " #ffffff " }}>
             <div className="container">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="#" onClick={handleHomeClick}>
                     <img className="somee" src={logo} alt="Logo" style={{ height: '4rem' }} />
                 </a>
                 
@@ -20,17 +39,17 @@ function Header() {
                     <div className="ms-auto flexbox">
                         <ul className="navbar-nav">
                             <li className="nav-item write">
-                                <a className="nav-link " aria-current="page" href="#">Home</a>
+                                <a className="nav-link" onClick={handleHomeClick}>Home</a>  {/* Home Link */}
                             </li>
                             <li className="nav-item write">
-                                <a className="nav-link " href="#">About</a>
+                                <a className="nav-link" onClick={handleAboutClick}>About</a>  {/* About Link */}
                             </li>
                             <li className="nav-item write">
-                                <a className="nav-link" href="#">Contact Us</a>
+                                <a className="nav-link" onClick={handleContactUsClick}>Contact Us</a>  {/* Contact Us Link */}
                             </li>
                             <li className="nav-item">
-                                <button className="button">
-                                    <a className="nav-link text-white" aria-disabled="true">DONATE</a>
+                                <button className="button" onClick={handleDonateClick}>
+                                    <span className="nav-link text-white">DONATE</span>  {/* Donate Button */}
                                 </button>
                             </li>
                         </ul>
@@ -41,4 +60,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Header_white;

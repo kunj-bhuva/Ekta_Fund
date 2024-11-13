@@ -1,4 +1,5 @@
 import React from 'react';
+import Header_white from './Header_white';
 
 const teamMembers = [
   { name: 'Aman Sharma', role: 'Project Lead', rollNo: 'CS01' },
@@ -15,6 +16,8 @@ const teamMembers = [
 
 const AboutUs = () => {
   return (
+    <> 
+    <Header_white/>
     <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'center', backgroundColor: '#e0f7f4' }}>
       <h1 style={{ fontSize: '3rem', color: '#1a535c' }}>About EktaFund</h1>
       <p style={{ fontSize: '1.2rem', color: '#4f5d75', maxWidth: '800px', margin: '0 auto' }}>
@@ -46,6 +49,7 @@ const AboutUs = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

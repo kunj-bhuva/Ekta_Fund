@@ -1,7 +1,7 @@
 import React from "react";
-import "./mapp.css"; // Import custom styles
+import "./Mapp.css"; // Import custom styles
 import india from "../images/india.png"; // Import the India map image
-import PlaceBox from "./place-box"; 
+import PlaceBox from "./Place-box"; 
 
 const NGOMap = () => {
   return (

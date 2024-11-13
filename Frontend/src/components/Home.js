@@ -2,14 +2,14 @@ import React, { useRef } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './Home.css';  // Import the CSS for the Home component
 import 'bootstrap/dist/css/bootstrap.min.css';
-import IndividualIntervalsExample from './slider.js';  // Import the slider component   
-import TickerTape from './tickertape.js';
+import IndividualIntervalsExample from './Slider.js';  // Import the slider component   
+import TickerTape from './Tickertape.js';
 import Footer from './Footer.js';
 import Header_white from './Header_white.js';
-import MMM from './missions.js';
-import Header_white from "./Header_white.js";
+import MMM from './Missions.js';
+
 import FAA from './FAQs.js'
-import Bands from './band.js';
+import Bands from './Band.js';
 
 
 export default function Home() {

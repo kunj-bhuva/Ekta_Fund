@@ -4,7 +4,7 @@ import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import './Search.css';
 import logo from "../images/logo_small_new.png";
-import Map from "./mapp.js";
+import Map from "./Mapp.js";
 import india from "../images/india.png";
 
 
@@ -32,7 +32,7 @@ export default function Search() {
                     <img src={logo} alt="Helping Made Simple Logo" />
                 </div>
                 <div className="title">Helping Made Simple</div>
-                <div className="description">Get insights on 57,000+ NGOs with new additions daily</div>
+                <div className="Search-description">Get insights on 57,000+ NGOs with new additions daily</div>
                 <div className="search-bar">
                     <input
                         type="text"

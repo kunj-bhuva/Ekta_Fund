@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header_white from './Header_white';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -23,6 +24,8 @@ const ContactUs = () => {
   };
 
   return (
+    <>
+    <Header_white/>
     <div style={{ fontFamily: 'Outfit, sans-serif', padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
       <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '1rem' }}>Contact Us</h2>
       <p style={{ textAlign: 'center', fontSize: '1.2rem', color: '#555' }}>
@@ -86,6 +89,7 @@ const ContactUs = () => {
         </button>
       </form>
     </div>
+    </>
   );
 };
 

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import imagePaths from './missionphoto.js';
+import imagePaths from './Missionphoto.js';
 import seem from '../images/seemore.png';
 import seeless from '../images/seeless.png'; // Import the See Less image
-import './missions.css';
+import './Missions.css';
 
 const Missions = () => {
     const [showAll, setShowAll] = useState(false);
