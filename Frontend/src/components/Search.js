@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
-import MockAdapter from 'axios-mock-adapter';
 import './Search.css';
+import { FaFacebook, FaTwitter, FaTelegram, FaInstagram } from 'react-icons/fa';
+
 import logo from "../images/logo_small_new.png";
+<<<<<<< HEAD
 import Map from "./Mapp.js";
 import india from "../images/india.png";
 
 
+=======
+import Map from "./mapp.js";
+import Foot from './Footer.js';
+import White from './Header_white.js';
+>>>>>>> b59d2411bed0d52544a9ce8f9701fb1fcc252995
 export default function Search() {
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -27,6 +33,7 @@ export default function Search() {
 
     return (
         <div className="aller">
+            <White/>
             <div className="cont">
                 <div className="logo">
                     <img src={logo} alt="Helping Made Simple Logo" />
@@ -51,6 +58,8 @@ export default function Search() {
 
             </div>
             <Map/>
+            <div className="heads">Organisations by Sectors</div>
+            <Foot   />
         </div>
     );
 }

@@ -6,10 +6,15 @@ import IndividualIntervalsExample from './Slider.js';  // Import the slider comp
 import TickerTape from './Tickertape.js';
 import Footer from './Footer.js';
 import Header_white from './Header_white.js';
+<<<<<<< HEAD
 import MMM from './Missions.js';
 
 import FAA from './FAQs.js'
 import Bands from './Band.js';
+=======
+import MMM from './missions.js';
+import Bands from './band.js';
+>>>>>>> b59d2411bed0d52544a9ce8f9701fb1fcc252995
 
 
 export default function Home() {

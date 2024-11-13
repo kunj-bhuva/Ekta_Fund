@@ -1,8 +1,7 @@
 import React from 'react';
-import RegistrationForm from './RegistrationForm.js';
 
 import Header from './Header.js';
-import Registerpage from './Registerpage.js'
+import Registerpage from './registerpage.js'
 
 function NGOregistration() {
     return (

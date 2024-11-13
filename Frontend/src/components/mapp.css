@@ -22,7 +22,7 @@
   
 
   .india-map {
-    width: 40rem;
+    width: 35rem;
     height: auto;
   }
   
@@ -81,3 +81,19 @@
     font-weight: bold;
   }
   
+  p {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Adjusts spacing between elements */
+    font: Roboto, sans-serif; /* Set to your desired font */
+    font-size: 2rem;
+}
+
+.inline {
+    display: inline;
+}
+
+.special-style {
+    color: red;
+    font-family: 'Lobster', sans-serif; /* Set to your desired font */
+}

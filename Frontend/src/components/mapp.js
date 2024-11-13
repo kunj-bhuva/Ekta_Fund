@@ -15,10 +15,11 @@ const NGOMap = () => {
           {/* Add more dots as needed */}
         </div>
       </div>
-        <div className="map-legend">
-            <h1>Discover NGOs across states</h1>
-            <PlaceBox />
-        </div>
+      <div className="map-legend">
+      <p>Discover NGOs across <div class="inline special-style">states</div></p>
+
+        <PlaceBox />
+      </div>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Place-box.css";
 
 const PlaceBox = () => {
-  const [selectedState, setSelectedState] = useState("Maharashtra");
+  const [selectedState, setSelectedState] = useState("Gujarat");
 
   const states = [
     "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh",
@@ -29,13 +29,13 @@ const PlaceBox = () => {
       <div className="stats">
         <div className="stat-item">
           <div className="icon certified-icon">g</div>
-          <span>Certified Nonprofits</span>
+          <span style={{ fontFamily: 'Roboto' }}>Certified Nonprofits</span>
           <span className="count">84</span>
         </div>
         <div className="stat-item">
           <div className="icon star-icon">★</div>
-          <span>5 Star & 4 Star NGOs</span>
-          <span className="countss">770</span>
+          <span style={{ fontFamily: 'Roboto' }}>5 Star & 4 Star NGOs</span>
+          <span className="count">770</span>
         </div>
       </div>
     </div>
