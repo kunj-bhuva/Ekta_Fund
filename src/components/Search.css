@@ -93,3 +93,13 @@ body {
     font-size: 14px; /* Set font size for top search items */
     cursor: pointer;
 }
+.heads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Outfit';
+    font-weight: 900;
+    font-size: 3rem;
+}

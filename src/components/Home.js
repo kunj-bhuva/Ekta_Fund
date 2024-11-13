@@ -7,8 +7,6 @@ import TickerTape from './tickertape.js';
 import Footer from './Footer.js';
 import Header_white from './Header_white.js';
 import MMM from './missions.js';
-import Header_white from "./Header_white.js";
-import FAA from './FAQs.js'
 import Bands from './band.js';
 
 
