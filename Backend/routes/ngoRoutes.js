@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const { registerNGO, loginNGO } = require("../controllers/ngoController");
-const { updateNGOProfile } = require("../controllers/ngoController");
-const { viewPendingRequests } = require("../controllers/ngoController");
+const { registerNGO, loginNGO } = require("../controllers/ngoController.js");
+const { updateNGOProfile } = require("../controllers/ngoController.js");
+const { viewPendingRequests } = require("../controllers/ngoController.js");
 
 // Register route
 router.post("/register", registerNGO);
