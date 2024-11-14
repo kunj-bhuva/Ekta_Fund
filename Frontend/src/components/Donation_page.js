@@ -21,7 +21,7 @@ export default function Donation_page(){
             {/* <Home/> */}
             <Header_white/>
             <Search/>
-            <Footer/>
+           
                        
         </div>
         

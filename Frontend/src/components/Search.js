@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Search.css';
-// import { FaFacebook, FaTwitter, FaTelegram, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaTelegram, FaInstagram } from 'react-icons/fa';
+
 import logo from "../images/logo_small_new.png";
-import Mapp from "./Mapp.js";
+import Mapp from "./mapp.js";
 import india from "../images/india.png";
 import Header_white from './Header_white.js';   
 import Footer from './Footer.js';
-
 
 export default function Search() {
     const [searchTerm, setSearchTerm] = useState('');
@@ -53,7 +53,7 @@ export default function Search() {
 
             </div>
             <Mapp/>
-            <div className="heads">Organisations by Sectors</div>
+            
             <Footer   />
         </div>
     );

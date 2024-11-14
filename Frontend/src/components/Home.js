@@ -1,21 +1,31 @@
 import React, { useRef } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './Home.css';  // Import the CSS for the Home component
+import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import IndividualIntervalsExample from './Slider.js';  // Import the slider component   
-import TickerTape from './Tickertape.js';
+import IndividualIntervalsExample from './Slider.js';
+import TickerTape from './tickertape.js';
 import Footer from './Footer.js';
 import Header_white from './Header_white.js';
-import MMM from './Missions.js';
-
-import FAA from './FAQs.js'
-import Bands from './Band.js';
-
+import MMM from './missions.js';
+import FAQs from './FAQs.js';
+import Bands from './band.js';
 
 export default function Home() {
+    // Define refs for the sections to scroll to
+    const missionsRef = useRef(null);
+    const ngosRef = useRef(null);
+    const causesRef = useRef(null);
+
+    // Function to scroll to a specific section
+    const scrollToSection = (ref) => {
+        if (ref && ref.current) {
+            ref.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <div>
-            <Header_white/>
+            <Header_white />
             <div className="Home-Body">
                 <IndividualIntervalsExample />
 
@@ -31,30 +41,40 @@ export default function Home() {
                     </div>
                     <div className="impact3">
                         <p className='home-p'>3000+</p>
-                        <p className='achieve'>Verified Non Profits </p>
+                        <p className='achieve'>Verified Non Profits</p>
                     </div>
                     <div className="impact4">
                         <p className='home-p'>300+</p>
-                        <p className='achieve'>Corporate Partner</p>
+                        <p className='achieve'>Corporate Partners</p>
                     </div>
-                </div> {/* Closing div for .impact */}
-
+                </div>
 
                 <TickerTape />
 
                 <h1 className='heads'>OUR MISSIONS</h1>
+                <div ref={missionsRef}>
+                    <MMM />
+                </div>
 
-                <MMM/>
+                <h1 className='heads' ref={ngosRef}>OUR TRUSTED NGO PARTNERS</h1>
+                <div >
+                    <Bands />
+                </div>
 
-                <h1 className='heads'>OUR TRUSTED NGO PARTNERS</h1>
-
-                <Bands/>
-
-                
-
+                <h1 className='heads'>FAQs</h1>
+                <div >
+                    <FAQs/>
+                </div>
             </div>
-            <Footer/>
+
+            
+
+            {/* Pass the scrollToSection function and refs to the Footer */}
+            <Footer
+                scrollToMissions={() => scrollToSection(missionsRef)}
+                scrollToNgos={() => scrollToSection(ngosRef)}
+                scrollToCauses={() => scrollToSection(causesRef)}
+            />
         </div>
     );
 }
-

@@ -5,10 +5,14 @@ import ForgotPassword from './components/Forgotpassword.js';
 import Register from './components/Registerhere.js';
 import Home from './components/Home.js';
 import Donation_page from './components/Donation_page.js';
-import NGOregistration from './components/NGOregistration.js';
+// import NGOregistration from './components/NGOregistration.js';
 import ContactUs from './components/ContactUs.js';  // Import ContactUs component
-import Aboutus from './components/Aboutus.js';  // Import About component
-import Search from './components/Search.js';
+import About from './components/about.js';  // Import About component
+import Missions from './components/missions.js';
+import NGOregistration from './components/NGOregistration.js';
+import Legal from './components/Legal.js';
+import Privacypolicy from './components/Privacypolicy.js';
+import Termsofuse from './components/Termsofuse.js';
 
 function App() {
   return (
@@ -21,7 +25,12 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/donate" element={<Donation_page />} />
         <Route path="/contact-us" element={<ContactUs />} />  {/* Route for Contact Us */}
-        <Route path="/about" element={<Aboutus />} />  {/* Route for About */}
+        <Route path="/about" element={<About />} />  {/* Route for About */}
+        <Route path="/missions" element={<Missions />}/>
+        <Route path="/NGOregistration" element={<NGOregistration />}/>
+        <Route path="/Legal" element={<Legal />}/>
+        <Route path="/Termsofuse" element={<Termsofuse />}/>
+        <Route path="/Privacypolicy" element={<Privacypolicy />}/>
       </Routes>
     </Router>
   );
