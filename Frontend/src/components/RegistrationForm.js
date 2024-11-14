@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import './RegistrationForm.css';
 
@@ -8,13 +6,18 @@ export default function RegistrationForm() {
         organizationName: '',
         headquartersLocation: '',
         activeSince: '',
-        option: '',
+        contactPersonName: '',
+        contactPersonNumber: '',
+        email: '',
+        password: '',
         description: '',
+        address: '',
         sectors: '',
-        otherSectors: '',
         vision: '',
-        mission: ''
+        mission: '',
     });
+    
+    const [file, setFile] = useState(null); // For storing the uploaded file
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -24,17 +27,45 @@ export default function RegistrationForm() {
         });
     };
 
+    const handleFileChange = (e) => {
+        setFile(e.target.files[0]); // Save the selected file to state
+    };
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Add form submission logic here
+
+        // Create a FormData object to send both the form data and file
+        const formDataToSubmit = new FormData();
+
+        // Append all text input fields
+        for (const key in formData) {
+            formDataToSubmit.append(key, formData[key]);
+        }
+
+        // Append the file if it exists
+        if (file) {
+            formDataToSubmit.append("file", file);
+        }
+
+        // Here you would send `formDataToSubmit` to your server, e.g., using fetch or axios.
         console.log('Form data:', formData);
+        console.log('File:', file);
+        
+        // Example with fetch:
+        // fetch('/your-api-endpoint', {
+        //     method: 'POST',
+        //     body: formDataToSubmit,
+        // })
+        // .then(response => response.json())
+        // .then(data => console.log(data))
+        // .catch(error => console.error(error));
     };
 
     return (
         <div className='registration-form'>
             <div className='section about-one'>
                 <div className='box'></div>
-                <h3 classname='Registration-form-h3'>About</h3>
+                <h3 className='Registration-form-h3'>About</h3>
             </div>
 
             <form className="inputs" onSubmit={handleSubmit}>
@@ -48,8 +79,6 @@ export default function RegistrationForm() {
                     required
                 />
 
-                
-
                 <input
                     type="text"
                     name="activeSince"
@@ -60,7 +89,6 @@ export default function RegistrationForm() {
                     required
                 />
 
-
                 <input
                     type="text"
                     name="contactPersonName"
@@ -70,8 +98,6 @@ export default function RegistrationForm() {
                     onChange={handleChange}
                     required
                 />
-
-
 
                 <input
                     type="tel"
@@ -84,21 +110,23 @@ export default function RegistrationForm() {
                 />
 
                 <input
-                    type="text"
+                    type="email"
                     name="email"
                     placeholder=" Email"
                     className='description'
                     value={formData.email}
                     onChange={handleChange}
+                    required
                 />
 
                 <input
-                    type="text"
+                    type="password"
                     name="password"
                     placeholder=" Enter your Password"
                     className='description'
                     value={formData.password}
                     onChange={handleChange}
+                    required
                 />
 
                 <input
@@ -120,7 +148,6 @@ export default function RegistrationForm() {
                     onChange={handleChange}
                 />
 
-
                 <input
                     type="text"
                     name="address"
@@ -131,9 +158,9 @@ export default function RegistrationForm() {
                 />
                 
                 <div className='section'>
-                <div className='box'></div>
-                <h3 Registration-form-h3> Cause Area</h3>
-            </div>
+                    <div className='box'></div>
+                    <h3 className='Registration-form-h3'>Cause Area</h3>
+                </div>
 
                 <input
                     type="text"
@@ -144,10 +171,9 @@ export default function RegistrationForm() {
                     onChange={handleChange}
                 />
                 
-
                 <div className='section'>
                     <div className='box'></div>
-                    <h3 Registration-form-h3>Vision & Missions</h3>
+                    <h3 className='Registration-form-h3'>Vision & Mission</h3>
                 </div>
 
                 <input
@@ -162,17 +188,41 @@ export default function RegistrationForm() {
                 <input
                     type="text"
                     name="mission"
-                    placeholder=" Missions of your Organization"
+                    placeholder=" Mission of your Organization"
                     className='description'
                     value={formData.mission}
                     onChange={handleChange}
                 />
-                
-                <br/>
+
+                {/* File upload input */}
+
+                <div className='section'>
+                    <div className='box'></div>
+                    <h3 className='Registration-form-h3'>Upload 12A file</h3>
+                </div>
+                <input
+                    type="file"
+                    name="file"
+                    accept=".pdf,.jpeg,.jpg"  // Accept only PDF and JPEG files
+                    className='file-input'
+                    onChange={handleFileChange}
+                />
+
+                <div className='section'>
+                    <div className='box'></div>
+                    <h3 className='Registration-form-h3'>Upload 80G file</h3>
+                </div>
+
+                <input
+                    type="file"
+                    name="file"
+                    accept=".pdf,.jpeg,.jpg"  // Accept only PDF and JPEG files
+                    className='file-input'
+                    onChange={handleFileChange}
+                />
                 
                 <button type="submit" id='submit'>Submit</button>
             </form>
         </div>
     );
 }
-
