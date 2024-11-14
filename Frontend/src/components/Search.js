@@ -1,19 +1,14 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Search.css';
-import { FaFacebook, FaTwitter, FaTelegram, FaInstagram } from 'react-icons/fa';
-
+// import { FaFacebook, FaTwitter, FaTelegram, FaInstagram } from 'react-icons/fa';
+import Header_white from "./Header_white.js"
+import Footer from "./Footer.js"
 import logo from "../images/logo_small_new.png";
-<<<<<<< HEAD
 import Map from "./Mapp.js";
 import india from "../images/india.png";
 
 
-=======
-import Map from "./mapp.js";
-import Foot from './Footer.js';
-import White from './Header_white.js';
->>>>>>> b59d2411bed0d52544a9ce8f9701fb1fcc252995
 export default function Search() {
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -33,7 +28,7 @@ export default function Search() {
 
     return (
         <div className="aller">
-            <White/>
+            <Header_white />
             <div className="cont">
                 <div className="logo">
                     <img src={logo} alt="Helping Made Simple Logo" />
@@ -59,7 +54,7 @@ export default function Search() {
             </div>
             <Map/>
             <div className="heads">Organisations by Sectors</div>
-            <Foot   />
+            <Footer   />
         </div>
     );
 }

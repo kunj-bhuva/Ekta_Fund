@@ -1,5 +1,5 @@
 import React from 'react';
-import './registerpage.css';  // Import the CSS for the Header component 
+import './Registerpage.css';  // Import the CSS for the Header component 
 import loginImage from '../images/Mobile-login-Cristina 1.png';
 import RegistrationForm from './RegistrationForm';
 
