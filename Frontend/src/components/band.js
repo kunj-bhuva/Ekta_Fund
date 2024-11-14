@@ -1,5 +1,5 @@
 import React from 'react';
-import images from './Bandphoto'; // Import images array from bandphoto.js
+import images from './bandphoto'; // Import images array from bandphoto.js
 import './Bands.css'; // Import CSS file for styling
 
 function Bands() {
