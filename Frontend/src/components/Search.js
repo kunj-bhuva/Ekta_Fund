@@ -5,10 +5,20 @@ import './Search.css';
 import Header_white from "./Header_white.js"
 import Footer from "./Footer.js"
 import logo from "../images/logo_small_new.png";
+<<<<<<< Updated upstream
 import Map from "./Mapp.js";
 import india from "../images/india.png";
 
 
+=======
+// import Map from "./Mapp.js";
+// import india from "../images/india.png";
+
+
+import Map from "./mapp.js";
+import Foot from './Footer.js';
+import White from './Header_white.js';
+>>>>>>> Stashed changes
 export default function Search() {
     const [searchTerm, setSearchTerm] = useState('');
 
