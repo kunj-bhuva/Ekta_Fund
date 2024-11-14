@@ -9,7 +9,22 @@ const ngoSchema = new mongoose.Schema(
       maxlength: 100,
       minlength: 3,
     },
-    location: { type: String, required: true, index: true }, // Indexing for optimized search
+    location: { type: String, required: true, index: true }, 
+    causeArea: {
+      type: String,
+      required: [true, "Please provide cause area"],
+      maxlength: 100,
+    },
+    vision: {
+      type: String,
+      required: [true, "Please provide NGO vision"],
+      maxlength: 500,
+    },
+    mission: {
+      type: String,
+      required: [true, "Please provide NGO mission"],
+      maxlength: 500,
+    },
     cause: { type: String, required: true, index: true },
     contactPerson: {
       type: String,
