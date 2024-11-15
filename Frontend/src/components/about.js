@@ -18,8 +18,8 @@ const AboutUs = () => {
   return (
     <> 
     <Header_white/>
-    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'center', backgroundColor: '#e0f7f4' }}>
-      <h1 style={{ fontSize: '3rem', color: '#1a535c' }}>About EktaFund</h1>
+      <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'center', backgroundColor: '#e0f7f4', marginTop: '4rem' }}>      
+      <h1 style={{ fontSize: '3rem', color: '#1a535c'}}>About EktaFund</h1>
       <p style={{ fontSize: '1.2rem', color: '#4f5d75', maxWidth: '800px', margin: '0 auto' }}>
         EktaFund is a dedicated platform designed to empower NGOs by helping them connect with donors around the world.
         Our mission is to make donating simple, transparent, and impactful, facilitating meaningful change in various sectors
