@@ -1,51 +1,62 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import './Login.css'; // Reusing the Login.css for styling
-import logo from "../images/logo_big.png"; // Same logo
+import { useNavigate } from 'react-router-dom';  // Make sure to import useNavigate
 
 export default function Register() {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [error, setError] = useState('');
+  const [contactNumber, setContactNumber] = useState('');
   const [message, setMessage] = useState('');
-  const navigate = useNavigate();
+  const [error, setError] = useState('');
+  const navigate = useNavigate();  // Initialize useNavigate
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    if (!email || !password || !confirmPassword) {
-      setError('Please fill in all fields.');
+  
+    // Form validation
+    if (!name || !email || !password || !contactNumber) {
+      setError('All fields are required!');
       return;
     }
-
-    if (password !== confirmPassword) {
-      setError('Passwords do not match.');
-      return;
-    }
-
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    if (!emailPattern.test(email)) {
-      setError('Please enter a valid email address.');
-      return;
-    }
-
-    if (password.length < 6) {
-      setError('Password must be at least 6 characters long.');
-      return;
-    }
-
+  
+    setError(''); // Clear previous errors
+  
+    // Create an object with the form data
+    const formData = {
+      name,
+      email,
+      password,
+      contactNumber,
+    };
+  
+    // Save to localStorage (for demonstration purposes)
+    localStorage.setItem('userData', JSON.stringify(formData));
+    console.log('User data saved to localStorage:', formData);
+  
     try {
-      // Simulate API call for registration
-      const response = await axios.post('https://your-api-url.com/api/register', { email, password });
-
-      setMessage('Registration successful. Please log in.');
-      setError('');
-      setTimeout(() => navigate('/login'), 2000); // Redirect to login after registration
+      // Make API request to register the user
+      const response = await axios.post('http://localhost:5000/api/donors/register', formData);
+      // console.log(response);
+  
+      // On success, show message and redirect to login
+      setMessage('Registration successful! Please log in.');
+      setError(''); // Clear any previous errors
+  
+      // Clear the form fields
+      setName('');
+      setEmail('');
+      setPassword('');
+      setContactNumber('');
+      // Redirect to login after a short delay
+      setTimeout(() => {
+        navigate('/login');  // Redirect to login page
+      }, 1000);  // Set the timeout to 1000ms (1 second)
+      
     } catch (err) {
-      setError('An error occurred during registration.');
-      console.error(err);
+      // Handle errors from the API call
+      setError(err.response?.data?.message || 'An error occurred during registration.');
+      console.error('API error:', err);
     }
   };
 
@@ -68,22 +79,33 @@ export default function Register() {
                   <div className="card-body p-4 p-lg-5 text-black">
                     <form onSubmit={handleSubmit}>
                       <div className="d-flex align-items-center mb-3 pb-1">
-                        <i
-                          className="fas fa-cubes fa-2x me-3"
-                          style={{ color: '#ff6219' }}
-                        ></i>
-                        <span className="h1 fw-bold mb-0">
-                          <img src={logo} alt="Logo" />
-                        </span>
+                        <span className="h1 fw-bold mb-0">Register</span>
                       </div>
 
                       <h5 className="fw-normal mb-3 pb-3" style={{ letterSpacing: '1px' }}>
                         Register a New Account
                       </h5>
 
+                      {/* Error and Success Messages */}
                       {error && <div className="alert alert-danger">{error}</div>}
                       {message && <div className="alert alert-success">{message}</div>}
 
+                      {/* Name Field */}
+                      <div className="form-outline mb-4">
+                        <input
+                          type="text"
+                          id="formName"
+                          className="form-control form-control-lg"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          required
+                        />
+                        <label className="form-label" htmlFor="formName">
+                          Name
+                        </label>
+                      </div>
+
+                      {/* Email Field */}
                       <div className="form-outline mb-4">
                         <input
                           type="email"
@@ -98,6 +120,7 @@ export default function Register() {
                         </label>
                       </div>
 
+                      {/* Password Field */}
                       <div className="form-outline mb-4">
                         <input
                           type="password"
@@ -112,29 +135,32 @@ export default function Register() {
                         </label>
                       </div>
 
+                      {/* Contact Number Field */}
                       <div className="form-outline mb-4">
                         <input
-                          type="password"
-                          id="form2Example28"
+                          type="text"
+                          id="formcontactNumber"
                           className="form-control form-control-lg"
-                          value={confirmPassword}
-                          onChange={(e) => setConfirmPassword(e.target.value)}
+                          value={contactNumber}
+                          onChange={(e) => setContactNumber(e.target.value)}
                           required
                         />
-                        <label className="form-label" htmlFor="form2Example28">
-                          Confirm Password
+                        <label className="form-label" htmlFor="formcontactNumber">
+                          Contact Number
                         </label>
                       </div>
 
+                      {/* Submit Button */}
                       <div className="pt-1 mb-4">
                         <button type="submit" className="btn btn-dark btn-lg btn-block">
                           Register
                         </button>
                       </div>
 
+                      {/* Link to login page */}
                       <p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>
                         Already have an account?{' '}
-                        <a href="#!" style={{ color: '#393f81' }} onClick={() => navigate('/login')}>
+                        <a href="#!" style={{ color: '#393f81' }}>
                           Login here
                         </a>
                       </p>

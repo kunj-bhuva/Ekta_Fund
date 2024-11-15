@@ -1,25 +1,24 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import logo from "../images/logo_big.png";
+import logo from "../images/white.png";
 import './Login.css';
-
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 
-// Create an Axios Mock Adapter instance
-const mock = new MockAdapter(axios);
+const LOGIN_API_URL = 'http://localhost:5000/api/donors/login';
 
-// Mock the POST request to your API endpoint for testing
-mock.onPost('https://your-api-url.com/api/login').reply((config) => {
-  const { email, password } = JSON.parse(config.data);
-
-  // Simulate successful login with test credentials
-  if (email === 'test@example.com' && password === 'password123') {
-    return [200, { token: 'mocked_jwt_token' }];
-  }
-  // Simulate login failure
-  return [401, { message: 'Invalid email or password' }];
-});
+// Create an Axios Mock Adapter instance (for testing only)
+// const mock = new MockAdapter(axios);
+// if (process.env.NODE_ENV === 'development') {
+//   // Mock login response for testing in development
+//   mock.onPost(LOGIN_API_URL).reply((config) => {
+//     const { email, password } = JSON.parse(config.data);
+//     if (email === 'test@example.com' && password === 'password123') {
+//       return [200, { token: 'mocked_jwt_token' }];
+//     }
+//     return [401, { message: 'Invalid email or password' }];
+//   });
+// }
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -27,50 +26,39 @@ export default function Login() {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // Basic validation
+
+    // Basic validation checks
     if (!email || !password) {
       setError('Please enter both email and password.');
       return;
     }
 
-    // Simple email format validation (using regex)
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailPattern.test(email)) {
       setError('Please enter a valid email address.');
       return;
     }
 
-    // Simple password length validation
     if (password.length < 6) {
       setError('Password must be at least 6 characters long.');
       return;
     }
 
-    // Reset any previous error
     setError('');
 
     try {
-      // API Request to validate user credentials
-      const response = await axios.post('https://your-api-url.com/api/login', {
-        email: email,
-        password: password
-      });
+      // Make the login request
+      const response = await axios.post(LOGIN_API_URL, { email, password });
 
-      // Assuming API returns a JWT token
+      // If successful, store token and redirect
       const { token } = response.data;
-
-      // Store the token in localStorage
       localStorage.setItem('authToken', token);
-
-      // Navigate to the home page
       navigate('/home');
     } catch (error) {
-      // Handle error (invalid credentials or API failure)
-      setError('Invalid email or password.');
+      const errorMsg = error.response?.data?.message || 'Invalid email or password.';
+      setError(errorMsg);
       console.error('Login error:', error);
     }
   };
@@ -94,10 +82,7 @@ export default function Login() {
                   <div className="card-body p-4 p-lg-5 text-black">
                     <form onSubmit={handleSubmit}>
                       <div className="d-flex align-items-center mb-3 pb-1">
-                        <i
-                          className="fas fa-cubes fa-2x me-3"
-                          style={{ color: '#ff6219' }}
-                        ></i>
+                        <i className="fas fa-cubes fa-2x me-3" style={{ color: '#ff6219' }}></i>
                         <span className="h1 fw-bold mb-0">
                           <img src={logo} alt="Logo" />
                         </span>
@@ -107,7 +92,6 @@ export default function Login() {
                         Sign into your account
                       </h5>
 
-                      {/* Show error message */}
                       {error && <div className="alert alert-danger">{error}</div>}
 
                       <div className="form-outline mb-4">
