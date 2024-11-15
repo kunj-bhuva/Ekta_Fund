@@ -2,48 +2,48 @@ const NGO = require("../models/NGO");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
-// Register a new NGO
+
+
+// Register a new NGO with file upload for updated12A and updated80G
 exports.registerNGO = async (req, res) => {
   try {
-    const {
-      name,
-      location,
-      cause,
-      contactPerson,
-      mobileNumber,
-      email,
-      address,
-      password,
-      updated12A,
-      updated80G,
-    } = req.body;
+    const { name, location, cause, causeArea, contactPerson, mobileNumber, email, address, password , vision , mission} = req.body;
+
+    // Ensure both files are uploaded
+    if (!req.files || !req.files.updated12A || !req.files.updated80G) {
+      return res.status(400).json({ message: "Both updated12A and updated80G files are required" });
+    }
 
     // Check if NGO already exists
-    let ngo = await NGO.findOne({ email });
-    if (ngo) return res.status(400).json({ message: "NGO already registered" });
+    const existingNGO = await NGO.findOne({ email });
+    if (existingNGO) {
+      return res.status(400).json({ message: "NGO already registered" });
+    }
 
-    // Hash password before saving
+    // Hash password
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // Create and save new NGO
-    ngo = new NGO({
+    // Save the new NGO
+    const ngo = new NGO({
       name,
       location,
+      vision,
+      mission,
       cause,
+      causeArea,
       contactPerson,
       mobileNumber,
       email,
       address,
-      password: hashedPassword, 
-      updated12A,
-      updated80G,
+      password: hashedPassword,
+      updated12A: req.files.updated12A[0].path,
+      updated80G: req.files.updated80G[0].path,
     });
 
     await ngo.save();
-
-    res.status(201).json({ message: "NGO registered successfully" });
+    res.status(201).json({ message: "NGO registered successfully", ngo });
   } catch (error) {
-    res.status(500).json({ error: "Server error" });
+    res.status(500).json({ error: "Server error", details: error.message });
   }
 };
 
