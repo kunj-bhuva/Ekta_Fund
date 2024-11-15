@@ -7,12 +7,12 @@ const jwt = require("jsonwebtoken");
 // Register a new NGO with file upload for updated12A and updated80G
 exports.registerNGO = async (req, res) => {
   try {
-    const { name, location, cause, causeArea, contactPerson, mobileNumber, email, address, password , vision , mission} = req.body;
+    const { name, location, causeArea, contactPerson, mobileNumber, email, address, password , vision , mission} = req.body;
 
     // Ensure both files are uploaded
-    if (!req.files || !req.files.updated12A || !req.files.updated80G) {
-      return res.status(400).json({ message: "Both updated12A and updated80G files are required" });
-    }
+    // if (!req.files || !req.files.updated12A || !req.files.updated80G) {
+    //   return res.status(400).json({ message: "Both updated12A and updated80G files are required" });
+    // }
 
     // Check if NGO already exists
     const existingNGO = await NGO.findOne({ email });
@@ -29,15 +29,12 @@ exports.registerNGO = async (req, res) => {
       location,
       vision,
       mission,
-      cause,
       causeArea,
       contactPerson,
       mobileNumber,
       email,
       address,
       password: hashedPassword,
-      updated12A: req.files.updated12A[0].path,
-      updated80G: req.files.updated80G[0].path,
     });
 
     await ngo.save();

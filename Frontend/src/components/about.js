@@ -2,16 +2,16 @@ import React from 'react';
 import Header_white from './Header_white';
 
 const teamMembers = [
-  { name: 'Aman Sharma', role: 'Project Lead', rollNo: 'CS01' },
-  { name: 'Neha Gupta', role: 'Frontend Developer', rollNo: 'CS02' },
-  { name: 'Rohit Kumar', role: 'Backend Developer', rollNo: 'CS03' },
-  { name: 'Simran Singh', role: 'UI/UX Designer', rollNo: 'CS04' },
-  { name: 'Anjali Mehta', role: 'Database Engineer', rollNo: 'CS05' },
-  { name: 'Varun Verma', role: 'DevOps Engineer', rollNo: 'CS06' },
-  { name: 'Priya Nair', role: 'Marketing Specialist', rollNo: 'CS07' },
-  { name: 'Kabir Das', role: 'Content Writer', rollNo: 'CS08' },
-  { name: 'Rhea Kapoor', role: 'Quality Assurance', rollNo: 'CS09' },
-  { name: 'Aditya Roy', role: 'Business Analyst', rollNo: 'CS10' },
+  { name: 'Kunj Bhuva', role: 'Project Lead', rollNo: '202201275' },
+  { name: 'Sakshi Shah', role: 'Frontend Developer', rollNo: '202201281' },
+  { name: 'Ram Kulkarni', role: 'Backend Developer', rollNo: '202201354' },
+  { name: 'Jal Dani', role: 'Backend Developer', rollNo: '202201315' },
+  { name: 'Devamm Patel', role: 'Backend Developer', rollNo: '202201292' },
+  { name: 'Ansh Pandya', role: 'Backend Developer', rollNo: '202201303' },
+  { name: 'Rishabh Jain', role: 'UI/UX', rollNo: '202201271' },
+  { name: 'Tanay Kewalramani', role: 'Documentation', rollNo: '202201362' },
+  { name: 'Aplesh Yadav', role: 'Documentation', rollNo: '202201264' },
+  { name: 'Harsh Mangukiya', role: 'Documentation', rollNo: '202201363' },
 ];
 
 const AboutUs = () => {

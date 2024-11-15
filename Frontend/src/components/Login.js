@@ -5,7 +5,7 @@ import './Login.css';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 
-const LOGIN_API_URL = 'http://localhost:5000/api/donors/login';
+const LOGIN_API_URL = 'http://localhost:5000/api/ngos/login';
 
 // Create an Axios Mock Adapter instance (for testing only)
 // const mock = new MockAdapter(axios);

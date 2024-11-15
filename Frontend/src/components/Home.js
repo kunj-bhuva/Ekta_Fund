@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import IndividualIntervalsExample from './Slider.js';
+import IndividualIntervalsExample from './slider.js';
 import TickerTape from './tickertape.js';
 import Footer from './Footer.js';
 import Header_white from './Header_white.js';

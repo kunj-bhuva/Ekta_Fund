@@ -25,7 +25,6 @@ const ngoSchema = new mongoose.Schema(
       required: [true, "Please provide NGO mission"],
       maxlength: 500,
     },
-    cause: { type: String, required: true, index: true },
     contactPerson: {
       type: String,
       required: [true, "Please provide contact person's name"],

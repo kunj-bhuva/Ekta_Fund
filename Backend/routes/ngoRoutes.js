@@ -5,10 +5,7 @@ const { updateNGOProfile } = require("../controllers/ngoController");
 const { viewPendingRequests } = require("../controllers/ngoController");
 const upload = require("../fileUpload");
 
-router.post('/register', upload.fields([
-    { name: 'updated12A', maxCount: 1 },
-    { name: 'updated80G', maxCount: 1 },
-]), registerNGO);
+router.post('/register', registerNGO);
 
 
 // Login route
