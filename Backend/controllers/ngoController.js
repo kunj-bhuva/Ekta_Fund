@@ -21,7 +21,7 @@ exports.registerNGO = async (req, res) => {
     }
 
     // Hash password
-    const hashedPassword = await bcrypt.hash(password, 10);
+    // const hashedPassword = await bcrypt.hash(password, 10);
 
     // Save the new NGO
     const ngo = new NGO({
@@ -34,7 +34,7 @@ exports.registerNGO = async (req, res) => {
       mobileNumber,
       email,
       address,
-      password: hashedPassword,
+      password,
     });
 
     await ngo.save();
@@ -48,24 +48,44 @@ exports.registerNGO = async (req, res) => {
 exports.loginNGO = async (req, res) => {
   try {
     const { email, password } = req.body;
-    const ngo = await NGO.findOne({ email });
-    if (!ngo)
-      return res.status(400).json({ message: "Invalid email or password" });
 
-    // Check password
+    // Validate input
+    if (!email || !password) {
+      return res.status(400).json({ message: "Email and password are required" });
+    }
+
+    // Check if NGO exists
+    const ngo = await NGO.findOne({ email });
+    if (!ngo) {
+      return res.status(400).json({ message: "Invalid email " });
+    }
+
+    // Optional: Check if account is verified
+    // if (ngo.verificationStatus !== 'verified') {
+    //   return res.status(403).json({ message: "Account is not verified yet" });
+    // }
+
+    // Verify password
     const isMatch = await bcrypt.compare(password, ngo.password);
-    if (!isMatch)
-      return res.status(400).json({ message: "Invalid email or password" });
+    if (!isMatch) {
+      return res.status(400).json({ message: "Invalid  password" });
+    }
 
     // Generate JWT
+    if (!process.env.JWT_SECRET) {
+      throw new Error("JWT_SECRET is not configured in environment variables.");
+    }
+
     const token = jwt.sign(
       { id: ngo._id, role: ngo.role },
       process.env.JWT_SECRET,
       { expiresIn: "1h" }
     );
-    res.json({ token });
+
+    res.status(200).json({ token }); // Send token on successful login
   } catch (error) {
-    res.status(500).json({ error: "Server error" });
+    console.error("Login Error:", error.message);
+    res.status(500).json({ error: "Server error", details: error.message });
   }
 };
 
