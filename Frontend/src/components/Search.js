@@ -54,10 +54,6 @@ export default function Search() {
             </div>
             <Mapp/>
             
-<<<<<<< Updated upstream
-            <Footer   />
-=======
->>>>>>> Stashed changes
         </div>
     );
 }
