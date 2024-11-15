@@ -44,21 +44,24 @@
 
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Admin from './components/admin.js'
 import Dashboard from './components/dash.js';
+import OrganisationApprovals from './components/OrganizationApprovals.js';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/overview" element={<div>Overview Page</div>} />
-        <Route path="/donors" element={<div>Donors Page</div>} />
-        <Route path="/gift-matching" element={<div>Gift Matching Page</div>} />
-        <Route path="/report" element={<div>Report Page</div>} />
-        <Route path="/settings" element={<div>Settings Page</div>} />
-        <Route path="/logout" element={<div>Logout Page</div>} />
-      </Routes>
-    </BrowserRouter>
+      <OrganisationApprovals/>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Dashboard />} />
+    //     <Route path="/overview" element={<div>Overview Page</div>} />
+    //     <Route path="/donors" element={<div>Donors Page</div>} />
+    //     <Route path="/gift-matching" element={<div>Gift Matching Page</div>} />
+    //     <Route path="/report" element={<div>Report Page</div>} />
+    //     <Route path="/settings" element={<div>Settings Page</div>} />
+    //     <Route path="/logout" element={<div>Logout Page</div>} />
+    //   </Routes>
+    // </BrowserRouter>
   );
 }
 

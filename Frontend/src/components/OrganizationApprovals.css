@@ -1,0 +1,82 @@
+.organisation-approvals {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.view-more {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    font-size: 14px;
+    color: #888888;
+    font-weight: normal;
+}
+
+td {
+    font-size: 14px;
+}
+
+.status-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between icons */
+}
+
+/* Styling for both check and cross icons */
+.status-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.5; /* Apply opacity */
+    border-radius: 50%;
+    padding: 3px;
+}
+
+/* Green check icon for approval */
+.status-icon.approved {
+    background-color: #4CAF50; /* Green for approved */
+}
+
+/* Red cross icon for rejection */
+.status-icon.not-approved {
+    background-color: #FF5252; /* Red for not approved */
+}
+
+tr:not(:last-child) td {
+    border-bottom: 1px solid #eeeeee;
+}
