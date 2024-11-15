@@ -1,0 +1,78 @@
+/* Overall container with sidebar and main content */
+.admin-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar styling (Dash component) */
+.dash {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content area */
+.admin-main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between sections */
+}
+
+/* Overview styling (full-width section at the top) */
+.overview {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Layout for OrganisationApprovals and Donations components */
+.organisation-donations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Styling for OrganisationApprovals and Donations */
+.organisation-approvals,
+.donations {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Layout for cards inside Overview component */
+.overview-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .admin-container {
+        flex-direction: column;
+    }
+
+    .dash {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .overview-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Stack OrganisationApprovals and Donations vertically on small screens */
+    .organisation-donations {
+        grid-template-columns: 1fr;
+    }
+}

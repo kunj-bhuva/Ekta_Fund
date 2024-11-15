@@ -47,10 +47,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Admin from './components/admin.js'
 import Dashboard from './components/dash.js';
 import OrganisationApprovals from './components/OrganizationApprovals.js';
+import Donations from './components/admindonations.js';
+import Overview from './components/adminoverview.js';
 
 function App() {
   return (
-      <OrganisationApprovals/>
+      <Admin/>
     // <BrowserRouter>
     //   <Routes>
     //     <Route path="/" element={<Dashboard />} />
