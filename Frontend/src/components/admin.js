@@ -1,9 +1,19 @@
 import React from 'react';
-import Dash from './dash.js';
+import Dashboard from './dash.js';
+import Overview from './adminoverview';
+import OrganisationApprovals from './OrganizationApprovals';
+import Donations from './admindonations';
+import './admin.css';
+
 const Admin = () => {
     return (
-        <div>
-            <Dash/>
+        <div className="admin-container">
+            <Dashboard />
+            <div className="admin-main">
+                <Overview />
+                <OrganisationApprovals />
+                <Donations />
+            </div>
         </div>
     );
 };

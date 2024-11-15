@@ -54,7 +54,6 @@ export default function Search() {
             </div>
             <Mapp/>
             
-            <Footer   />
         </div>
     );
 }

@@ -19,11 +19,18 @@
   "homepage": "https://github.com/kunj-bhuva/okk#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
+<<<<<<< HEAD
+=======
     "bcryptjs": "^2.4.3",
+>>>>>>> 3bfe630cd88940ae301d4baaf6185f899f6ce036
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.1",
+<<<<<<< HEAD
+    "multer": "^1.4.5-lts.1",
+=======
+>>>>>>> 3bfe630cd88940ae301d4baaf6185f899f6ce036
     "nodemailer": "^6.9.16"
   }
 }
