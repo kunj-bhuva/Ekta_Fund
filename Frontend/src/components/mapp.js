@@ -1,5 +1,5 @@
 import React from "react";
-import "./Mapp.css"; // Import custom styles
+import "./mapp.css"; // Import custom styles
 import india from "../images/india.png"; // Import the India map image
 import PlaceBox from "./Place-box"; 
 

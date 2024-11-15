@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import imagePaths from './Missionphoto.js';
+import imagePaths from './missionphoto.js';
 import seem from '../images/seemore.png';
 import seeless from '../images/seeless.png'; // Import the See Less image
 import './Missions.css';

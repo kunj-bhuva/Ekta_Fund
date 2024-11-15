@@ -97,3 +97,7 @@
     color: red;
     font-family: 'Lobster', sans-serif; /* Set to your desired font */
 }
+
+.ngo-map-container{
+  margin-bottom: 5rem;
+}

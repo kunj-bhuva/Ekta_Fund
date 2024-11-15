@@ -26,7 +26,7 @@ const ContactUs = () => {
   return (
     <>
     <Header_white/>
-    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '2rem', maxWidth: '800px', margin: '0 auto' ,marginTop: '4rem'}}>
       <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '1rem' }}>Contact Us</h2>
       <p style={{ textAlign: 'center', fontSize: '1.2rem', color: '#555' }}>
         We’d love to hear from you! Please fill out the form below to reach out.

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header_white from './Header_white';
+import './aboutus.css';
 
 const teamMembers = [
   { name: 'Aman Sharma', role: 'Project Lead', rollNo: 'CS01' },
@@ -14,12 +15,12 @@ const teamMembers = [
   { name: 'Aditya Roy', role: 'Business Analyst', rollNo: 'CS10' },
 ];
 
-const AboutUs = () => {
+const Aboutus = () => {
   return (
     <> 
     <Header_white/>
-      <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'center', backgroundColor: '#e0f7f4', marginTop: '4rem' }}>      
-      <h1 style={{ fontSize: '3rem', color: '#1a535c'}}>About EktaFund</h1>
+    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'center', backgroundColor: '#e0f7f4', marginTop: '5rem' }}>
+      <h1 className='thung' style={{ fontSize: '3rem', color: '#1a535c' }}>About EktaFund</h1>
       <p style={{ fontSize: '1.2rem', color: '#4f5d75', maxWidth: '800px', margin: '0 auto' }}>
         EktaFund is a dedicated platform designed to empower NGOs by helping them connect with donors around the world.
         Our mission is to make donating simple, transparent, and impactful, facilitating meaningful change in various sectors
@@ -53,4 +54,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Aboutus;

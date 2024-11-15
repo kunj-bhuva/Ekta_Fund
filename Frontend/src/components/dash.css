@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    
+  }
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+    border-right: 2px solid #151313;
+  }
+  
+    .sidebar {
+        flex: 1;
+        background-color: #ffffff;
+        color: #ffffff;
+        padding: 1rem;
+    }
+
+    .mi-2{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .nav-pills .nav-link {
+        border-radius:20rem;
+    }
+
+    .d-flex{
+      border-right: 1px solid #4b4b4b;
+    }

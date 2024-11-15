@@ -19,5 +19,5 @@ app.use("/api/admin", adminRoutes);
 
 // Catch-all route to serve the front-end index.html for any other request
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

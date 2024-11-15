@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Header from './Header.js';
+import Header_white from './Header_white.js';
 import Registerpage from './registerpage.js'
 
 function NGOregistration() {
     return (
       <div>
-        <Header/>
+        <Header_white/>
         <Registerpage/>
         
       </div>

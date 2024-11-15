@@ -2,14 +2,14 @@
 
 
 .navbar {
-    background-color: #1BC2A4 !important; /* Green background for the navbar */
+    background-color: #1BC2A4 ; /* Green background for the navbar */
     padding: 1rem; /* Add padding for better spacing */
 }
 
 
 
 .fixed-top {
-    background-color: #1BC2A4 !important;
+    background-color: #1BC2A4;
     height: auto; /* Allow height to adjust based on content */
 }
 

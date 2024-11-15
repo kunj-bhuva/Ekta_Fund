@@ -1,0 +1,105 @@
+/* Main Navbar Styling */
+.navbar {
+    background-color: #ffffff !important;
+    padding: 0.2rem;
+}
+
+.fixed-top {
+    background-color: #ffffff !important;
+    height: auto;
+}
+
+/* Navbar Link Styles */
+.navbar-nav .nav-link {
+    color: black; /* Set non-active color to black */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5a5f; /* Change color on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+/* Active Link Styling */
+.navbar-nav .nav-link.active {
+    color: #ff5a5f;
+}
+
+/* Button Styles */
+.button {
+    background-color: #c94b4b; /* Red background similar to the image */
+    color: white; /* White text */
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem; /* Adjust padding for size */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    /* font-weight: bold; */
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #a63a3a; /* Slightly darker red on hover */
+}
+
+
+/* Collapsed Menu Styles */
+.navbar-collapse:not(.show) {
+    /* background-color: #ffffff; */
+    color: #000000;
+    opacity: 0.8;
+}
+
+.navbar-collapse.show {
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 5px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+/* Extra Button Styles Inside Collapsible Menu */
+.navbar-collapse .button {
+    background-color: #ff5a5f;
+    border: none;
+    padding: 8px 16px;
+    color: #000000;
+    border-radius: 25px;
+}
+
+/* Flexbox Container Styling */
+.flexbox {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    margin-right: 30px;
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 991px) {
+    .navbar {
+        padding: 0.1rem;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+}
+
+
+.write{
+    transform: translateY(rem);
+}
