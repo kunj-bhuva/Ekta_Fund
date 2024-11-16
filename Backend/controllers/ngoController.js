@@ -10,18 +10,15 @@ exports.registerNGO = async (req, res) => {
     const { name, location, causeArea, contactPerson, mobileNumber, email, address, password , vision , mission} = req.body;
 
     // Ensure both files are uploaded
-    // if (!req.files || !req.files.updated12A || !req.files.updated80G) {
-    //   return res.status(400).json({ message: "Both updated12A and updated80G files are required" });
-    // }
+    if (!req.files || !req.files.updated12A || !req.files.updated80G) {
+      return res.status(400).json({ message: "Both updated12A and updated80G files are required" });
+    }
 
     // Check if NGO already exists
     const existingNGO = await NGO.findOne({ email });
     if (existingNGO) {
       return res.status(400).json({ message: "NGO already registered" });
     }
-
-    // Hash password
-    // const hashedPassword = await bcrypt.hash(password, 10);
 
     // Save the new NGO
     const ngo = new NGO({
@@ -35,6 +32,8 @@ exports.registerNGO = async (req, res) => {
       email,
       address,
       password,
+      updated12A: req.files.updated12A[0].path,
+      updated80G: req.files.updated80G[0].path,
     });
 
     await ngo.save();
@@ -60,11 +59,6 @@ exports.loginNGO = async (req, res) => {
       return res.status(400).json({ message: "Invalid email " });
     }
 
-    // Optional: Check if account is verified
-    // if (ngo.verificationStatus !== 'verified') {
-    //   return res.status(403).json({ message: "Account is not verified yet" });
-    // }
-
     // Verify password
     const isMatch = await bcrypt.compare(password, ngo.password);
     if (!isMatch) {
@@ -82,7 +76,7 @@ exports.loginNGO = async (req, res) => {
       { expiresIn: "1h" }
     );
 
-    res.status(200).json({ token }); // Send token on successful login
+    res.status(200).json({ token }); 
   } catch (error) {
     console.error("Login Error:", error.message);
     res.status(500).json({ error: "Server error", details: error.message });
