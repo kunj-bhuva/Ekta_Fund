@@ -1,9 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
-import './slider.css';
+import './Slider.css';
 
 // Assuming you have a file named data.js exporting an array of image paths like:
 // export default ['/images/slidebar/p1.png', '/images/slidebar/p2.png', '/images/slidebar/p3.png'];
-import imagePaths from './sliderphoto.js';
+import imagePaths from './Sliderphoto.js';
 
 function DynamicCarousel() {
   return (

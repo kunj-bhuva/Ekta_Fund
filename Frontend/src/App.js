@@ -24,7 +24,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<Admin />} />
         <Route path="/donate" element={<Donation_page />} />
         <Route path="/contact-us" element={<ContactUs />} />  {/* Route for Contact Us */}
         <Route path="/about" element={<About />} />  {/* Route for About */}

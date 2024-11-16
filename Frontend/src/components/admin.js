@@ -10,6 +10,7 @@ const Admin = () => {
         <div className="admin-container">
             <Dashboard />
             <div className="admin-main">
+                <h1 >Admin Dashboard</h1>
                 <Overview />
                 <OrganisationApprovals />
                 <Donations />

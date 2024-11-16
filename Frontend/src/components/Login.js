@@ -7,13 +7,18 @@
   const DONOR_LOGIN_API_URL = "http://localhost:5000/api/donors/login";
   const NGO_LOGIN_API_URL = "http://localhost:5000/api/ngos/login";
 
-  export default function Login() {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [userType, setUserType] = useState("donor"); // 'donor' by default
-    const [error, setError] = useState("");
-    const [loading, setLoading] = useState(false);
-    const navigate = useNavigate();
+// Create an Axios Mock Adapter instance (for testing only)
+const mock = new MockAdapter(axios);
+if (process.env.NODE_ENV === 'development') {
+  // Mock login response for testing in development
+  mock.onPost(LOGIN_API_URL).reply((config) => {
+    const { email, password } = JSON.parse(config.data);
+    if (email === 'test@example.com' && password === 'password123') {
+      return [200, { token: 'mocked_jwt_token' }];
+    }
+    return [401, { message: 'Invalid email or password' }];
+  });
+}
 
     const handleSubmit = async (e) => {
       e.preventDefault();
