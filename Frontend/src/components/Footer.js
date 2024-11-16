@@ -46,8 +46,10 @@ const Footer = ({ scrollToMissions, scrollToNgos, scrollToCauses }) => {
           <ul>
             <li><a href="#start">Start Fundraiser</a></li>
             <li><Link to="/NGOregistration">Register Your Organization</Link></li>
+            <li><Link to="/NGOupdation">Update Your Organization</Link></li>
           </ul>
         </div>
+        
 
         <div className="footer-section">
           <h3>Contact</h3>

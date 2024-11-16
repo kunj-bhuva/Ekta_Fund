@@ -12,6 +12,7 @@ import NGOregistration from './components/NGOregistration.js';
 import Legal from './components/Legal.js';
 import Privacypolicy from './components/Privacypolicy.js';
 import Termsofuse from './components/termsofuse.js';
+import NGOupdation from './components/NGOupdation.js';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/about" element={<About />} />  {/* Route for About */}
         <Route path="/missions" element={<Missions />}/>
         <Route path="/NGOregistration" element={<NGOregistration />}/>
+        <Route path="/NGOupdation" element={<NGOupdation />}/>
         <Route path="/Legal" element={<Legal />}/>
         <Route path="/Termsofuse" element={<Termsofuse />}/>
         <Route path="/Privacypolicy" element={<Privacypolicy />}/>

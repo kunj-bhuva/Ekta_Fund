@@ -83,21 +83,62 @@ exports.loginNGO = async (req, res) => {
   }
 };
 
-// Update NGO profile
 exports.updateNGOProfile = async (req, res) => {
   try {
-    const { ngoId } = req.params;
-    const updateData = req.body;
+    const { email, password } = req.body; // Extract email and password from the request body
+    const { name, location, causeArea, contactPerson, mobileNumber, address, vision, mission } = req.body;
 
-    const ngo = await NGO.findByIdAndUpdate(ngoId, updateData, { new: true });
-
-    if (!ngo) {
-      return res.status(404).json({ message: "NGO not found" });
+    // Ensure email and password are provided
+    if (!email) {
+      return res.status(400).json({ message: "Email is required to identify the NGO" });
     }
 
-    res.status(200).json({ message: "NGO profile updated", ngo });
+    if (!password) {
+      return res.status(400).json({ message: "Password is required to update the NGO profile" });
+    }
+
+    // Find NGO by email
+    const ngo = await NGO.findOne({ email });
+
+    if (!ngo) {
+      return res.status(404).json({ message: "NGO with the specified email not found" });
+    }
+
+    // Check if the password is correct
+    const isPasswordValid = await bcrypt.compare(password, ngo.password);
+    // if (!isPasswordValid) {
+    //   return res.status(400).json({ message: "Password is incorrect" });
+    // }
+
+    // Initialize update data
+    const updateData = {
+      name,
+      location,
+      causeArea,
+      contactPerson,
+      mobileNumber,
+      address,
+      vision,
+      mission,
+    };
+
+    // Ensure both files are uploaded if provided
+    if (req.files) {
+      if (req.files.updated12A) {
+        updateData.updated12A = req.files.updated12A[0].path;
+      }
+      if (req.files.updated80G) {
+        updateData.updated80G = req.files.updated80G[0].path;
+      }
+    }
+
+    // Update the NGO record
+    const updatedNGO = await NGO.findByIdAndUpdate(ngo._id, updateData, { new: true });
+
+    res.status(200).json({ message: "NGO profile updated successfully", updatedNGO });
   } catch (error) {
-    res.status(500).json({ message: "Error updating NGO profile", error });
+    console.error("Error updating NGO profile:", error.message);
+    res.status(500).json({ message: "Error updating NGO profile", details: error.message });
   }
 };
 
