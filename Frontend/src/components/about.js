@@ -8,7 +8,7 @@ const teamMembers = [
   { name: 'Jal Dani', role: 'Backend Developer', rollNo: '202201315' },
   { name: 'Devamm Patel', role: 'Backend Developer', rollNo: '202201292' },
   { name: 'Ansh Pandya', role: 'Backend Developer', rollNo: '202201303' },
-  { name: 'Rishabh Jain', role: 'UI/UX', rollNo: '202201271' },
+  { name: 'Rishabh Jain', role: 'Prototyping', rollNo: '202201271' },
   { name: 'Tanay Kewalramani', role: 'Documentation', rollNo: '202201362' },
   { name: 'Aplesh Yadav', role: 'Documentation', rollNo: '202201264' },
   { name: 'Harsh Mangukiya', role: 'Documentation', rollNo: '202201363' },

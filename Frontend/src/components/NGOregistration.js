@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header_white from './Header_white.js';
-import Registerpage from './registerpage.js'
+import Registerpage from './Registerpage.js'
 
 function NGOregistration() {
     return (
