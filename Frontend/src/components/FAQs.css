@@ -155,20 +155,20 @@ body {
     border-radius: 18px;
   }
   
-  /* Make the text size larger */
+ 
   .faq_area h2, .faq_area h6, .faq_area p {
-    /* font-size: 1.2em; Increase font size */
+     font-size: 1.2em;  
   }
   
   .faq_area ul {
-    /* font-size: 1.1em; Slightly larger list items */
+     font-size: 1.1em;  
   }
   
-  /* For Accordion Item headers */
+  
   .card-header h6 {
-    /* font-size: 1.2em; Larger text for accordion headers */
+     font-size: 1.2em; 
   }
-  
+   */
   /* Optionally, adjust card body padding */
   .card-body {
     padding: 20px;
