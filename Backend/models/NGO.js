@@ -45,14 +45,7 @@ const ngoSchema = new mongoose.Schema(
       ],
       unique: true,
     },
-    updated12A: {
-      type: Boolean,
-      default: false,
-    },
-    updated80G: {
-      type: Boolean,
-      default: false,
-    },
+    
     address: {
       type: String,
       required: [true, "Please provide address"],

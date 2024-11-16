@@ -13,25 +13,31 @@ export default function RegistrationForm() {
     email: "",
     password: "",
     address: "",
+    updated12A: null, // For file input
+    updated80G: null, // For file input
   });
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, type, files } = e.target;
     setFormData({
       ...formData,
-      [name]: type === "checkbox" ? checked : value,
+      [name]: type === "file" ? files[0] : value, // Handle file inputs
     });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Create FormData object to send text and files together
+    const formDataToSend = new FormData();
+    Object.keys(formData).forEach((key) => {
+      formDataToSend.append(key, formData[key]);
+    });
+
     try {
       const response = await fetch("http://localhost:5000/api/ngos/register", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
+        body: formDataToSend,
       });
 
       const result = await response.json();
@@ -156,7 +162,29 @@ export default function RegistrationForm() {
           maxLength="500"
         ></textarea>
 
-       
+        {/* File input for updated12A */}
+        <label>
+          Upload Updated 12A:
+          <input
+            type="file"
+            name="updated12A"
+            className="input"
+            onChange={handleChange}
+            required
+          />
+        </label>
+
+        {/* File input for updated80G */}
+        <label>
+          Upload Updated 80G:
+          <input
+            type="file"
+            name="updated80G"
+            className="input"
+            onChange={handleChange}
+            required
+          />
+        </label>
 
         <button type="submit" id="submit">
           Submit

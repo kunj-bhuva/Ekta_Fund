@@ -1,98 +1,86 @@
-.RegistrationForm {
+/* RegistrationForm.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light grey background for the page */
+    margin: 0;
     padding: 0;
-    margin: 80px 0 0 0;  /* Add top margin to create space for the header */
-}
-
-.form {
-    /* border: solid 1px black; */
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-.section{
-    display:flex;
-    align-items: center; /* Vertically center items */
+  }
+  
+  .registration-form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px 30px;
+  }
+  
+  .registration-form-h3 {
     text-align: center;
-}
-
-.about-one{
-    transform: translateX(10rem);
-}
-
-.box{
-    width: 25px;
-    height: 25px;
-    background-color: #1BC2A4;
-    margin-right: 10px;
-    border-radius: 25%;
-}
-
-
-
-.inputs input, .inputs select {
-    max-width: 550px; /* Set a maximum width for larger screens */
-    padding: 10px; /* Add some padding inside the input for better readability */
-    margin: 10px; /* Add spacing between the inputs */
-    margin-left: 0px;
-    padding-left: 0px;
-   
-}
-
-.inputs select{
-    display: inline;
-}
-
-.inputs {
-    width: 550px;
-    margin: 0 auto;
-}
-
-.inline-fields {
-    display: flex; /* Use flexbox to align elements in a row */
-    gap: 10px; /* Add space between the input and dropdown */
-}
-
-.inline-fields input, .inline-fields select {
-    flex: 1; /* Ensure both elements grow equally */
-}
-
-
-.input{
-    width: 220px;
-    padding: 20px;
-    margin: 20px;
-    border-color: black;
-    border-width: 2px;
+    color: #2c3e50; /* Dark Blue text */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between input fields */
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #bdc3c7; /* Light grey border */
     border-radius: 5px;
-}
-
-#options{
-    width: 230px;
-}
-
-.description{
-    display:block;
-    width: 460px;
-    height: 2rem;
-    padding-left: 15px;
-    border-color: black;
-    border-width: 2px;
+    font-size: 14px;
+    background-color: #ecf0f1; /* Light grey input background */
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #3498db; /* Light blue border on focus */
+    background-color: #ffffff; /* White background on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3); /* Light blue glow on focus */
+  }
+  
+  textarea.input {
+    resize: none; /* Disable resizing */
+    height: 80px; /* Set height for text areas */
+  }
+  
+  label {
+    font-size: 14px;
+    color: #34495e; /* Darker text for labels */
+    margin-bottom: 5px;
+  }
+  
+  button#submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71; /* Green button for submission */
+    color: #ffffff; /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
     border-radius: 5px;
-}
-
-#submit{
-    background-color: #1BC2A4;
-    height: 2rem;
-    width: auto;
-    margin-top: 10px;
-    margin-left: 230px;
-    border-radius: 5px;
-}
-
-
-Registration-form-h3{
-    text-align: left;
-}
-
-
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#submit:hover {
+    background-color: #27ae60; /* Darker green on hover */
+  }
+  
+  .box {
+    width: 50px;
+    height: 5px;
+    background-color: #3498db; /* Blue highlight bar */
+    margin: 0 auto 20px auto;
+  }
+  
+  .section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
