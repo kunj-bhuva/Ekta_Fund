@@ -13,18 +13,18 @@ import Legal from './components/Legal.js';
 import Privacypolicy from './components/Privacypolicy.js';
 import Termsofuse from './components/termsofuse.js';
 import NGOupdation from './components/NGOupdation.js';
-import Ngosearch from './components/ngosearch.js';
+import NGOPage from './components/ngopage.js';
 
 function App() {
   return (
    
     <Router>
       <Routes>
-        <Route path="/" element={<Ngosearch />} />
+        <Route path="/" element={<NGOPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/home" element={<Admin />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/donate" element={<Donation_page />} />
         <Route path="/contact-us" element={<ContactUs />} />  {/* Route for Contact Us */}
         <Route path="/about" element={<About />} />  {/* Route for About */}
