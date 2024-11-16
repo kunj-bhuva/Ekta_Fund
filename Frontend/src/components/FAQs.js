@@ -1,335 +1,96 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const FAQs = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+const faqData = [
+  {
+    question: 'What does EktaFund do?',
+    answer: 'EktaFund is a platform designed to help NGOs collect donations and support their missions. We connect donors with organizations working towards various social causes, ensuring a seamless and secure way to contribute to meaningful projects.',
+  },
+  {
+    question: 'What is the minimum amount to donate?',
+    answer: 'The minimum donation amount varies depending on the specific NGO and their needs. Each organization sets its own minimum donation, which can be found on their donation page on the EktaFund platform.',
+  },
+  {
+    question: 'What are the causes that I can support?',
+    answer: 'EktaFund supports a wide range of causes, including education, healthcare, environment, poverty alleviation, animal welfare, and more. Donors can explore different NGOs and their respective projects to choose the causes they are most passionate about.',
+  },
+  {
+    question: 'How do I know if my donation has reached the beneficiary?',
+    answer: 'EktaFund ensures transparency by providing regular updates on how donations are being utilized. Donors can track the progress of the funded projects, and many NGOs provide direct feedback or thank-you messages to donors, making sure that your contribution is reaching those in need.',
+  },
+  {
+    question: 'Is it safe to donate online?',
+    answer: 'Yes, donating online is completely safe. At EktaFund, we prioritize your privacy and security. We use industry-standard encryption technology to protect your personal and financial information.',
+  },
+];
 
-  const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
+const FAQAccordion = () => {
   return (
-    <>
-      {/* Add Outfit font dynamically in the head */}
-      <style>
-        {`
-          @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-        `}
-      </style>
-
-      <div
-        className="faq_area section_padding_130"
-        id="faq"
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        // justifyContent: 'center',
+        // minHeight: '100vh',
+        // backgroundColor: '#e6f7f1', // Light mint background
+        padding: '20px',
+            }}
+          >
+            <h2 style={{ color: '#2d6a4f', marginBottom: '20px' }}>
+        For more details, contact us at: <a href="mailto:info@ektafund.org" style={{ color: '#2d6a4f' }}>info@ektafund.org</a>
+            </h2>
+            <div
+        className="accordion accordion-flush"
+        id="accordionFlushExample"
         style={{
-          paddingBottom: '50px',
-          opacity: 0.7,
-          fontFamily: 'Outfit, sans-serif',
-          color: 'black',
-          display: 'flex',
-          justifyContent: 'center', // Center the content horizontally
+          width: '70%',
+          backgroundColor: '#ffffff', // White background for accordion
+          borderRadius: '8px',
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Subtle shadow for better design
         }}
       >
-        <div className="container" >
-          <div className="row justify-content-center">
-            <div className="col col-sm-8 col-lg-10">
-              <div className="section_heading text-center wow fadeInUp" data-wow-delay="0.2s">
-                <h6 style={{ fontSize: '1.2rem' }}>For more queries please reach out to us</h6>
-                <h6 style={{ fontSize: '1.2rem' }}>
-                  at: <a href="mailto:support@ektafund.com" style={{ color: 'black' }}>support@ektafund.com</a>
-                </h6>
-                <div className="line"></div>
+        {faqData.map((faq, index) => (
+          <div className="accordion-item" key={index}>
+            <h2 className="accordion-header" id={`flush-heading${index}`}>
+              <button
+                className="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target={`#flush-collapse${index}`}
+                aria-expanded="false"
+                aria-controls={`flush-collapse${index}`}
+                style={{
+                  backgroundColor: '#e6f7f7', // Light mint color for the header
+                  color: '#2d6a4f', // Dark green text color
+                  borderRadius: '8px',
+                  fontSize: '1rem',
+                }}
+              >
+                {faq.question}
+              </button>
+            </h2>
+            <div
+              id={`flush-collapse${index}`}
+              className="accordion-collapse collapse"
+              aria-labelledby={`flush-heading${index}`}
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div
+                className="accordion-body"
+                style={{
+                  backgroundColor: '#ffffff', // White background for content
+                  color: '#2d6a4f', // Dark green text color for content
+                  fontSize: '0.95rem',
+                }}
+              >
+                {faq.answer}
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
-            {/* FAQ Area */}
-            <div className="col-12 col-sm-10 col-lg-10">
-              <div className="accordion faq-accordion" style={{ backgroundColor: '#73e0cc' }}>
-                {/* Accordion Item 1 */}
-                <div className="card border-0 wow fadeInUp" data-wow-delay="0.2s">
-                  <div
-                    className="card-header"
-                    id="headingOne"
-                    onClick={() => toggleAccordion(0)}
-                    style={{
-                      backgroundColor: '#73e0cc',
-                      padding: '20px 0',
-                      paddingLeft: '30px',
-                      paddingRight: '30px',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      width: '100%', // Ensure it spans full width inside container
-                      transition: 'width 1s ease', // Smooth transition on width change
-                    }}
-                  >
-                    <h6 className="mb-0" style={{ fontSize: '24px', fontWeight: 'bold' }}>
-                      What does EktaFund do?
-                    </h6>
-                    <span
-                      className={`chevron-icon ${activeIndex === 0 ? 'open' : 'closed'}`}
-                      style={{ fontSize: '18px', paddingRight: '10px' }}
-                    >
-                      &#9660;
-                    </span>
-                  </div>
-                  {activeIndex === 0 && (
-                    <div
-                      className="card-body"
-                      style={{
-                        fontSize: '24px',
-                        backgroundColor: '#73e0cc',
-                        overflow: 'hidden',
-                        maxHeight: '500px',
-                        transition: 'max-height 0.3s ease-out',
-                      }}
-                    >
-                      <p>EktaFund is a platform designed to help NGOs collect donations. It provides a website for NGOs to manage their fundraising efforts and connect with potential donors.</p>
-                      <p>EktaFund helps NGOs reach a wider audience and facilitates easy online donations to support various causes and initiatives. It’s a reliable and secure platform for donors to contribute to meaningful projects.</p>
-                    </div>
-                  )}
-                </div>
-
-                {/* Accordion Item 2 */}
-                <div className="card border-0 wow fadeInUp" data-wow-delay="0.3s">
-                  <div
-                    className="card-header"
-                    id="headingTwo"
-                    onClick={() => toggleAccordion(1)}
-                    style={{
-                      backgroundColor: '#73e0cc',
-                      padding: '20px 0',
-                      paddingLeft: '30px',
-                      paddingRight: '30px',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      width: '100%', // Ensure it spans full width inside container
-                      transition: 'width 0.3s ease',
-                    }}
-                  >
-                    <h6 className="mb-0" style={{ fontSize: '24px', fontWeight: 'bold' }}>
-                      What is the minimum amount to donate?
-                    </h6>
-                    <span
-                      className={`chevron-icon ${activeIndex === 1 ? 'open' : 'closed'}`}
-                      style={{ fontSize: '18px', paddingRight: '10px' }}
-                    >
-                      &#9660;
-                    </span>
-                  </div>
-                  {activeIndex === 1 && (
-                    <div
-                      className="card-body"
-                      style={{
-                        fontSize: '24px',
-                        backgroundColor: '#73e0cc',
-                        overflow: 'hidden',
-                        maxHeight: '500px',
-                        transition: 'max-height 0.3s ease-out',
-                      }}
-                    >
-                      <p>The minimum amount to donate on EktaFund depends on the specific NGO or cause you are supporting. Typically, donations can start as low as $5, but it may vary by campaign or organization.</p>
-                      <p>To know the exact minimum donation amount, please check the details of the specific NGO or cause you want to support on their fundraising page.</p>
-                    </div>
-                  )}
-                </div>
-
-                {/* Accordion Item 3 */}
-                <div className="card border-0 wow fadeInUp" data-wow-delay="0.4s">
-                  <div
-                    className="card-header"
-                    id="headingThree"
-                    onClick={() => toggleAccordion(2)}
-                    style={{
-                      backgroundColor: '#73e0cc',
-                      padding: '20px 0',
-                      paddingLeft: '30px',
-                      paddingRight: '30px',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      width: '100%', // Ensure it spans full width inside container
-                      transition: 'width 0.3s ease',
-                    }}
-                  >
-                    <h6 className="mb-0" style={{ fontSize: '24px', fontWeight: 'bold' }}>
-                      What are the causes that I can support?
-                    </h6>
-                    <span
-                      className={`chevron-icon ${activeIndex === 2 ? 'open' : 'closed'}`}
-                      style={{ fontSize: '18px', paddingRight: '10px' }}
-                    >
-                      &#9660;
-                    </span>
-                  </div>
-                  {activeIndex === 2 && (
-                    <div
-                      className="card-body"
-                      style={{
-                        fontSize: '24px',
-                        backgroundColor: '#73e0cc',
-                        overflow: 'hidden',
-                        maxHeight: '500px',
-                        transition: 'max-height 0.3s ease-out',
-                      }}
-                    >
-                      <p>On EktaFund, you can support a wide range of causes, including but not limited to:</p>
-                      <ul>
-                        <li>Education for underprivileged children</li>
-                        <li>Healthcare and medical treatments for those in need</li>
-                        <li>Environmental conservation and sustainability efforts</li>
-                        <li>Empowering women and girls in disadvantaged communities</li>
-                        <li>Animal welfare and protection</li>
-                        <li>Humanitarian aid in times of crisis or disaster</li>
-                      </ul>
-                      <p>Each cause has its own campaign page where you can learn more about the specific needs and how your donation can make a difference.</p>
-                    </div>
-                  )}
-                </div>
-
-                {/* Accordion Item 4 */}
-                <div className="card border-0 wow fadeInUp" data-wow-delay="0.5s">
-                  <div
-                    className="card-header"
-                    id="headingFour"
-                    onClick={() => toggleAccordion(3)}
-                    style={{
-                      backgroundColor: '#73e0cc',
-                      padding: '20px 0',
-                      paddingLeft: '30px',
-                      paddingRight: '30px',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      width: '100%', // Ensure it spans full width inside container
-                      transition: 'width 0.3s ease',
-                    }}
-                  >
-                    <h6 className="mb-0" style={{ fontSize: '24px', fontWeight: 'bold' }}>
-                      How do I know if my donation has reached the beneficiary?
-                    </h6>
-                    <span
-                      className={`chevron-icon ${activeIndex === 3 ? 'open' : 'closed'}`}
-                      style={{ fontSize: '18px', paddingRight: '10px' }}
-                    >
-                      &#9660;
-                    </span>
-                  </div>
-                  {activeIndex === 3 && (
-                    <div
-                      className="card-body"
-                      style={{
-                        fontSize: '24px',
-                        backgroundColor: '#73e0cc',
-                        overflow: 'hidden',
-                        maxHeight: '500px',
-                        transition: 'max-height 0.3s ease-out',
-                      }}
-                    >
-                      <p>Once you make a donation, EktaFund ensures transparency by providing regular updates on the status of your donation. Here's how you can track your donation:</p>
-                      <ul>
-                        <li>You will receive an email confirmation once your donation is processed successfully.</li>
-                        <li>NGOs on the platform may provide updates through email, their website, or on the donation campaign page, where you can see how the funds are being used.</li>
-                        <li>In some cases, you may also receive impact reports or photos showing how your donation has helped the beneficiaries.</li>
-                      </ul>
-                    </div>
-                  )}
-                </div>
-
-                {/* Accordion Item 5 */}
-                <div className="card border-0 wow fadeInUp" data-wow-delay="0.6s">
-                  <div
-                    className="card-header"
-                    id="headingFive"
-                    onClick={() => toggleAccordion(4)}
-                    style={{
-                      backgroundColor: '#73e0cc',
-                      padding: '20px 0',
-                      paddingLeft: '30px',
-                      paddingRight: '30px',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      width: '100%', // Ensure it spans full width inside container
-                      transition: 'width 0.3s ease',
-                    }}
-                  >
-                    <h6 className="mb-0" style={{ fontSize: '24px', fontWeight: 'bold' }}>
-                      Is it safe to donate online?
-                    </h6>
-                    <span
-                      className={`chevron-icon ${activeIndex === 4 ? 'open' : 'closed'}`}
-                      style={{ fontSize: '18px', paddingRight: '10px' }}
-                    >
-                      &#9660;
-                    </span>
-                  </div>
-                  {activeIndex === 4 && (
-                    <div
-                      className="card-body"
-                      style={{
-                        fontSize: '24px',
-                        backgroundColor: '#73e0cc',
-                        overflow: 'hidden',
-                        maxHeight: '500px',
-                        transition: 'max-height 0.3s ease-out',
-                      }}
-                    >
-                      <p>Yes, donating online is completely safe. At EktaFund, we prioritize the security and privacy of your personal information and financial details.</p>
-                    </div>
-                  )}
-                </div>
-
-                {/* Accordion Item 6 */}
-                <div className="card border-0 wow fadeInUp" data-wow-delay="0.7s">
-                  <div
-                    className="card-header"
-                    id="headingSix"
-                    onClick={() => toggleAccordion(5)}
-                    style={{
-                      backgroundColor: '#73e0cc',
-                      padding: '20px 0',
-                      paddingLeft: '30px',
-                      paddingRight: '30px',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      width: '100%', // Ensure it spans full width inside container
-                      transition: 'width 0.3s ease',
-                    }}
-                  >
-                    <h6 className="mb-0" style={{ fontSize: '24px', fontWeight: 'bold' }}>
-                      Is the donation refundable?
-                    </h6>
-                    <span
-                      className={`chevron-icon ${activeIndex === 5 ? 'open' : 'closed'}`}
-                      style={{ fontSize: '18px', paddingRight: '10px' }}
-                    >
-                      &#9660;
-                    </span>
-                  </div>
-                  {activeIndex === 5 && (
-                    <div
-                      className="card-body"
-                      style={{
-                        fontSize: '24px',
-                        backgroundColor: '#73e0cc',
-                        overflow: 'hidden',
-                        maxHeight: '500px',
-                        transition: 'max-height 0.3s ease-out',
-                      }}
-                    >
-                      <p>Donations made on EktaFund are typically non-refundable, but there are exceptional cases where we can assist you.</p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 
-export default FAQs;
+export default FAQAccordion;

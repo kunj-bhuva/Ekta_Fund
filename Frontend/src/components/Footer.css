@@ -4,8 +4,11 @@
     padding: 2rem 1rem;
     color: #333;
     font-family: 'Outfit', sans-serif;
-  }
-  
+
+
+    }
+
+
   .footer-container {
     display: flex;
     justify-content: space-around;

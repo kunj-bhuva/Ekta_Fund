@@ -8,23 +8,21 @@ import MockAdapter from "axios-mock-adapter";
 const DONOR_LOGIN_API_URL = "http://localhost:5000/api/donors/login";
 const NGO_LOGIN_API_URL = "http://localhost:5000/api/ngos/login";
 
-// Create an Axios Mock Adapter instance (for testing only)
+// Create an Axios Mock Adapter instance for development (optional)
 if (process.env.NODE_ENV === "development") {
   const mock = new MockAdapter(axios);
-  // Mock donor login response
   mock.onPost(DONOR_LOGIN_API_URL).reply((config) => {
     const { email, password } = JSON.parse(config.data);
-    if (email === "donor@example.com" && password === "password123") {
-      return [200, { token: "mocked_donor_jwt_token" }];
+    if (email === "test@example.com" && password === "password123") {
+      return [200, { token: "mocked_jwt_token" }];
     }
     return [401, { message: "Invalid email or password" }];
   });
 
-  // Mock NGO login response
   mock.onPost(NGO_LOGIN_API_URL).reply((config) => {
     const { email, password } = JSON.parse(config.data);
-    if (email === "ngo@example.com" && password === "password123") {
-      return [200, { token: "mocked_ngo_jwt_token" }];
+    if (email === "ngo@example.com" && password === "ngo123456") {
+      return [200, { token: "mocked_jwt_token" }];
     }
     return [401, { message: "Invalid email or password" }];
   });
@@ -148,7 +146,10 @@ const Login = () => {
                           onChange={(e) => setEmail(e.target.value)}
                           required
                         />
-                        <label className="form-label" htmlFor="form2Example17">
+                        <label
+                          className="form-label"
+                          htmlFor="form2Example17"
+                        >
                           Email address
                         </label>
                       </div>
@@ -162,7 +163,10 @@ const Login = () => {
                           onChange={(e) => setPassword(e.target.value)}
                           required
                         />
-                        <label className="form-label" htmlFor="form2Example27">
+                        <label
+                          className="form-label"
+                          htmlFor="form2Example27"
+                        >
                           Password
                         </label>
                       </div>
