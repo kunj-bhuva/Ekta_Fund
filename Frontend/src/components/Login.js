@@ -29,14 +29,12 @@ if (process.env.NODE_ENV === "development") {
 }
 
 const Login = () => {
-  const navigate = useNavigate();
-
-  // State hooks
+  const [userType, setUserType] = useState("donor");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [userType, setUserType] = useState("donor");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -47,8 +45,7 @@ const Login = () => {
       return;
     }
 
-    const emailPattern =
-      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailPattern.test(email)) {
       setError("Please enter a valid email address.");
       return;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Place-box.css";
+import "./place-box.css";
 
 const PlaceBox = () => {
   const [selectedState, setSelectedState] = useState("Gujarat");

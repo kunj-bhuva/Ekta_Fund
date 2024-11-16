@@ -35,7 +35,7 @@ function App() {
         <Route path="/Legal" element={<Legal />}/>
         <Route path="/Termsofuse" element={<Termsofuse />}/>
         <Route path="/Privacypolicy" element={<Privacypolicy />}/>
-        <Route path="/ngosearchresult" element={<NGOResult />} />
+        <Route path="/ngosearch" element={<NGOResult />} />
         </Routes>
     </Router>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import images from './bandphoto'; // Import images array from bandphoto.js
-import './Bands.css'; // Import CSS file for styling
+import './bands.css'; // Import CSS file for styling
 
 function Bands() {
     return (
