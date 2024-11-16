@@ -11,15 +11,32 @@ import Footer from './Footer.js';
 
 export default function Search() {
     const [searchTerm, setSearchTerm] = useState('');
-    const navigate = useNavigate(); // Use the useNavigate hook
+    const navigate = useNavigate();
 
-    const handleSearch = () => {
-        if (searchTerm) {
-            console.log(`Searching for: ${searchTerm}`);
-            // Navigate to ngosearchresult with the search term as a query parameter
-            navigate(`/ngosearchresult?query=${encodeURIComponent(searchTerm)}`);
-        } else {
+    const handleSearch = async () => {
+        if (!searchTerm) {
             alert("Please enter a search term.");
+            return;
+        }
+        console.log('Searching for:', searchTerm);
+        try {
+            const response = await fetch("http://localhost:5000/api/donors/location", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ location: searchTerm }),
+            });
+            const data = await response.json();
+            if (response.ok) {
+                // Navigate to the results page with the data
+                navigate("/NGOsearchresults", { state: { ngos: data.ngos } });
+            } else {
+                alert("Error fetching NGO data.");
+            }
+        } catch (error) {
+            console.error("Error:", error);
+            alert("Failed to fetch data from the server.");
         }
     };
 
