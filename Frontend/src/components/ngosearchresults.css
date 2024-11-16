@@ -1,0 +1,83 @@
+.ngosearch-results-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ngosearch-organization {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ngosearch-organization:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.ngosearch-organization h3 {
+  font-size: 2em;
+    text-align: left;
+  margin: 0 0 10px 0;
+  text-transform: capitalize;
+}
+
+.ngosearch-organization p {
+  margin: 8px 0;
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.ngosearch-organization strong {
+  color: #000000;
+  font-weight: 600;
+}
+
+.ngosearch-rating {
+  color: #f4b400;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.ngosearch-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.ngosearch-location,
+.ngosearch-certification,
+.ngosearch-compliance,
+.ngosearch-financial-year,
+.ngosearch-revenue,
+.ngosearch-expenses {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .ngosearch-results-container {
+    width: 95%;
+  }
+
+  .ngosearch-organization {
+    padding: 15px;
+  }
+
+  .ngosearch-organization h3 {
+    font-size: 1.5em;
+  }
+
+  .ngosearch-organization p {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,105 @@
+/* Import the "Outfit" font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+body {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white; /* Set page background to white */
+    font-family: 'Outfit', sans-serif; /* Apply Outfit font to body */
+    margin: 0;
+}
+
+.cont {
+    margin-top: 10rem;
+    text-align: center;
+    background-color: #e0f7f4;
+    padding: 20px ; /* Increase padding for taller container */
+    border-radius: 3rem; /* Curved edges */
+    width: 100vw; /* Full viewport width */
+    max-width: 90%; /* Slight margin from edges on very large screens */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for better contrast */
+    position: relative;
+    /* margin-left: auto; */
+    
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    opacity: 0.8; /* Make logo blend with background */
+}
+
+.logo img {
+    height: 90px; /* Logo size */
+    width: auto;
+}
+
+.title {
+    font-size: 50px; /* Set font size for main title */
+    font-weight: 700; /* Bold weight for title */
+    color: #333;
+    margin-top: 10px;
+}
+
+.Search-description {
+    font-size: 18px; /* Slightly larger description font for readability */
+    color: #aeaeae;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 30px; /* Center search bar and add more spacing */
+    max-width: 500px; /* Optional: limit search bar width */
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px; /* Increase padding for larger input */
+    border: 1px solid #ddd;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px; /* Set font size for input text */
+    outline: none;
+}
+
+.search-button {
+    padding: 12px 25px; /* Increase button padding */
+    background-color: #00bfbf;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px; /* Set font size for button text */
+    cursor: pointer;
+}
+
+.top-searches {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Increase spacing between top search items */
+    margin-top: 20px;
+}
+
+.top-search-item {
+    background-color: #e0f3f7;
+    padding: 8px 15px; /* Increase padding for better visibility */
+    border-radius: 15px;
+    color: #333;
+    font-size: 14px; /* Set font size for top search items */
+    cursor: pointer;
+}
+.heads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Outfit';
+    font-weight: 900;
+    font-size: 3rem;
+}

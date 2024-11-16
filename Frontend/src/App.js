@@ -13,13 +13,14 @@ import Legal from './components/Legal.js';
 import Privacypolicy from './components/Privacypolicy.js';
 import Termsofuse from './components/termsofuse.js';
 import NGOupdation from './components/NGOupdation.js';
+import Ngosearch from './components/ngosearch.js';
 
 function App() {
   return (
    
     <Router>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Ngosearch />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
