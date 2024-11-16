@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import imagePaths from './missionphoto.js';
 import seem from '../images/seemore.png';
 import seeless from '../images/seeless.png'; // Import the See Less image
@@ -16,13 +17,24 @@ const Missions = () => {
 
     return (
         <div className="mi">
-            <div className='missions'>
+            <div className="missions">
                 {imagesToDisplay.map((imagePath, index) => (
-                    <img key={index} src={imagePath} alt={`Mission ${index + 1}`} className="mission-image" />
+                    <Link key={index} to={`/ngo/${index}`} className="mission-link">
+                        <img
+                            src={imagePath}
+                            alt={`Mission ${index + 1}`}
+                            className="mission-image"
+                        />
+                    </Link>
                 ))}
             </div>
+
             <div className="seem" onClick={handleToggleClick}>
-                <img src={showAll ? seeless : seem} alt={showAll ? "See less" : "See more"} className="see-more-image" />
+                <img
+                    src={showAll ? seeless : seem}
+                    alt={showAll ? "See less" : "See more"}
+                    className="see-more-image"
+                />
             </div>
         </div>
     );
