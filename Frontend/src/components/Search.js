@@ -11,11 +11,13 @@ import Footer from './Footer.js';
 
 export default function Search() {
     const [searchTerm, setSearchTerm] = useState('');
+    const navigate = useNavigate(); // Use the useNavigate hook
 
     const handleSearch = () => {
         if (searchTerm) {
             console.log(`Searching for: ${searchTerm}`);
-            // Add search logic here, like calling an API or navigating to a results page
+            // Navigate to ngosearchresult with the search term as a query parameter
+            navigate(`/ngosearchresult?query=${encodeURIComponent(searchTerm)}`);
         } else {
             alert("Please enter a search term.");
         }
@@ -28,7 +30,7 @@ export default function Search() {
 
     return (
         <div className="aller">
-            <Header_white/>
+            <Header_white />
             <div className="cont">
                 <div className="logo">
                     <img src={logo} alt="Helping Made Simple Logo" />
@@ -50,10 +52,8 @@ export default function Search() {
                     <div className="top-search-item" onClick={() => handleQuickSearch('Livelihoods')}>Livelihoods</div>
                     <div className="top-search-item" onClick={() => handleQuickSearch('Climate Change')}>Climate Change</div>
                 </div>
-
             </div>
-            <Mapp/>
-            
+            <Mapp />
         </div>
     );
 }

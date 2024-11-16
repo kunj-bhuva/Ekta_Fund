@@ -1,83 +1,81 @@
 .ngosearch-results-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #e0f7f4;
 }
 
-.ngosearch-organization {
-  background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  margin-bottom: 20px;
+.ngosearch-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 20px;
-  transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.ngosearch-organization:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-.ngosearch-organization h3 {
-  font-size: 2em;
-    text-align: left;
-  margin: 0 0 10px 0;
-  text-transform: capitalize;
-}
-
-.ngosearch-organization p {
-  margin: 8px 0;
-  color: #555555;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.ngosearch-organization strong {
-  color: #000000;
-  font-weight: 600;
-}
-
-.ngosearch-rating {
-  color: #f4b400;
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-.ngosearch-description {
-  font-size: 1rem;
-  line-height: 1.6;
+.ngosearch-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
-.ngosearch-location,
-.ngosearch-certification,
-.ngosearch-compliance,
-.ngosearch-financial-year,
-.ngosearch-revenue,
-.ngosearch-expenses {
-  font-size: 1rem;
-  margin-bottom: 5px;
+.ngosearch-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
 }
 
-@media (max-width: 768px) {
-  .ngosearch-results-container {
-    width: 95%;
-  }
+.ngosearch-location {
+  font-size: 14px;
+  color: #777;
+}
 
-  .ngosearch-organization {
-    padding: 15px;
-  }
+.ngosearch-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
 
-  .ngosearch-organization h3 {
-    font-size: 1.5em;
-  }
+.ngosearch-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
 
-  .ngosearch-organization p {
-    font-size: 0.9rem;
-  }
+.ngosearch-certification .badge {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.gold-badge {
+  background-color: #ffcc00;
+  color: white;
+}
+
+.silver-badge {
+  background-color: #ccc;
+  color: white;
+}
+
+.compliance-badge {
+  padding: 5px 8px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: 1rem;
+}
+
+.ngosearch-rating {
+  font-size: 14px;
+}
+
+.ngosearch-financials {
+  font-size: 14px;
+  color: #555;
 }
