@@ -7,6 +7,6 @@ router.post('/register', registerDonor);
 router.post('/login', loginDonor);
 
 // Route to get filtered list of NGOs
-router.get('/ngos', getFilteredNGOs);  
+router.post('/location', getFilteredNGOs);  
 
 module.exports = router;

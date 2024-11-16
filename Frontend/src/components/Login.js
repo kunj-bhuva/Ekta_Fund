@@ -3,35 +3,16 @@ import { useNavigate } from "react-router-dom";
 import logo from "../images/white.png";
 import "./Login.css";
 import axios from "axios";
-import MockAdapter from "axios-mock-adapter";
 
+// API URLs
 const DONOR_LOGIN_API_URL = "http://localhost:5000/api/donors/login";
 const NGO_LOGIN_API_URL = "http://localhost:5000/api/ngos/login";
+const ADMIN_LOGIN_API_URL = "http://localhost:5000/api/admin/login"; // Admin login API
 
-// Create an Axios Mock Adapter instance for development (optional)
-if (process.env.NODE_ENV === "development") {
-  const mock = new MockAdapter(axios);
-  mock.onPost(DONOR_LOGIN_API_URL).reply((config) => {
-    const { email, password } = JSON.parse(config.data);
-    if (email === "test@example.com" && password === "password123") {
-      return [200, { token: "mocked_jwt_token" }];
-    }
-    return [401, { message: "Invalid email or password" }];
-  });
-
-  mock.onPost(NGO_LOGIN_API_URL).reply((config) => {
-    const { email, password } = JSON.parse(config.data);
-    if (email === "ngo@example.com" && password === "ngo123456") {
-      return [200, { token: "mocked_jwt_token" }];
-    }
-    return [401, { message: "Invalid email or password" }];
-  });
-}
-
-const Login = () => {
-  const [userType, setUserType] = useState("donor");
+export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [userType, setUserType] = useState("donor"); // 'donor' by default
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
@@ -45,7 +26,8 @@ const Login = () => {
       return;
     }
 
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailPattern =
+      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailPattern.test(email)) {
       setError("Please enter a valid email address.");
       return;
@@ -61,8 +43,14 @@ const Login = () => {
 
     try {
       // Determine API URL based on user type
-      const apiUrl =
-        userType === "donor" ? DONOR_LOGIN_API_URL : NGO_LOGIN_API_URL;
+      let apiUrl = "";
+      if (userType === "donor") {
+        apiUrl = DONOR_LOGIN_API_URL;
+      } else if (userType === "ngo") {
+        apiUrl = NGO_LOGIN_API_URL;
+      } else if (userType === "admin") {
+        apiUrl = ADMIN_LOGIN_API_URL; // Admin login API
+      }
 
       // Make the login request
       const response = await axios.post(apiUrl, { email, password });
@@ -74,7 +62,13 @@ const Login = () => {
       setLoading(false);
 
       // Navigate based on user type
-      navigate(userType === "donor" ? "/home" : "/ngo-dashboard");
+      if (userType === "donor") {
+        navigate("/home");
+      } else if (userType === "ngo") {
+        navigate("/ngo-dashboard");
+      } else if (userType === "admin") {
+        navigate("/admin-dashboard"); // Navigate to admin dashboard
+      }
     } catch (error) {
       setLoading(false);
 
@@ -134,6 +128,7 @@ const Login = () => {
                         >
                           <option value="donor">Donor</option>
                           <option value="ngo">NGO</option>
+                          <option value="admin">Admin</option> {/* Added Admin option */}
                         </select>
                       </div>
 
@@ -217,6 +212,4 @@ const Login = () => {
       </div>
     </section>
   );
-};
-
-export default Login;
+}

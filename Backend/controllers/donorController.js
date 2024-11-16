@@ -45,13 +45,11 @@ exports.loginDonor = async (req, res) => {
 exports.getFilteredNGOs = async (req, res) => {
     try {
       // Extract query parameters for filtering
-      const { location, cause, verificationStatus } = req.query;
+      const { location } = req.body ;
   
       // Build filter criteria based on query params
       let filterCriteria = {};
       if (location) filterCriteria.location = location;
-      if (cause) filterCriteria.cause = cause;
-      if (verificationStatus) filterCriteria.verificationStatus = verificationStatus;
   
       // Retrieve filtered list of NGOs based on criteria
       const ngos = await NGO.find(filterCriteria);

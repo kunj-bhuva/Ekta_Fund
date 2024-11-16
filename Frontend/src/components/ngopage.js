@@ -1,22 +1,25 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import "./ngopage.css";
 
 export default function NGOPage() {
+  const location = useLocation();
+  const ngo = location.state?.ngo;
+
+  if (!ngo) {
+    return <p>No NGO data available.</p>;
+  }
+
   return (
     <div className="ngo-page-container">
       <header className="ngo-header">
-        
         <div className="ngo-title-container">
-          <h1 className="ngo-title">Teach For India</h1>
-          <p className="ngo-description">
-            Runs fellowships facilitating individuals serving as full-time teachers who could later work towards
-            bringing educational equity in the country.
-          </p>
+          <h1 className="ngo-title">{ngo.name}</h1>
+          <p className="ngo-description">{ngo.vision}</p>
           <div className="ngo-tags">
-            
-            <span className="tag">80G</span>
-            <span className="tag">12A</span>
-            
+            <span className={`tag ${ngo.verificationStatus}`}>
+              {ngo.verificationStatus.toUpperCase()}
+            </span>
           </div>
           <div className="ngo-buttons">
             <button className="btn donate-btn">DONATE</button>
@@ -29,12 +32,11 @@ export default function NGOPage() {
         <h2 className="section-title">About</h2>
         <div className="section-content">
           <p>
-            <strong>Headquarters:</strong> Mumbai, Maharashtra
+            <strong>Mission:</strong> {ngo.mission}
           </p>
           <p>
-            <strong>Since:</strong> 2004
+            <strong>Cause Area:</strong> {ngo.causeArea}
           </p>
-          
         </div>
       </section>
 
@@ -42,43 +44,17 @@ export default function NGOPage() {
         <h2 className="section-title">Contact Details</h2>
         <div className="section-content">
           <p>
-            <strong>Phone Number:</strong> +91 8828 40169
+            <strong>Contact Person:</strong> {ngo.contactPerson}
           </p>
           <p>
-            <strong>Email:</strong> support@techforindia.in
+            <strong>Phone Number:</strong> {ngo.mobileNumber}
           </p>
           <p>
-            <strong>Address:</strong> 2nd Floor, Pirojshanagar, Vikhroli (East), Mumbai, 400079
-            <br />
-            <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" className="link">
-              Directions
-            </a>
-          </p>
-        </div>
-      </section>
-
-      <section className="ngo-section">
-        <h2 className="section-title">Registration Details</h2>
-        <div className="section-content">
-          
-          <p>
-            <strong>12A:</strong> AABTT6244EE10214
+            <strong>Email:</strong> {ngo.email}
           </p>
           <p>
-            <strong>80G:</strong> AABTT6548FF20114
+            <strong>Address:</strong> {ngo.address}
           </p>
-          
-        </div>
-      </section>
-
-      <section className="ngo-section">
-        <h2 className="section-title">Cause Area</h2>
-        <div className="section-content">
-          <p>
-            <strong>Sector:</strong> Education
-          </p>
-         
-          
         </div>
       </section>
     </div>

@@ -2,104 +2,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
 
 body {
+    display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background-color: white; /* Set page background to white */
     font-family: 'Outfit', sans-serif; /* Apply Outfit font to body */
     margin: 0;
+    padding: 0 10px; /* Add horizontal padding for smaller screens */
+    box-sizing: border-box; /* Ensure padding and border are included in element width/height */
 }
 
 .cont {
     margin-top: 10rem;
     text-align: center;
     background-color: #e0f7f4;
-    padding: 20px ; /* Increase padding for taller container */
+    padding: 30px; /* Increased padding for better spacing */
     border-radius: 3rem; /* Curved edges */
-    width: 100vw; /* Full viewport width */
-    max-width: 90%; /* Slight margin from edges on very large screens */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for better contrast */
-    position: relative;
-    /* margin-left: auto; */
-    
+    width: 90vw; /* Slight margin from edges for better responsiveness */
+    max-width: 800px; /* Limit maximum container width */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Enhance shadow for subtle depth */
     margin: auto;
-    margin-top: 10rem;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
-    opacity: 0.8; /* Make logo blend with background */
+    margin-bottom: 20px;
+    opacity: 0.85; /* Slightly more visible logo */
 }
 
 .logo img {
-    height: 90px; /* Logo size */
+    height: 100px; /* Slightly larger logo size */
     width: auto;
 }
 
 .title {
-    font-size: 50px; /* Set font size for main title */
+    font-size: 48px; /* Consistent font size for main title */
     font-weight: 700; /* Bold weight for title */
     color: #333;
     margin-top: 10px;
+    line-height: 1.2; /* Improved line spacing for readability */
 }
 
 .Search-description {
-    font-size: 18px; /* Slightly larger description font for readability */
+    font-size: 18px;
     color: #aeaeae;
     margin-bottom: 30px;
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center align text */
 }
 
 .search-bar {
     display: flex;
     align-items: center;
-    margin: 0 auto 30px; /* Center search bar and add more spacing */
-    max-width: 500px; /* Optional: limit search bar width */
+    justify-content: center;
+    margin: 0 auto 30px;
+    max-width: 500px; /* Limit search bar width */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
 }
 
 .search-input {
     flex: 1;
-    padding: 12px; /* Increase padding for larger input */
+    padding: 14px; /* Larger padding for input */
     border: 1px solid #ddd;
     border-radius: 20px 0 0 20px;
-    font-size: 16px; /* Set font size for input text */
+    font-size: 16px;
     outline: none;
+    transition: box-shadow 0.3s ease; /* Smooth focus effect */
+}
+
+.search-input:focus {
+    box-shadow: 0px 0px 5px rgba(0, 191, 191, 0.5); /* Focus glow effect */
 }
 
 .search-button {
-    padding: 12px 25px; /* Increase button padding */
+    padding: 14px 25px; /* Increased padding for larger button */
     background-color: #00bfbf;
     color: #fff;
     border: none;
     border-radius: 0 20px 20px 0;
-    font-size: 16px; /* Set font size for button text */
+    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.search-button:hover {
+    background-color: #009f9f; /* Darken on hover */
 }
 
 .top-searches {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Increase spacing between top search items */
+    gap: 15px;
     margin-top: 20px;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
 }
 
 .top-search-item {
     background-color: #e0f3f7;
-    padding: 8px 15px; /* Increase padding for better visibility */
+    padding: 10px 20px; /* Increased padding for visibility */
     border-radius: 15px;
     color: #333;
-    font-size: 14px; /* Set font size for top search items */
+    font-size: 14px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
-.heads{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+
+.top-search-item:hover {
+    background-color: #d0ebf4; /* Slightly darker background on hover */
+}
+
+.heads {
+    text-align: center; /* Center align title */
     font-family: 'Outfit';
     font-weight: 900;
     font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #333; /* Ensure consistent text color */
 }
