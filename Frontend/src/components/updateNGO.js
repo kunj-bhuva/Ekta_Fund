@@ -156,7 +156,7 @@ export default function UpdateNGO() {
           required
           maxLength="500"
         ></textarea>
-
+        
         <input
           type="text"
           name="contactPerson"

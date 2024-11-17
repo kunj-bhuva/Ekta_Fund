@@ -1,7 +1,8 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./ngopage.css";
-
+import Header_white from "./Header_white";
+import Footer from "./Footer";
 export default function NGOPage() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -24,7 +25,9 @@ export default function NGOPage() {
   };
 
   return (
-    <div className="ngo-page-container">
+    <div>
+      <Header_white />
+      <div className="ngo-page-container">
       <header className="ngo-header">
         <div className="ngo-title-container">
           <h1 className="ngo-title">{ngo.name}</h1>
@@ -74,6 +77,8 @@ export default function NGOPage() {
           </p>
         </div>
       </section>
+      </div>  
+      <Footer />
     </div>
   );
 }

@@ -1,81 +1,133 @@
-.ngosearch-results-container {
+/* Main container */
+.ngosr-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  background-color: #e0f7f4;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #a8f0e0, #ffffff);
+  padding-top: 60px;
 }
 
-.ngosearch-card {
+/* Search section */
+.ngosr-search-container {
+  background-color: #e0f7f4;
+  padding: 9px;
+  border-radius: 52rem;
+  width: 100vw;
+  max-width: 47%;
+  max-height: 7%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* margin: auto; */
+  margin-top: 3rem;
+}
+
+.ngosr-search-bar {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 30px;
+  max-width: 400px;
+}
+
+.ngosr-search-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px 0 0 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+.ngosr-search-button {
+  padding: 12px 25px;
+  background-color: #00bfbf;
+  color: #fff;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Cards */
+.ngosr-results-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ngosr-card {
   background: white;
   border: 1px solid #ddd;
+  width: 65rem;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: Roboto;
 }
 
-.ngosearch-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+.ngosr-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.ngosearch-title {
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
-}
-
-.ngosearch-location {
+.ngosr-description {
   font-size: 14px;
-  color: #777;
-}
-
-.ngosearch-description {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 10px;
-}
-
-.ngosearch-details {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  color: #444;
   margin-bottom: 15px;
 }
 
-.ngosearch-certification .badge {
-  padding: 5px 10px;
-  border-radius: 8px;
-  font-size: 12px;
+.ngosr-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 5px;
+  font-family: Arial;
 }
 
-.gold-badge {
-  background-color: #ffcc00;
-  color: white;
-}
-
-.silver-badge {
-  background-color: #ccc;
-  color: white;
-}
-
-.compliance-badge {
-  padding: 5px 8px;
-  background-color: #007bff;
-  color: white;
-  border-radius: 3px;
-  font-size: 12px;
-  margin-left: 1rem;
-}
-
-.ngosearch-rating {
+.ngosr-location {
   font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.ngosearch-financials {
-  font-size: 14px;
-  color: #555;
+.ngosr-location span {
+  margin-right: 5px;
+}
+
+.ngosr-about {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* CTA */
+.ngosr-cta {
+  margin-top: 15px;
+}
+
+.ngosr-view-more-btn {
+  padding: 10px 15px;
+  background-color: #00bfbf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ngosr-view-more-btn:hover {
+  background-color: #00a7a7;
+}
+
+/* No results */
+.ngosr-no-results {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
 }

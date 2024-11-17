@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
 
 
-
+.aller{
+    
+        background-color: white!important;
+    
+}
 .cont {
     margin-top: 20rem;
     text-align: center;
@@ -15,7 +19,7 @@
     position: relative;
     
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .logo {
@@ -94,4 +98,48 @@
     font-family: 'Outfit';
     font-weight: 900;
     font-size: 3rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the search bar */
+    margin: 0 auto 30px; /* Add spacing below */
+    max-width: 500px; /* Set a maximum width for the container */
+}
+
+/* Input styling */
+.search-input {
+    flex: 1;
+    padding: 12px; /* Add padding for better usability */
+    font-size: 16px; /* Set font size for input text */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 20px 0 0 20px; /* Round the left corners */
+    outline: none; /* Remove default browser outline */
+    transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+.search-input:focus {
+    border-color: #00bfbf; /* Highlight border on focus */
+}
+
+/* Button styling */
+.search-button {
+    padding: 12px 25px; /* Add padding for better clickability */
+    font-size: 16px; /* Set font size for button text */
+    background-color: #00bfbf; /* Set a modern teal color */
+    color: white; /* Make text white for contrast */
+    border: none; /* Remove default borders */
+    border-radius: 0 20px 20px 0; /* Round the right corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.search-button:hover {
+    background-color: #009a9a; /* Slightly darker teal on hover */
+}
+
+.Search-descri{
+    font-weight: 100;
+    color: #aeaeae;
 }

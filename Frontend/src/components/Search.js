@@ -53,7 +53,7 @@ export default function Search() {
                     <img src={logo} alt="Helping Made Simple Logo" />
                 </div>
                 <div className="title">Helping Made Simple</div>
-                <div className="Search-description">Get insights on 57,000+ NGOs with new additions daily</div>
+                <div className="Search-descri">Get insights on 57,000+ NGOs with new additions daily</div>
                 <div className="search-bar">
                     <input
                         type="text"
@@ -64,13 +64,10 @@ export default function Search() {
                     />
                     <button className="search-button" onClick={handleSearch}>SEARCH</button>
                 </div>
-                <div className="top-searches">
-                    <div className="top-search-item" onClick={() => handleQuickSearch('Mumbai')}>Mumbai</div>
-                    <div className="top-search-item" onClick={() => handleQuickSearch('Livelihoods')}>Livelihoods</div>
-                    <div className="top-search-item" onClick={() => handleQuickSearch('Climate Change')}>Climate Change</div>
-                </div>
+                
             </div>
             <Mapp />
+            <Footer />
             
         </div>
     );
