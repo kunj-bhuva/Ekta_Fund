@@ -60,7 +60,7 @@ export default function RegistrationForm() {
     // Simulate processing delay for 2 seconds
     setTimeout(() => {
       setIsProcessing(false); // End processing state
-      navigate("/login"); // Navigate to login page
+      navigate("/Login_NGO"); // Navigate to login page
     }, 2000);
   };
 
