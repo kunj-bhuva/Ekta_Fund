@@ -16,13 +16,10 @@ import NGOupdation from "./components/NGOupdation.js";
 import NGOsearch from "./components/ngosearch.js";
 import NGOsearchResults from "./components/ngosearchresults.js";
 import Admin from "./components/admin.js";
-<<<<<<< Updated upstream
 // import NGOpage from "./components/ngopage.js";
 //added ngo pages
 
-=======
 import NGOpage from "./components/ngopage.js";
->>>>>>> Stashed changes
 function App() {
   return (
     <Router>
