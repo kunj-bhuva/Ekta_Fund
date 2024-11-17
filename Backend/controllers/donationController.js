@@ -28,6 +28,7 @@ exports.processDonation = async (req, res) => {
     const donation = await Donation.create({
       amount,
       donorId,
+      ngoName,
       transactionId: paymentResult.transactionToken,
       status: "Completed",
     });

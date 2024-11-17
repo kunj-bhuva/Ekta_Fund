@@ -24,6 +24,10 @@ const donationSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  ngoName: {
+    type: String,
+    required: true
+  }
 });
 
 module.exports = mongoose.model("Donation", donationSchema);
