@@ -1,0 +1,39 @@
+/* Donor Review Styles */
+.donorreview-container {
+    font-family: 'Outfit', sans-serif;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  
+  .donorreview-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .donorreview-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .donorreview-input,
+  .donorreview-textarea {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .donorreview-submit {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #D9534F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

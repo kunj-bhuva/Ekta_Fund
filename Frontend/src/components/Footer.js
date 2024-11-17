@@ -21,7 +21,8 @@ const Footer = ({ scrollToMissions, scrollToNgos, scrollToCauses }) => {
                 NGOs
               </Link>
             </li>
-            <li><Link to="/contact-us">Contact Us</Link></li>
+            <li><Link to="/website-review">Website Review</Link></li>
+            <li><Link to="/donar-review">Donar Review</Link></li>
           </ul>
         </div>
 

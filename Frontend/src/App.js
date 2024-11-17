@@ -16,31 +16,36 @@ import NGOupdation from "./components/NGOupdation.js";
 // import NGOsearch from "./components/ngosearch.js";
 // import NGOsearchResults from "./components/ngosearchresults.js";
 import Admin from "./components/admin.js";
-// import NGOpage from "./components/ngopage.js";
-//added ngo pages
+ import NGOPagegeneral from "./components/ngopagegeneral.js";
+import WebsiteReview from "./components/WebsiteReview.js";
+import DonorReview from "./components/DonorReview.js"
+ 
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/admin-dashboard" element={<Admin />} />
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
         <Route path="/donate" element={<Donation_page />} />
-        <Route path="/contact-us" element={<ContactUs />} />{" "}
+        <Route path="/website-review" element={<WebsiteReview />} />{" "}
+        <Route path="/donar-review" element={<DonorReview />} />
         <Route path="/about" element={<About />} /> {/* Route for About */}
         <Route path="/missions" element={<Missions />} />
         <Route path="/NGOregistration" element={<NGOregistration />} />
         <Route path="/NGOupdation" element={<NGOupdation />} />
         <Route path="/Legal" element={<Legal />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/Termsofuse" element={<Termsofuse />} />
         <Route path="/Privacypolicy" element={<Privacypolicy />} />
         {/* <Route path="/NGOsearch" element={<NGOsearch />} />
         <Route path="/NGOsearchresults" element={<NGOsearchResults />} />
         <Route path="/NGOpage" element={<NGOpage />} /> */}
+         <Route path="/ngo/:index" element={<NGOPagegeneral />} />
       </Routes>
     </Router>
   );
