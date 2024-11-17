@@ -59,3 +59,14 @@ exports.getFilteredNGOs = async (req, res) => {
       res.status(500).json({ message: 'Error retrieving NGOs', error });
     }
   };
+
+  
+// Delete a donor by ID
+exports.deleteDonor = async (req, res) => {
+    try {
+        await Donor.findByIdAndDelete(req.params.id);
+        res.status(204).send();
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+};
