@@ -20,3 +20,6 @@ router.get('/csv', async (req, res) => {
         res.status(500).send({ message: "Failed to generate CSV report." });
     }
 });
+
+
+module.exports = router;
