@@ -17,6 +17,7 @@ import NGOupdation from "./components/NGOupdation.js";
 // import NGOsearchResults from "./components/ngosearchresults.js";
 import Admin from "./components/admin.js";
 // import NGOpage from "./components/ngopage.js";
+//added ngo pages
 
 function App() {
   return (
