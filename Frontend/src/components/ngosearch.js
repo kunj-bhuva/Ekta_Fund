@@ -42,7 +42,7 @@ export default function NGOsearch() {
   return (
     <div className="aller">
       <Header_white />
-      <div className="cont">
+      <div className="contt">
         <div className="search-bar">
           <input
             type="text"
