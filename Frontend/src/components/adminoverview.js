@@ -12,19 +12,19 @@ const Overview = () => {
     <div className="overview">
       
       <div className="overview-cards">
-        <div className="card">
+        <div className="cardss">
           <h3>Donation</h3>
           <p className="amount">{data.donation.amount}</p>
           <p className="change positive">{data.donation.percentageChange}</p>
           <p className="difference">than last year: {data.donation.difference}</p>
         </div>
-        <div className="card">
+        <div className="cardss">
           <h3>Donors</h3>
           <p className="amount">{data.donors.count}</p>
           <p className="change positive">{data.donors.percentageChange}</p>
           <p className="difference">than last year: {data.donors.difference}</p>
         </div>
-        <div className="card">
+        <div className="cardss">
           <h3>Average</h3>
           <p className="amount">{data.average.amount}</p>
           <p className="change negative">{data.average.percentageChange}</p>
