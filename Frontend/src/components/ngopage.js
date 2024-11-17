@@ -18,6 +18,11 @@ export default function NGOPage() {
     });
   };
 
+  const handleDonateClick = () => {
+    // Navigate to the donation page and pass the NGO name
+    navigate("/donation", { state: { ngoName: ngo.name } });
+  };
+
   return (
     <div className="ngo-page-container">
       <header className="ngo-header">
@@ -30,7 +35,9 @@ export default function NGOPage() {
             </span>
           </div>
           <div className="ngo-buttons">
-            <button className="btn donate-btn">DONATE</button>
+            <button className="btn donate-btn" onClick={handleDonateClick}>
+              DONATE
+            </button>
             <button className="btn feedback-btn" onClick={handleFeedbackClick}>
               FEEDBACK
             </button>

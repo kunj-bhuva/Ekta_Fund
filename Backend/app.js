@@ -15,7 +15,6 @@ const responseRoutes = require("./routes/responseRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const donationRoutes = require("./routes/donationRoutes");
 const billingRoutes = require("./routes/billingRoutes");
-const paymentRoutes = require("./routes/paymentRoutes");
 const donorRoutes = require("./routes/donorRoutes");
 const ngoRoutes = require("./routes/ngoRoutes");
 
@@ -45,7 +44,6 @@ app.use("/api/responses", responseRoutes); // Prefix '/api/responses' for respon
 app.use("/api/admin", adminRoutes); // Common admin routes
 app.use("/api/donations", donationRoutes); // Donation routes
 app.use("/api/billing", billingRoutes); // Billing routes
-app.use("/api/payments", paymentRoutes); // Payment routes
 app.use("/api/donors", donorRoutes); // Donor routes
 app.use("/api/ngos", ngoRoutes); // NGO routes
 

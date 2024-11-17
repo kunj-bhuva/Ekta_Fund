@@ -17,7 +17,5 @@ exports.createMockTransaction = async ({
     createdAt: new Date(),
   };
 
-  console.log("Transaction details saved:", transactionDetails);
-
   return transactionDetails;
 };

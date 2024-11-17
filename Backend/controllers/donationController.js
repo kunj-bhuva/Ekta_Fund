@@ -1,24 +1,19 @@
-const paymentService = require("../services/payment"); // Use the mock payment service
+const paymentService = require("../services/payment");
 const receiptGenerator = require("../services/receiptGenerator");
 const Donation = require("../models/Donation");
 
 exports.processDonation = async (req, res) => {
   try {
-    // Destructure required fields from request body
-    const { amount, donorId, name, mobileNumber, ngoName } = req.body;
+    const { amount, name, mobileNumber, ngoName } = req.body;
 
-    // Ensure all required fields are present
-    if (
-      !amount ||
-      !donorId ||
-      !name ||
-      !mobileNumber ||
-      !ngoName
-    ) {
+    if (!amount || !name || !mobileNumber || !ngoName) {
       return res.status(400).json({ error: "All fields are required" });
     }
 
-    // Generate a mock transaction token based on user-provided details
+    const donorId = Math.floor(
+      Math.random() * (10 ** 15 - 10 ** 10) + 10 ** 10
+    ).toString();
+
     const paymentResult = await paymentService.createMockTransaction({
       name,
       mobileNumber,
@@ -30,7 +25,6 @@ exports.processDonation = async (req, res) => {
       return res.status(400).json({ error: "Payment processing failed." });
     }
 
-    // Save donation details, including transaction token, to the database
     const donation = await Donation.create({
       amount,
       donorId,
@@ -38,12 +32,8 @@ exports.processDonation = async (req, res) => {
       status: "Completed",
     });
 
-    // Generate a receipt for the donation
-    const receipt = await receiptGenerator.generateReceipt(donation);
-
-    res
-      .status(201)
-      .json({ message: "Donation processed successfully", receipt });
+    // Generate and directly download the receipt
+    await receiptGenerator.generateReceipt(donation, res);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Internal Server Error" });

@@ -1,15 +1,28 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
-import './money.css';
+import React, { useState, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom"; // Import useLocation to get passed state
+import "./money.css";
 
 const DonationForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    amount: '',
+    name: "", // Donor name
+    mobileNumber: "", // Donor's phone number
+    amount: "", // Donation amount
+    ngoName: "", // NGO name
   });
   const [loading, setLoading] = useState(false); // State to handle loading
   const navigate = useNavigate(); // Initialize useNavigate
+  const location = useLocation(); // Use location to access passed state
+
+  useEffect(() => {
+    // Get NGO name from state or localStorage
+    const ngoName = location.state?.ngoName || localStorage.getItem("selectedNGO") || "";
+    setFormData((prevData) => ({ ...prevData, ngoName }));
+
+    // Save NGO name to localStorage for fallback
+    if (ngoName) {
+      localStorage.setItem("selectedNGO", ngoName);
+    }
+  }, [location.state]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,36 +32,40 @@ const DonationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
-    // Save data to localStorage
-    localStorage.setItem('donationData', JSON.stringify(formData));
-
-    // Send data to a dummy API
+  
     try {
-      const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
-        method: 'POST',
+      const response = await fetch("http://localhost:5000/api/donations/donate", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(formData), // Send the formData with correct naming
       });
-
+  
       if (response.ok) {
-        const data = await response.json();
-        console.log('API Response:', data);
-
-        alert(`Thank you, ${formData.name}, for donating ₹${formData.amount}!`);
-        navigate('/'); // Redirect to home page
+        const blob = await response.blob(); // Get the PDF as a Blob
+        const url = window.URL.createObjectURL(blob); // Create a URL for the Blob
+        const a = document.createElement("a"); // Create an anchor element
+        a.href = url;
+        a.download = `Donation_Receipt_${formData.name}.pdf`; // Set the filename
+        a.click(); // Trigger the download
+        window.URL.revokeObjectURL(url); // Cleanup the URL
+  
+        alert(
+          `Thank you, ${formData.name}, for donating ₹${formData.amount} to ${formData.ngoName}!`
+        );
+        navigate("/"); // Redirect to the home page
       } else {
-        alert('Something went wrong. Please try again.');
+        alert("Something went wrong. Please try again.");
       }
     } catch (error) {
-      console.error('Error:', error);
-      alert('Failed to connect to the server. Please try again.');
+      console.error("Error:", error);
+      alert("Failed to connect to the server. Please try again.");
     } finally {
       setLoading(false); // Stop loading
     }
   };
+  
 
   return (
     <div className="donation-form-container">
@@ -67,11 +84,11 @@ const DonationForm = () => {
           />
         </label>
         <label className="donation-form-label">
-          Phone:
+          Mobile Number:
           <input
             type="tel"
-            name="phone"
-            value={formData.phone}
+            name="mobileNumber"
+            value={formData.mobileNumber}
             onChange={handleChange}
             className="donation-form-input"
             placeholder="Enter your phone number"
@@ -92,12 +109,22 @@ const DonationForm = () => {
             required
           />
         </label>
+        <label className="donation-form-label">
+          NGO Name:
+          <input
+            type="text"
+            name="ngoName"
+            value={formData.ngoName}
+            className="donation-form-input"
+            readOnly // Make this field read-only
+          />
+        </label>
         <button
           type="submit"
           className="donation-form-button"
           disabled={loading} // Disable button while loading
         >
-          {loading ? 'Processing...' : 'Donate Now'}
+          {loading ? "Processing..." : "Donate Now"}
         </button>
       </form>
     </div>

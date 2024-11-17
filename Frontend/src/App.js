@@ -19,6 +19,7 @@ import Admin from "./components/admin.js";
 import NGOPagegeneral from "./components/ngopagegeneral.js";
 import WebsiteReview from "./components/WebsiteReview.js";
 import DonorReview from "./components/DonorReview.js";
+import Donation from "./components/money.js";
 
 import NGOpage from "./components/ngopage.js";
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/admin-dashboard" element={<Admin />} />
+        <Route path="/donation" element={<Donation />} />
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -46,6 +48,7 @@ function App() {
         <Route path="/NGOsearchresults" element={<NGOsearchResults />} />
         <Route path="/NGOpage" element={<NGOpage />} />
         <Route path="/ngo/:index" element={<NGOPagegeneral />} />
+        
       </Routes>
     </Router>
   );
