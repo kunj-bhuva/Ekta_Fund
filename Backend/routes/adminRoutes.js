@@ -12,4 +12,6 @@ router.post('/login', adminLogin);
 // Protected routes for NGO verification
 router.post('/verify-ngo',  verifyNGO);  // Only accessible to logged-in admin
 
+router.post("/reviews/create", createReviewAndNotifyNGO);
+
 module.exports = router;
