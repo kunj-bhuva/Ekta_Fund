@@ -1,14 +1,22 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "./ngopage.css";
 
 export default function NGOPage() {
   const location = useLocation();
+  const navigate = useNavigate();
   const ngo = location.state?.ngo;
+  const donorName = localStorage.getItem("loggedInEmail"); // Fetch donor name from logged-in user
 
   if (!ngo) {
     return <p>No NGO data available.</p>;
   }
+
+  const handleFeedbackClick = () => {
+    navigate("/donorreview", {
+      state: { ngoName: ngo.name, donorName: donorName || "" },
+    });
+  };
 
   return (
     <div className="ngo-page-container">
@@ -23,7 +31,9 @@ export default function NGOPage() {
           </div>
           <div className="ngo-buttons">
             <button className="btn donate-btn">DONATE</button>
-            <button className="btn feedback-btn">FEEDBACK</button>
+            <button className="btn feedback-btn" onClick={handleFeedbackClick}>
+              FEEDBACK
+            </button>
           </div>
         </div>
       </header>

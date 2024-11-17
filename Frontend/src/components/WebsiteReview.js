@@ -9,6 +9,8 @@ const WebsiteReview = () => {
     message: '',
   });
 
+  const [statusMessage, setStatusMessage] = useState('');
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -17,10 +19,36 @@ const WebsiteReview = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Website Review Submitted:', formData);
-    // Add submission logic here
+    try {
+      const response = await fetch('http://localhost:5000/api/reviews/website-reviews', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          reviewerName: formData.name,
+          reviewerType: formData.reviewerType,
+          message: formData.message,
+        }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setStatusMessage(data.message);
+        setFormData({
+          reviewerType: 'NGO', // Reset to default
+          name: '',
+          message: '',
+        });
+      } else {
+        const errorData = await response.json();
+        setStatusMessage(errorData.message || 'An error occurred.');
+      }
+    } catch (error) {
+      setStatusMessage('Error submitting review. Please try again.');
+    }
   };
 
   return (
@@ -60,6 +88,7 @@ const WebsiteReview = () => {
             Submit
           </button>
         </form>
+        {statusMessage && <p className="websitereview-status">{statusMessage}</p>}
       </div>
     </>
   );

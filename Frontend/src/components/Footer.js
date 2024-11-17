@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FaFacebook, FaTwitter, FaTelegram, FaInstagram } from 'react-icons/fa';
 
 const Footer = ({ scrollToMissions, scrollToNgos, scrollToCauses }) => {
+  const [isDonor, setIsDonor] = useState(false);
+
+  useEffect(() => {
+    const userType = localStorage.getItem("userType"); // Retrieve user type from localStorage
+    if (userType === "donor") {
+      setIsDonor(true); // Set state to true if the user is a donor
+    }
+  }, []);
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -22,7 +31,8 @@ const Footer = ({ scrollToMissions, scrollToNgos, scrollToCauses }) => {
               </Link>
             </li>
             <li><Link to="/website-review">Website Review</Link></li>
-            <li><Link to="/donar-review">Donar Review</Link></li>
+            {/* Conditionally render Donor Review link */}
+            {isDonor && <li><Link to="/donar-review">Donor Review</Link></li>}
           </ul>
         </div>
 
@@ -50,7 +60,6 @@ const Footer = ({ scrollToMissions, scrollToNgos, scrollToCauses }) => {
             <li><Link to="/NGOupdation">Update Your Organization</Link></li>
           </ul>
         </div>
-        
 
         <div className="footer-section">
           <h3>Contact</h3>

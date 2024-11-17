@@ -26,8 +26,10 @@ export default function Login() {
       return;
     }
 
-    const emailPattern =
-      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    // Inside the handleSubmit function, after setting the token:
+    localStorage.setItem("userType", userType); // Save user type in localStorage
+
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailPattern.test(email)) {
       setError("Please enter a valid email address.");
       return;
@@ -128,7 +130,8 @@ export default function Login() {
                         >
                           <option value="donor">Donor</option>
                           <option value="ngo">NGO</option>
-                          <option value="admin">Admin</option> {/* Added Admin option */}
+                          <option value="admin">Admin</option>{" "}
+                          {/* Added Admin option */}
                         </select>
                       </div>
 
@@ -141,10 +144,7 @@ export default function Login() {
                           onChange={(e) => setEmail(e.target.value)}
                           required
                         />
-                        <label
-                          className="form-label"
-                          htmlFor="form2Example17"
-                        >
+                        <label className="form-label" htmlFor="form2Example17">
                           Email address
                         </label>
                       </div>
@@ -158,10 +158,7 @@ export default function Login() {
                           onChange={(e) => setPassword(e.target.value)}
                           required
                         />
-                        <label
-                          className="form-label"
-                          htmlFor="form2Example27"
-                        >
+                        <label className="form-label" htmlFor="form2Example27">
                           Password
                         </label>
                       </div>
@@ -196,7 +193,6 @@ export default function Login() {
                           Register here
                         </a>
                       </p>
-                      
                     </form>
                   </div>
                 </div>

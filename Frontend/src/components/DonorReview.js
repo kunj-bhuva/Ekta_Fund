@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
-import Header_white from './Header_white';
-import './DonorReview.css';
+import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
+import Header_white from "./Header_white";
+import "./DonorReview.css";
 
 const DonorReview = () => {
+  const location = useLocation();
+  const { ngoName, donorName } = location.state || { ngoName: "", donorName: "" };
+
   const [formData, setFormData] = useState({
-    donorName: '',
-    message: '',
+    donorName: donorName || "",
+    message: "",
+    ngoName: ngoName || "",
   });
+
+  const [responseMessage, setResponseMessage] = useState(""); // To display server response
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,10 +23,36 @@ const DonorReview = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Donor Review Submitted:', formData);
-    // Add submission logic here
+
+    try {
+      const response = await fetch("http://localhost:5000/api/reviews/NGOreviews", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setResponseMessage("Review submitted successfully!");
+        console.log("Response from server:", data);
+        setFormData({
+          donorName: donorName || "",
+          message: "",
+          ngoName: ngoName || "",
+        });
+      } else {
+        const errorData = await response.json();
+        setResponseMessage(`Failed to submit review: ${errorData.message}`);
+        console.error("Error from server:", errorData);
+      }
+    } catch (error) {
+      setResponseMessage("An error occurred while submitting the review.");
+      console.error("Error:", error);
+    }
   };
 
   return (
@@ -28,6 +61,14 @@ const DonorReview = () => {
       <div className="donorreview-container">
         <h2 className="donorreview-title">Donor Review</h2>
         <form className="donorreview-form" onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="ngoName"
+            value={formData.ngoName}
+            onChange={handleChange}
+            className="donorreview-input"
+            disabled
+          />
           <input
             type="text"
             name="donorName"
@@ -50,6 +91,7 @@ const DonorReview = () => {
             Submit
           </button>
         </form>
+        {responseMessage && <p className="response-message">{responseMessage}</p>}
       </div>
     </>
   );

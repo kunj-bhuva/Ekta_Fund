@@ -16,10 +16,9 @@ import NGOupdation from "./components/NGOupdation.js";
 import NGOsearch from "./components/ngosearch.js";
 import NGOsearchResults from "./components/ngosearchresults.js";
 import Admin from "./components/admin.js";
- import NGOPagegeneral from "./components/ngopagegeneral.js";
+import NGOPagegeneral from "./components/ngopagegeneral.js";
 import WebsiteReview from "./components/WebsiteReview.js";
-import DonorReview from "./components/DonorReview.js"
- 
+import DonorReview from "./components/DonorReview.js";
 
 import NGOpage from "./components/ngopage.js";
 function App() {
@@ -34,7 +33,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/donate" element={<Donation_page />} />
         <Route path="/website-review" element={<WebsiteReview />} />{" "}
-        <Route path="/donar-review" element={<DonorReview />} />
+        <Route path="/donorreview" element={<DonorReview />} />
         <Route path="/about" element={<About />} /> {/* Route for About */}
         <Route path="/missions" element={<Missions />} />
         <Route path="/NGOregistration" element={<NGOregistration />} />
@@ -45,8 +44,8 @@ function App() {
         <Route path="/Privacypolicy" element={<Privacypolicy />} />
         <Route path="/NGOsearch" element={<NGOsearch />} />
         <Route path="/NGOsearchresults" element={<NGOsearchResults />} />
-        <Route path="/NGOpage" element={<NGOpage />} /> 
-         <Route path="/ngo/:index" element={<NGOPagegeneral />} />
+        <Route path="/NGOpage" element={<NGOpage />} />
+        <Route path="/ngo/:index" element={<NGOPagegeneral />} />
       </Routes>
     </Router>
   );
