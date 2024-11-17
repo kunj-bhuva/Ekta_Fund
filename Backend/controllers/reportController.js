@@ -28,3 +28,28 @@ async function getDataForReport(req) {
         throw new Error('Failed to fetch data');
     }
 }
+
+// Controller to generate PDF report
+exports.generatePDFReport = async (req, res) => {
+    try {
+        const data = await getDataForReport(req);  // Fetch dynamic data for the report
+        const doc = generatePDF(data);
+
+        // Set headers for PDF response
+        res.setHeader('Content-Disposition', 'attachment; filename="report.pdf"');
+        res.setHeader('Content-Type', 'application/pdf');
+
+        // Handle errors on the document stream
+        doc.on('error', (err) => {
+            console.error("Error in PDF generation:", err);
+            res.status(500).send({ message: "Failed to generate PDF report." });
+        });
+
+        // Pipe the document to the response, then end it after content is added
+        doc.pipe(res);
+        doc.end();
+    } catch (error) {
+        console.error("Error generating PDF:", error);
+        res.status(500).send({ message: "Failed to generate PDF report." });
+    }
+};
