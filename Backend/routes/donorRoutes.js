@@ -9,4 +9,7 @@ router.post('/login', loginDonor);
 // Route to get filtered list of NGOs
 router.post('/location', getFilteredNGOs);  
 
+// Route to delete a donor by ID
+router.delete('/:id', deleteDonor);
+
 module.exports = router;
