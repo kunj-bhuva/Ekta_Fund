@@ -13,12 +13,16 @@ import Legal from "./components/Legal.js";
 import Privacypolicy from "./components/Privacypolicy.js";
 import Termsofuse from "./components/termsofuse.js";
 import NGOupdation from "./components/NGOupdation.js";
-// import NGOsearch from "./components/ngosearch.js";
-// import NGOsearchResults from "./components/ngosearchresults.js";
+import NGOsearch from "./components/ngosearch.js";
+import NGOsearchResults from "./components/ngosearchresults.js";
 import Admin from "./components/admin.js";
+<<<<<<< Updated upstream
 // import NGOpage from "./components/ngopage.js";
 //added ngo pages
 
+=======
+import NGOpage from "./components/ngopage.js";
+>>>>>>> Stashed changes
 function App() {
   return (
     <Router>
@@ -38,9 +42,9 @@ function App() {
         <Route path="/Legal" element={<Legal />} />
         <Route path="/Termsofuse" element={<Termsofuse />} />
         <Route path="/Privacypolicy" element={<Privacypolicy />} />
-        {/* <Route path="/NGOsearch" element={<NGOsearch />} />
+        <Route path="/NGOsearch" element={<NGOsearch />} />
         <Route path="/NGOsearchresults" element={<NGOsearchResults />} />
-        <Route path="/NGOpage" element={<NGOpage />} /> */}
+        <Route path="/NGOpage" element={<NGOpage />} />
       </Routes>
     </Router>
   );

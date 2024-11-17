@@ -71,6 +71,7 @@ export default function Search() {
                 </div>
             </div>
             <Mapp />
+            
         </div>
     );
 }
