@@ -81,7 +81,7 @@ export default function Login() {
   };
 
   return (
-    <section className="vh-100" style={{ backgroundColor: "#73e0cc" }}>
+    <section className="vh-1000" style={{ backgroundColor: "#73e0cc" }}>
       <div className="container py-5 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col col-xl-10">
@@ -96,7 +96,7 @@ export default function Login() {
                   />
                 </div>
                 <div className="col-md-6 col-lg-7 d-flex align-items-center">
-                  <div className="card-body p-4 p-lg-5 text-black">
+                  <div className="card-body p-4 p-lg-5xx text-black">
                     <form onSubmit={handleSubmit}>
                       <div className="d-flex align-items-center mb-3 pb-1">
                         <span className="h1 fw-bold mb-0">
@@ -184,7 +184,7 @@ export default function Login() {
                         Forgot password?
                       </a>
                       <p
-                        className="mb-5 pb-lg-2"
+                        className="mb-5x pb-lg-2x"
                         style={{ color: "#393f81" }}
                       >
                         Don't have an account?{" "}
@@ -196,12 +196,7 @@ export default function Login() {
                           Register here
                         </a>
                       </p>
-                      <a href="#!" className="small text-muted">
-                        Terms of use.
-                      </a>
-                      <a href="#!" className="small text-muted">
-                        Privacy policy
-                      </a>
+                      
                     </form>
                   </div>
                 </div>

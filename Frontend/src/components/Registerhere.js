@@ -10,7 +10,9 @@ export default function Register() {
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();  // Initialize useNavigate
-
+  const handleNavigation = () => {
+    navigate('/login'); // Navigate to the login page
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
   
@@ -61,7 +63,7 @@ export default function Register() {
   };
 
   return (
-    <section className="vh-100" style={{ backgroundColor: '#73e0cc' }}>
+    <section className="vh-1000" style={{ backgroundColor: '#73e0cc' }}>
       <div className="container py-5 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col col-xl-10">
@@ -91,7 +93,7 @@ export default function Register() {
                       {message && <div className="alert alert-success">{message}</div>}
 
                       {/* Name Field */}
-                      <div className="form-outline mb-4">
+                      <div className="form-outline mb-4x">
                         <input
                           type="text"
                           id="formName"
@@ -106,7 +108,7 @@ export default function Register() {
                       </div>
 
                       {/* Email Field */}
-                      <div className="form-outline mb-4">
+                      <div className="form-outline mb-4x">
                         <input
                           type="email"
                           id="form2Example17"
@@ -121,7 +123,7 @@ export default function Register() {
                       </div>
 
                       {/* Password Field */}
-                      <div className="form-outline mb-4">
+                      <div className="form-outline mb-4x">
                         <input
                           type="password"
                           id="form2Example27"
@@ -136,7 +138,7 @@ export default function Register() {
                       </div>
 
                       {/* Contact Number Field */}
-                      <div className="form-outline mb-4">
+                      <div className="form-outline mb-4x">
                         <input
                           type="text"
                           id="formcontactNumber"
@@ -151,19 +153,22 @@ export default function Register() {
                       </div>
 
                       {/* Submit Button */}
-                      <div className="pt-1 mb-4">
+                      <div className="pt-1 mb-4x">
                         <button type="submit" className="btn btn-dark btn-lg btn-block">
                           Register
                         </button>
                       </div>
 
                       {/* Link to login page */}
-                      <p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>
-                        Already have an account?{' '}
-                        <a href="#!" style={{ color: '#393f81' }}>
-                          Login here
-                        </a>
-                      </p>
+                      <p className="mb-5x pb-lg-2x" style={{ color: '#393f81' }}>
+      Already have an account?{' '}
+      <span
+        onClick={handleNavigation}
+        style={{ color: '#393f81', cursor: 'pointer', textDecoration: 'underline' }}
+      >
+        Login here
+      </span>
+    </p>
                     </form>
                   </div>
                 </div>
