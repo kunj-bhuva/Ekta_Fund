@@ -53,3 +53,23 @@ exports.generatePDFReport = async (req, res) => {
         res.status(500).send({ message: "Failed to generate PDF report." });
     }
 };
+
+// Controller to generate CSV report
+exports.generateCSVReport = async (req, res) => {
+    try {
+        const data = await getDataForReport(req); // Fetch dynamic data for the report
+        const csvPath = await generateCSV(data);
+
+        // Download the CSV file and delete it afterwards
+        res.download(csvPath, 'report.csv', (err) => {
+            if (err) {
+                console.error("Error downloading CSV:", err);
+                res.status(500).send({ message: "Failed to download CSV report." });
+            }
+            cleanupCSV(csvPath); // Cleanup temp CSV file after download
+        });
+    } catch (error) {
+        console.error("Error generating CSV:", error);
+        res.status(500).send({ message: "Failed to generate CSV report." });
+    }
+};
