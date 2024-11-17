@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import "./RegistrationForm.css";
 
 export default function RegistrationForm() {
+  const navigate = useNavigate(); // Initialize navigate function
   const [formData, setFormData] = useState({
     name: "",
     location: "",
@@ -17,6 +19,8 @@ export default function RegistrationForm() {
     updated80G: null, // For file input
   });
 
+  const [isProcessing, setIsProcessing] = useState(false); // State to show processing
+
   const handleChange = (e) => {
     const { name, value, type, files } = e.target;
     setFormData({
@@ -27,6 +31,8 @@ export default function RegistrationForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    setIsProcessing(true); // Start processing state
 
     // Create FormData object to send text and files together
     const formDataToSend = new FormData();
@@ -50,6 +56,12 @@ export default function RegistrationForm() {
     } catch (error) {
       alert(`Error: ${error.message}`);
     }
+
+    // Simulate processing delay for 2 seconds
+    setTimeout(() => {
+      setIsProcessing(false); // End processing state
+      navigate("/login"); // Navigate to login page
+    }, 2000);
   };
 
   return (
@@ -186,8 +198,8 @@ export default function RegistrationForm() {
           />
         </label>
 
-        <button type="submit" id="submit">
-          Submit
+        <button type="submit" id="subm" disabled={isProcessing}>
+          {isProcessing ? "Processing..." : "Submit"}
         </button>
       </form>
     </div>

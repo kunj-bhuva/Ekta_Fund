@@ -15,7 +15,6 @@ const Donations = () => {
     <div className="donations-container">
       <div className="header">
         <h3>Recent Donations</h3>
-        <a href="#" className="view-more">View More</a>
       </div>
       <table className="donations-table">
         <thead>

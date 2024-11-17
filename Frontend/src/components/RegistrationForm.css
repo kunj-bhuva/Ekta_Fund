@@ -1,7 +1,7 @@
 /* RegistrationForm.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* Light grey background for the page */
+    background-color: #ffffff; /* Light grey background for the page */
     margin: 0;
     padding: 0;
   }
@@ -34,7 +34,7 @@ body {
     border: 1px solid #bdc3c7; /* Light grey border */
     border-radius: 5px;
     font-size: 14px;
-    background-color: #ecf0f1; /* Light grey input background */
+    background-color: #ffffff; /* Light grey input background */
   }
   
   .input:focus {
@@ -55,7 +55,7 @@ body {
     margin-bottom: 5px;
   }
   
-  button#submit {
+  button#subm {
     width: 100%;
     padding: 12px;
     background-color: #2ecc71; /* Green button for submission */

@@ -4,10 +4,11 @@
     margin-top: 30px;
   }
   
-  .dashboard {
+  .dashboar {
     display: flex;
     height: 100vh;
     border-right: 2px solid #151313;
+    background-color: #ffffff;
   }
   
     .sidebar {
@@ -18,7 +19,7 @@
     }
 
     .mi-2{
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(100, 51, 51);
     }
 
     .nav-pills .nav-link {
@@ -28,3 +29,13 @@
     .d-flexx{
       border-right: 1px solid #4b4b4b;
     }
+
+    .hover-cursor {
+      cursor: pointer;  /* This changes the cursor to a hand when hovering */
+    }
+    
+    .list-sidebar {
+      /* Add any specific styles for the list item if needed */
+      margin: 10px 0;  /* Optional: Adds space around the logout icon */
+    }
+    

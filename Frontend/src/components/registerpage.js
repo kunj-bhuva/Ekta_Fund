@@ -6,7 +6,7 @@ import RegistrationForm from './RegistrationForm';
 
 export default function Body() {
     return (
-        <div className="Body">
+        <div className="Bo" style={{ backgroundColor: 'white', important: 'true' }}>
             <div className="content">
             <div className="image_line" style={{ display: 'flex', alignItems: 'center' }}>
                 <div className="lines" style={{ flex: '1' }}>
@@ -16,7 +16,6 @@ export default function Body() {
                     <img src={loginImage} alt="loginImage" className="login-image" style={{ flex: '2', maxWidth: '100%' }} />
                 </div>
 
-            
                 <RegistrationForm/>
             </div>
         </div>

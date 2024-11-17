@@ -1,13 +1,27 @@
-.organisation-approvals {
+/* Flex container for the entire page */
+.organization-approvals-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-heigt: 100vh; */
+    width: 700px;
+    min-width: 100%;
+    background-color: #f5f5f5; /* Light background for contrast */
+    /* padding: 20px; */
+}
+
+/* Main card container */
+.organization-approvals {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* max-width: 600px; */
-    /* margin: auto; */
+    width: 100%;
+    max-width: 800px;
     font-family: Arial, sans-serif;
 }
 
+/* Header styling */
 .header {
     display: flex;
     justify-content: space-between;
@@ -17,7 +31,7 @@
 
 .header h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -31,52 +45,123 @@
     text-decoration: underline;
 }
 
+/* Table styles */
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 10px;
 }
 
 th, td {
     padding: 12px;
     text-align: left;
+    font-size: 14px;
 }
 
 th {
     font-size: 14px;
     color: #888888;
     font-weight: normal;
+    border-bottom: 2px solid #eeeeee;
 }
 
 td {
     font-size: 14px;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .status-cell {
     display: flex;
     align-items: center;
-    gap: 10px; /* Add space between icons */
+    gap: 10px;
 }
 
-/* Styling for both check and cross icons */
+/* Icon styles */
 .status-icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
-    opacity: 0.5; /* Apply opacity */
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.status-icon:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.status-icon.approved {
+    background-color: #4CAF50; /* Green for approved */
     border-radius: 50%;
     padding: 3px;
 }
 
-/* Green check icon for approval */
-.status-icon.approved {
-    background-color: #4CAF50; /* Green for approved */
+.status-icon.rejected {
+    background-color: #FF5252; /* Red for rejected */
+    border-radius: 50%;
+    padding: 3px;
 }
 
-/* Red cross icon for rejection */
-.status-icon.not-approved {
-    background-color: #FF5252; /* Red for not approved */
+/* Responsive design */
+@media (max-width: 768px) {
+    .organization-approvals {
+        padding: 15px;
+    }
+
+    th, td {
+        font-size: 12px;
+    }
+
+    .status-icon {
+        width: 20px;
+        height: 20px;
+    }
 }
 
-tr:not(:last-child) td {
-    border-bottom: 1px solid #eeeeee;
-}
+/* Common styles for icons */
+.status-icon {
+    width: 30px; /* Increase size for better visibility */
+    height: 30px;
+    border-radius: 50%; /* Make them circular */
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    padding: 5px; /* Add some padding */
+  }
+  
+  /* Hover effect for tick and cross */
+  .status-icon:hover {
+    transform: scale(1.2); /* Slightly enlarge the icon */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  /* Green background for approved tick */
+  .status-icon.approved {
+    background-color: #4caf50; /* Green background for approved */
+    filter: brightness(0.9); /* Slightly dim the icon when approved */
+  }
+  
+  /* Red background for rejected cross */
+  .status-icon.rejected {
+    background-color: #ff5252; /* Red background for rejected */
+    filter: brightness(0.9); /* Slightly dim the icon when rejected */
+  }
+  
+  /* Hover effect for approved */
+  .status-icon.approved:hover {
+    background-color: #45a045; /* Slightly darker green */
+  }
+  
+  /* Hover effect for rejected */
+  .status-icon.rejected:hover {
+    background-color: #e53935; /* Slightly darker red */
+  }
+  
+
+  .logout-icon {
+    /* Any other styles you want for the icon */
+  }
+  
+  .logout-icon:hover {
+    cursor: pointer;  /* Changes the cursor to a hand when hovering over the icon */
+  }
+  

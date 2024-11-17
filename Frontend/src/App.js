@@ -27,12 +27,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/admin-dashboard" element={<Admin />} />
-<<<<<<< Updated upstream
         <Route path="/donation" element={<Donation />} />
         <Route path="/" element={<Home />} />
-=======
-        <Route path="/" element={<Login />} />
->>>>>>> Stashed changes
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/register" element={<Register />} />
@@ -50,14 +46,8 @@ function App() {
         <Route path="/Privacypolicy" element={<Privacypolicy />} />
         <Route path="/NGOsearch" element={<NGOsearch />} />
         <Route path="/NGOsearchresults" element={<NGOsearchResults />} />
-<<<<<<< Updated upstream
-        <Route path="/NGOpage" element={<NGOpage />} />
-        <Route path="/ngo/:index" element={<NGOPagegeneral />} />
-        
-=======
         <Route path="/NGOpage" element={<NGOpage />} /> 
         <Route path="/ngo/:index" element={<NGOPagegeneral />} />
->>>>>>> Stashed changes
       </Routes>
     </Router>
   );

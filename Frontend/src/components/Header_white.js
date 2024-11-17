@@ -22,6 +22,11 @@ function Header_white() {
         navigate('/contact-us');  // Navigate to the contact us page
     };
 
+    const handleSignOutClick = () => {
+        // Add sign-out logic here
+        navigate('/login');  // Navigate to the login page
+    };
+
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" style={{ backgroundColor: " #ffffff " }}>
             <div className="container">
@@ -39,17 +44,23 @@ function Header_white() {
                     <div className="ms-auto flexbox">
                         <ul className="navbar-nav">
                             <li className="nav-item write">
-                                <a className="nav-link" onClick={handleHomeClick}>Home</a>  {/* Home Link */}
+                                <a className="nav-link" onClick={handleHomeClick}>Home</a>
                             </li>
                             <li className="nav-item write">
-                                <a className="nav-link" onClick={handleAboutClick}>About</a>  {/* About Link */}
+                                <a className="nav-link" onClick={handleAboutClick}>About</a>
                             </li>
                             <li className="nav-item write">
-                                <a className="nav-link" onClick={handleContactUsClick}>Contact Us</a>  {/* Contact Us Link */}
+                                <a className="nav-link" onClick={handleContactUsClick}>Contact Us</a>
                             </li>
                             <li className="nav-item">
                                 <button className="button" onClick={handleDonateClick}>
-                                    <span className="nav-link text-white">DONATE</span>  {/* Donate Button */}
+                                    <span className="nav-link text-white">DONATE</span>
+                                </button>
+                            </li>
+                            {/* Sign Out Button */}
+                            <li className="nav-item">
+                                <button className=" signout-btn" onClick={handleSignOutClick}>
+                                    <span className="nav-link text-white">SIGN OUT</span>
                                 </button>
                             </li>
                         </ul>

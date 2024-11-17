@@ -84,7 +84,7 @@ export default function Login() {
 
   return (
     <section className="vh-1000" style={{ backgroundColor: "#73e0cc" }}>
-      <div className="container py-5 h-100">
+      <div className="container py-3 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col col-xl-10">
             <div className="card" style={{ borderRadius: "1rem" }}>
@@ -136,6 +136,9 @@ export default function Login() {
                       </div>
 
                       <div className="form-outline mb-4">
+                      <label className="form-label" htmlFor="form2Example17">
+                          Email address
+                        </label>
                         <input
                           type="email"
                           id="form2Example17"
@@ -144,12 +147,13 @@ export default function Login() {
                           onChange={(e) => setEmail(e.target.value)}
                           required
                         />
-                        <label className="form-label" htmlFor="form2Example17">
-                          Email address
-                        </label>
+                        
                       </div>
 
                       <div className="form-outline mb-4">
+                      <label className="form-label" htmlFor="form2Example27">
+                          Password
+                        </label>
                         <input
                           type="password"
                           id="form2Example27"
@@ -158,9 +162,7 @@ export default function Login() {
                           onChange={(e) => setPassword(e.target.value)}
                           required
                         />
-                        <label className="form-label" htmlFor="form2Example27">
-                          Password
-                        </label>
+                        
                       </div>
 
                       <div className="pt-1 mb-4">
