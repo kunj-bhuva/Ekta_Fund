@@ -14,7 +14,7 @@ exports.registerDonor = async (req, res) => {
       return res.status(400).json({ message: "Donor already registered" });
 
     // Create and save new donor
-   
+
     donor = new Donor({ name, email, password, contactNumber });
     await donor.save();
 
@@ -31,16 +31,12 @@ exports.loginDonor = async (req, res) => {
 
     const donor = await Donor.findOne({ email });
     console.log(donor);
-    if (!donor)
-      return res.status(400).json({ message: "Invalid email " });
+    if (!donor) return res.status(400).json({ message: "Invalid email " });
 
-    
     const isMatch = await bcrypt.compare(password, donor.password);
-    
-    if (!isMatch)
-      return res.status(400).json({ message: "Invalid  password" });
 
-    // Generate JWT
+    if (!isMatch) return res.status(400).json({ message: "Invalid  password" });
+
     const token = jwt.sign(
       { id: donor._id, role: donor.role },
       process.env.JWT_SECRET,
@@ -52,17 +48,13 @@ exports.loginDonor = async (req, res) => {
   }
 };
 
-// Function to retrieve and filter NGOs
 exports.getFilteredNGOs = async (req, res) => {
   try {
-    // Extract query parameters for filtering
     const { location } = req.body;
 
-    // Build filter criteria based on query params
     let filterCriteria = {};
     if (location) filterCriteria.location = location;
 
-    // Retrieve filtered list of NGOs based on criteria
     const ngos = await NGO.find(filterCriteria);
 
     res
@@ -73,7 +65,6 @@ exports.getFilteredNGOs = async (req, res) => {
   }
 };
 
-// Delete a donor by ID
 exports.deleteDonor = async (req, res) => {
   try {
     await Donor.findByIdAndDelete(req.params.id);

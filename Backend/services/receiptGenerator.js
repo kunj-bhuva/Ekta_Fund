@@ -43,7 +43,7 @@ exports.generateReceipt = async (donation, res) => {
     align: "left",
   });
 
-  doc.moveTo(50, doc.y).lineTo(550, doc.y).stroke(); // Horizontal line for footer
+  doc.moveTo(50, doc.y).lineTo(550, doc.y).stroke();
   doc.moveDown(2); // Add space for footer
   doc
     .fontSize(10)

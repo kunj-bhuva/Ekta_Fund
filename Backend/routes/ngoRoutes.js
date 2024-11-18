@@ -1,9 +1,13 @@
 const express = require("express");
 const router = express.Router();
-const { registerNGO, loginNGO, updateNGOProfile, viewPendingRequests } = require("../controllers/ngoController");
+const {
+  registerNGO,
+  loginNGO,
+  updateNGOProfile,
+  viewPendingRequests,
+} = require("../controllers/ngoController");
 const upload = require("../fileUpload");
 
-// Register a new NGO with file upload
 router.post(
   "/register",
   upload.fields([
@@ -13,10 +17,8 @@ router.post(
   registerNGO
 );
 
-// Login route
 router.post("/login", loginNGO);
 
-// Update NGO profile with file upload
 router.put(
   "/profile",
   upload.fields([
@@ -25,7 +27,5 @@ router.put(
   ]),
   updateNGOProfile
 );
-
-
 
 module.exports = router;

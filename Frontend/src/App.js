@@ -5,8 +5,8 @@ import ForgotPassword from "./components/Forgotpassword.js";
 import Register from "./components/Registerhere.js";
 import Home from "./components/Home.js";
 import Donation_page from "./components/Donation_page.js";
-import ContactUs from "./components/ContactUs.js"; // Import ContactUs component
-import About from "./components/about.js"; // Import About component
+import ContactUs from "./components/ContactUs.js"; 
+import About from "./components/about.js"; 
 import Missions from "./components/missions.js";
 import NGOregistration from "./components/NGOregistration.js";
 import Legal from "./components/Legal.js";

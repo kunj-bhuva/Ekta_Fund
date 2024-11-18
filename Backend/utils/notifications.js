@@ -1,22 +1,20 @@
-const nodemailer = require('nodemailer');
+const nodemailer = require("nodemailer");
 
-// Create a reusable transporter object
 const transporter = nodemailer.createTransport({
-  service: 'Gmail', // or any other email service provider
+  service: "Gmail",
   auth: {
-    user: process.env.EMAIL_USER, // Your email address
-    pass: process.env.EMAIL_PASS, // Your email password or app-specific password
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
   },
 });
 
-// Function to send an email notification
 const sendNotification = async (email, subject, message) => {
   try {
     const mailOptions = {
-      from: process.env.EMAIL_USER,       // Sender email address
-      to: email,                          // Recipient email address
-      subject: subject,                   // Subject of the email
-      text: message,                      // Plain text body
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: subject,
+      text: message,
     };
 
     // Send the email

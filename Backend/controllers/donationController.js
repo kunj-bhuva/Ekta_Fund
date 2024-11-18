@@ -33,7 +33,6 @@ exports.processDonation = async (req, res) => {
       status: "Completed",
     });
 
-    // Generate and directly download the receipt
     await receiptGenerator.generateReceipt(donation, res);
   } catch (error) {
     console.error(error);

@@ -1,6 +1,6 @@
 // controllers/responseController.js
-const Review = require('../models/Review');
-const Response = require('../models/Response');
+const Review = require("../models/Review");
+const Response = require("../models/Response");
 
 exports.createResponse = async (req, res) => {
   try {
@@ -8,7 +8,6 @@ exports.createResponse = async (req, res) => {
     const response = new Response({ reviewId, ngoName, message });
     await response.save();
 
-    // Link response to the review
     await Review.findByIdAndUpdate(reviewId, { response: response._id });
 
     res.status(201).json(response);
