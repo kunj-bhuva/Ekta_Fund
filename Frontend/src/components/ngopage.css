@@ -1,22 +1,26 @@
 
-  
+  .ngo-pagexx{
+    background-color: #ffffff !important;
+    font-size: Roboto,Outfit;
+  }
   .ngo-page-container {
     max-width: 900px;
     margin: 20px auto;
-    background: #ffffff;
+    background: #ffffff !important;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
     padding: 20px;
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
   
   .ngo-header {
     display: flex;
     align-items: center;
     gap: 20px;
-    background: #e5f7f2;
+    background: #a5ecdf;
+    ;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 18px;
     margin-bottom: 20px;
   }
   
@@ -27,6 +31,7 @@
   
   .ngo-title-container {
     flex: 1;
+    margin-left: 2rem;
   }
   
   .ngo-title {
@@ -61,21 +66,22 @@
   
   .ngo-buttons .btn {
     margin-right: 10px;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 4px;
+    padding: 8px 35px;
+    border-radius: 84px;
     cursor: pointer;
     font-size: 14px;
   }
   
   .donate-btn {
-    background-color: #e74c3c;
+    background-color: #1BC2A4;
     color: white;
+
   }
   
   .feedback-btn {
-    background-color: #27ae60;
+    background-color: #1BC2A4;
     color: white;
+    
   }
   
   .ngo-section {
@@ -86,15 +92,17 @@
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
-    border-left: 4px solid #27ae60;
+    border-left: 15px solid #65e3c3;
     padding-left: 10px;
+    margin-top: 2rem;
   }
   
   .section-content {
-    padding-left: 150px;
+    padding-left: 22rem;
     padding-bottom: 20px;
     font-size: 14px;
     color: #555;
+    transform: translateY(-2.4rem);
   }
   
   .link {
@@ -111,3 +119,12 @@
     gap: 10px;
     margin-top: 5px;
   }
+
+  .donation-history-btn{
+    border: 2px solid #1BC2A4;
+    color: black;
+  }
+
+  
+
+  

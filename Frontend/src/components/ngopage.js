@@ -53,7 +53,7 @@ export default function NGOPage() {
   };
 
   return (
-    <div>
+    <div className="ngo-pagexx">
       <Header_white />
       <div className="ngo-page-container">
         <header className="ngo-header">
@@ -80,11 +80,11 @@ export default function NGOPage() {
         <section className="ngo-section">
           <h2 className="section-title">About</h2>
           <div className="section-content">
-            <p>
-              <strong>Mission:</strong> {ngo.mission}
+            <p className="small-text">
+              Mission: <strong className="large-text">{ngo.mission}</strong>
             </p>
-            <p>
-              <strong>Cause Area:</strong> {ngo.causeArea}
+            <p className="small-text">
+              Cause Area: <strong className="large-text">{ngo.causeArea}</strong>
             </p>
           </div>
         </section>
@@ -92,17 +92,17 @@ export default function NGOPage() {
         <section className="ngo-section">
           <h2 className="section-title">Contact Details</h2>
           <div className="section-content">
-            <p>
-              <strong>Contact Person:</strong> {ngo.contactPerson}
+            <p className="small-text">
+              Contact Person: <strong className="large-text">{ngo.contactPerson}</strong>
             </p>
-            <p>
-              <strong>Phone Number:</strong> {ngo.mobileNumber}
+            <p className="small-text">
+              Phone Number: <strong className="large-text">{ngo.mobileNumber}</strong>
             </p>
-            <p>
-              <strong>Email:</strong> {ngo.email}
+            <p className="small-text">
+              Email: <strong className="large-text">{ngo.email}</strong>
             </p>
-            <p>
-              <strong>Address:</strong> {ngo.address}
+            <p className="small-text">
+              Address: <strong className="large-text">{ngo.address}</strong>
             </p>
           </div>
         </section>
