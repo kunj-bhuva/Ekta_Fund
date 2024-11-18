@@ -32,7 +32,7 @@ const Footer = ({ scrollToMissions, scrollToNgos, scrollToCauses }) => {
             </li>
             <li><Link to="/website-review">Website Review</Link></li>
             {/* Conditionally render Donor Review link */}
-            {isDonor && <li><Link to="/donar-review">Donor Review</Link></li>}
+            {isDonor && <li><Link to="/donorreview">Donor Review</Link></li>}
           </ul>
         </div>
 

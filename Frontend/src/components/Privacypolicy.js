@@ -2,54 +2,100 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'left', backgroundColor: '#e0f7f4' }}>
-      <h1 style={{ fontSize: '3rem', color: '#1a535c' }}>Privacy Policy</h1>
-      
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        At EktaFund, we value your privacy and are committed to protecting your personal information.
-        This Privacy Policy outlines the types of information we collect, how we use it, and the steps we take to safeguard it.
-      </p>
-      
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Information We Collect</h2>
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        We collect information that you provide to us directly, such as when you create an account, make a donation, or contact our support team. 
-        This information may include your name, email address, payment details, and other personal data necessary for the donation process.
-      </p>
+    <div style={{ fontFamily: 'Outfit, sans-serif',
+      padding: '50px',
+      textAlign: 'justify',
+      backgroundColor: '#e0f7f4',
+      lineHeight: '1.8', }}>
+      {/* <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'left' }}> */}
+        <h1 style={{ fontSize: '2.5rem', color: '#1a535c', marginBottom: '20px',  paddingBottom: '10px', textAlign: 'center' }}>
+          Privacy Policy
+        </h1>
+        <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '20px' }}>
+          At EktaFund, your privacy is our priority. We are committed to safeguarding your personal information and ensuring its use aligns 
+          with applicable laws in India, including the Information Technology Act, 2000, and related rules.
+        </p>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>How We Use Your Information</h2>
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        The information we collect is used to facilitate the donation process, improve our platform, communicate with you about your donations, and 
-        send updates on projects and NGOs you support. We may also use your information for internal analytics to improve our services.
-      </p>
+        <section style={{ marginBottom: '30px' }}>
+          <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Information We Collect</h2>
+          <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '10px' }}>
+            We collect personal information directly from you when you:
+          </p>
+          <ul style={{ marginLeft: '20px', lineHeight: '1.6' }}>
+            <li>Create an account on our platform.</li>
+            <li>Make a donation.</li>
+            <li>Contact our support team.</li>
+            <li>Subscribe to updates or newsletters.</li>
+          </ul>
+          <p style={{ marginTop: '15px', fontSize: '1rem', lineHeight: '1.6' }}>
+            The information we collect may include:
+          </p>
+          <ul style={{ marginLeft: '20px', lineHeight: '1.6' }}>
+            <li>Name, email address, phone number, and address.</li>
+            <li>Payment details (e.g., UPI ID, bank account, credit/debit card information).</li>
+            <li>Identification documents, if required for compliance purposes (e.g., PAN card for tax exemption).</li>
+          </ul>
+        </section>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Sharing Your Information</h2>
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        We do not share your personal information with third parties, except as required to complete the donation process (e.g., payment processing) 
-        or comply with legal obligations. In such cases, we ensure that our partners also comply with data protection laws.
-      </p>
+        <section style={{ marginBottom: '30px' }}>
+          <h2 style={{ color: '#1a535c', marginTop: '20px' }}>How We Use Your Information</h2>
+          <ul style={{ marginLeft: '20px', lineHeight: '1.6' }}>
+            <li>To facilitate the donation process and provide tax receipts.</li>
+            <li>To communicate updates about your donations, supported projects, and NGOs.</li>
+            <li>To improve and personalize your experience on our platform.</li>
+            <li>To comply with legal and regulatory obligations under Indian law, such as tax reporting.</li>
+            <li>For internal analytics to enhance our services and user experience.</li>
+          </ul>
+        </section>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Security of Your Information</h2>
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        We implement industry-standard security measures to protect your information from unauthorized access, alteration, disclosure, or destruction.
-        However, no method of transmission over the internet is entirely secure, so we cannot guarantee absolute security.
-      </p>
+        <section style={{ marginBottom: '30px' }}>
+          <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Sharing Your Information</h2>
+          <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '10px' }}>
+            We do not sell or trade your personal information. However, we may share your data in the following scenarios:
+          </p>
+          <ul style={{ marginLeft: '20px', lineHeight: '1.6' }}>
+            <li>
+              <strong>Payment Processing:</strong> With trusted third-party payment gateways compliant with Reserve Bank of India (RBI) guidelines.
+            </li>
+            <li>
+              <strong>Legal Compliance:</strong> If required by Indian law or to comply with legal processes, such as court orders or government requests.
+            </li>
+            <li>
+              <strong>NGO Partners:</strong> Limited information (e.g., your name or message) may be shared with NGOs you support, if necessary.
+            </li>
+          </ul>
+        </section>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Your Choices and Rights</h2>
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        You have the right to access, update, or delete your personal information. To exercise these rights, please contact us at support@ektafund.com.
-        We will respond to your request as soon as possible.
-      </p>
+        <section style={{ marginBottom: '30px' }}>
+          <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Security of Your Information</h2>
+          <p style={{ fontSize: '1rem', lineHeight: '1.6' }}>
+            EktaFund employs industry-standard security practices, including:
+          </p>
+          <ul style={{ marginLeft: '20px', lineHeight: '1.6' }}>
+            <li>Data encryption during transmission and storage.</li>
+            <li>Secure servers compliant with Indian regulations for data storage.</li>
+            <li>Regular security audits to protect against unauthorized access and cyber threats.</li>
+          </ul>
+        </section>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Changes to This Privacy Policy</h2>
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. Any changes will be posted on 
-        this page, and we encourage you to review this policy periodically.
-      </p>
+        <section style={{ marginBottom: '30px' }}>
+          <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Your Rights</h2>
+          <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '10px' }}>
+            Under Indian law, you have the right to:
+          </p>
+          <ul style={{ marginLeft: '20px', lineHeight: '1.6' }}>
+            <li>Access your personal information held by us.</li>
+            <li>Update or correct inaccuracies in your data.</li>
+            <li>Request deletion of your personal information, subject to legal requirements.</li>
+          </ul>
 
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8', marginTop: '20px' }}>
-        If you have any questions about this Privacy Policy, please contact us at support@ektafund.com.
-      </p>
-    </div>
+          <p style={{ fontSize: '1rem', lineHeight: '1.6', textAlign: 'left', marginTop: '20px' }}>
+            For any queries, contact us at: {' '}
+            <a href="mailto:support@ektafund.com">support@ektafund.com</a> | <strong style={{ color: '#1a535c' }}>+91-10011225259</strong>
+          </p>
+        </section>
+      </div>
+    // </div>
   );
 };
 

@@ -2,50 +2,61 @@ import React from 'react';
 
 const TermsOfUse = () => {
   return (
-    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'left', backgroundColor: '#e0f7f4' }}>
-      <h1 style={{ fontSize: '3rem', color: '#1a535c' }}>Terms of Use</h1>
-      
+    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '50px', textAlign: 'justify', backgroundColor: '#e0f7f4' }}>
+      <h1 style={{ fontSize: '3rem', color: '#1a535c', textAlign: 'center' }}>Terms of Use</h1>
+
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        Welcome to EktaFund. By accessing or using our platform, you agree to these Terms of Use. Please read them carefully.
-      </p>
-      
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>1. Acceptance of Terms</h2>
-      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        By accessing and using EktaFund, you agree to be bound by these terms and any policies referenced herein. If you do not agree, please do not use our platform.
+        Welcome to EktaFund. By accessing or using our platform, you agree to these Terms of Use. Please read them carefully. These terms are governed by the applicable laws of India.
       </p>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>2. Use of Platform</h2>
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Acceptance of Terms</h2>
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        EktaFund provides information about various NGOs and allows users to donate to causes. You agree to use this platform responsibly and not engage in any unlawful or unauthorized activities.
+        By accessing and using EktaFund, you agree to be bound by these terms and any policies referenced herein. If you do not agree with any part of these terms, please do not use our platform.
       </p>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>3. Donations</h2>
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Use of Platform</h2>
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        Donations made through EktaFund are processed securely. However, we do not guarantee the effectiveness of any NGO or the use of funds after they are transferred to the intended cause.
+        EktaFund provides information about various Non-Governmental Organizations (NGOs) and enables users to make donations. You agree to use this platform responsibly and comply with all applicable Indian laws. Any form of unauthorized, fraudulent, or illegal activities is strictly prohibited.
       </p>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>4. User Responsibilities</h2>
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Donations</h2>
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        Users are responsible for ensuring that all information provided is accurate. Any misuse of the platform may lead to account suspension.
+        Donations made through EktaFund are processed securely in accordance with Indian financial regulations. However, EktaFund does not guarantee the efficacy of any NGO or ensure that funds are utilized for the intended purpose once transferred. Users are encouraged to review and verify the details of the NGOs before making contributions.
       </p>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>5. Intellectual Property</h2>
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>User Responsibilities</h2>
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        All content on EktaFund, including logos, images, and text, is the property of EktaFund or its partners. Unauthorized use of this content is prohibited.
+        You are responsible for ensuring that all information provided during registration or use of the platform is accurate and up-to-date. Misuse of the platform, including providing false information or engaging in prohibited activities, may result in account suspension or other legal actions as per Indian law.
       </p>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>6. Limitation of Liability</h2>
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Intellectual Property</h2>
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        EktaFund is not liable for any direct, indirect, or incidental damages arising from the use of our platform. Users accept full responsibility for any risks associated with using the platform.
+        All content on EktaFund, including but not limited to text, images, and logos, is the property of EktaFund or its partners and is protected under Indian copyright laws. Unauthorized use, reproduction, or distribution of this content without prior written consent is prohibited.
       </p>
 
-      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>7. Changes to Terms</h2>
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Limitation of Liability</h2>
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
-        We may modify these terms at any time. Users are encouraged to review this page periodically for updates. Continued use of EktaFund after changes constitutes acceptance of the new terms.
+        EktaFund is not liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the platform. Users agree to assume full responsibility for any risks associated with using EktaFund. EktaFund’s liability shall be limited to the extent permitted under Indian law.
+      </p>
+
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Compliance and Governing Law</h2>
+      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
+        These terms shall be governed by, and construed in accordance with, the laws of India. Any disputes arising out of or in connection with these terms shall be subject to the exclusive jurisdiction of the courts located in [City/Region, e.g., New Delhi].
+      </p>
+
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Privacy and Data Security</h2>
+      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
+        EktaFund adheres to the rules and regulations outlined in the Information Technology Act, 2000, and other applicable data protection laws. Personal information provided by users is managed in accordance with our Privacy Policy.
+      </p>
+
+      <h2 style={{ color: '#1a535c', marginTop: '20px' }}>Changes to Terms</h2>
+      <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8' }}>
+        EktaFund reserves the right to modify these Terms of Use at any time. It is the user's responsibility to review these terms regularly for any changes. Continued use of the platform after modifications implies acceptance of the updated terms.
       </p>
 
       <p style={{ color: '#4f5d75', fontSize: '1rem', lineHeight: '1.8', marginTop: '20px' }}>
-        If you have any questions regarding these Terms of Use, please contact us at support@ektafund.com.
+        If you have any questions regarding these Terms of Use or require assistance, please contact us at {' '}
+        <a href="mailto:support@ektafund.com">support@ektafund.com</a>
       </p>
     </div>
   );
