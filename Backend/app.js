@@ -17,6 +17,7 @@ const donationRoutes = require("./routes/donationRoutes");
 const billingRoutes = require("./routes/billingRoutes");
 const donorRoutes = require("./routes/donorRoutes");
 const ngoRoutes = require("./routes/ngoRoutes");
+const authRoutes = require("./routes/authRoutes");
 
 // Load environment variables
 dotenv.config();
@@ -46,6 +47,7 @@ app.use("/api/donations", donationRoutes); // Donation routes
 app.use("/api/billing", billingRoutes); // Billing routes
 app.use("/api/donors", donorRoutes); // Donor routes
 app.use("/api/ngos", ngoRoutes); // NGO routes
+app.use("/api/forget-password", authRoutes); // Foroget - password  
 
 
 // Start the server

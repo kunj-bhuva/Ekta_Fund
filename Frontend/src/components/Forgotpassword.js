@@ -6,6 +6,8 @@ import logo from "../images/logo_big.png"; // Same logo
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState('');
+  const [oldPassword, setOldPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
@@ -13,8 +15,9 @@ export default function ForgotPassword() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!email) {
-      setError('Please enter your email address.');
+    // Validate form fields
+    if (!email || !oldPassword || !newPassword) {
+      setError('All fields are required.');
       return;
     }
 
@@ -24,14 +27,29 @@ export default function ForgotPassword() {
       return;
     }
 
-    try {
-      // Simulate API call
-      const response = await axios.post('https://your-api-url.com/api/forgot-password', { email });
+    if (newPassword.length < 6) {
+      setError('New password must be at least 6 characters long.');
+      return;
+    }
 
-      setMessage('If this email exists in our system, we will send a reset link to it.');
-      setError('');
+    try {
+      // Send request to backend to update the password
+      const response = await axios.post('http://localhost:5000/api/forget-password/reset', {
+        email,
+        oldPassword,
+        newPassword,
+      });
+
+      if (response.status === 200) {
+        setMessage('Password updated successfully.');
+        setError('');
+        // Redirect to the login page after success
+        setTimeout(() => navigate('/login'), 3000);
+      } else {
+        setError('Failed to update password. Please try again.');
+      }
     } catch (err) {
-      setError('An error occurred. Please try again.');
+      setError('Invalid email or old password.');
       console.error(err);
     }
   };
@@ -65,29 +83,61 @@ export default function ForgotPassword() {
                       </div>
 
                       <h5 className="fw-normal mb-3 pb-3" style={{ letterSpacing: '1px' }}>
-                        Forgot Password
+                        Reset Password
                       </h5>
 
                       {error && <div className="alert alert-danger">{error}</div>}
                       {message && <div className="alert alert-success">{message}</div>}
 
+                      {/* Email Field */}
                       <div className="form-outline mb-4">
                         <input
                           type="email"
-                          id="form2Example17"
+                          id="emailInput"
                           className="form-control form-control-lg"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
                           required
                         />
-                        <label className="form-label" htmlFor="form2Example17">
+                        <label className="form-label" htmlFor="emailInput">
                           Enter your email address
                         </label>
                       </div>
 
+                      {/* Old Password Field */}
+                      <div className="form-outline mb-4">
+                        <input
+                          type="password"
+                          id="oldPasswordInput"
+                          className="form-control form-control-lg"
+                          value={oldPassword}
+                          onChange={(e) => setOldPassword(e.target.value)}
+                          required
+                        />
+                        <label className="form-label" htmlFor="oldPasswordInput">
+                          Enter your old password
+                        </label>
+                      </div>
+
+                      {/* New Password Field */}
+                      <div className="form-outline mb-4">
+                        <input
+                          type="password"
+                          id="newPasswordInput"
+                          className="form-control form-control-lg"
+                          value={newPassword}
+                          onChange={(e) => setNewPassword(e.target.value)}
+                          required
+                        />
+                        <label className="form-label" htmlFor="newPasswordInput">
+                          Enter your new password
+                        </label>
+                      </div>
+
+                      {/* Submit Button */}
                       <div className="pt-1 mb-4">
                         <button type="submit" className="btn btn-dark btn-lg btn-block">
-                          Send Reset Link
+                          Reset Password
                         </button>
                       </div>
 
