@@ -1,8 +1,8 @@
 const NGO = require("../models/NGO");
 const { sendNotification } = require("../utils/notifications");
 const jwt = require("jsonwebtoken");
+const Review = require("../models/Review");
 
-// Admin login function
 exports.adminLogin = async (req, res) => {
   const { email, password } = req.body;
 
@@ -20,12 +20,18 @@ exports.adminLogin = async (req, res) => {
   }
 };
 
-// Verify NGO documents
 exports.verifyNGO = async (req, res) => {
   try {
-    const { ngoId, status } = req.body;
-    const ngo = await NGO.findByIdAndUpdate(
-      ngoId,
+    const { ngoName, status } = req.body;
+
+    if (!ngoName || !status) {
+      return res.status(400).json({
+        message: "ngoName and status are required fields.",
+      });
+    }
+
+    const ngo = await NGO.findOneAndUpdate(
+      { name: ngoName },
       { verificationStatus: status },
       { new: true }
     );
@@ -38,21 +44,27 @@ exports.verifyNGO = async (req, res) => {
       status === "verified"
         ? "NGO Verification Approved"
         : "NGO Verification Rejected";
+
     const message = `Dear ${ngo.name},\n\nYour NGO verification status has been updated to: ${status}. 
       \nPlease contact support if you have any questions.\n\nBest Regards,\nYour Organization Team`;
 
-    await sendNotification(ngo.email, subject, message);
+    if (ngo.email) {
+      await sendNotification(ngo.email, subject, message);
+    } else {
+    }
 
     res.status(200).json({
       message: "Verification status updated and notification sent",
       ngo,
     });
   } catch (error) {
-    res.status(500).json({ message: "Error verifying NGO", error });
+    res.status(500).json({
+      message: "Error verifying NGO",
+      error: error.message || error,
+    });
   }
 };
 
-// This function will be used to handle new reviews and directly notify the NGO
 exports.createReviewAndNotifyNGO = async (req, res) => {
   try {
     const review = new Review(req.body);
@@ -61,28 +73,35 @@ exports.createReviewAndNotifyNGO = async (req, res) => {
 
     const ngo = await NGO.findOne({ name: review.ngoName });
     if (!ngo) {
-      console.warn("No NGO found with the specified name in the review.");
       return res
         .status(404)
         .json({ message: "Associated NGO not found for this review." });
     }
 
     if (ngo.email) {
+      console.log(`Sending notification email to: ${ngo.email}`);
       await sendNotification(
         ngo.email,
         "New Review Submitted for Your NGO",
         `Hello ${ngo.contactPerson},\n\nA new review has been submitted that mentions your NGO. Please review it and provide any necessary feedback.\n\nThank you!`
       );
-      res.json({
+      console.log(`Notification sent to NGO: ${ngo.name}, email: ${ngo.email}`);
+      return res.json({
         message: `Review created and notification sent to ${ngo.name} at ${ngo.email}`,
       });
     } else {
-      console.warn("No email address found for the associated NGO.");
-      res
+      console.warn(
+        `NGO found (${ngo.name}), but no email address is available.`
+      );
+      return res
         .status(404)
         .json({ message: "No email address available for the NGO." });
     }
   } catch (error) {
+    console.error(
+      "Error occurred while creating review and notifying NGO:",
+      error
+    );
     res
       .status(500)
       .json({ message: "Error creating review and notifying NGO", error });

@@ -27,7 +27,7 @@ const DonorReview = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/reviews/NGOreviews", {
+      const response = await fetch("http://localhost:5000/api/admin/reviews/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

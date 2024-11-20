@@ -3,28 +3,28 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const NGO = require("../models/NGO");
 
-// Register a new donor
+
 exports.registerDonor = async (req, res) => {
   try {
     const { name, email, password, contactNumber } = req.body;
 
-    // Check if donor already exists
     let donor = await Donor.findOne({ email });
-    if (donor)
+    if (donor) {
+      console.log("Donor already exists:", email);
       return res.status(400).json({ message: "Donor already registered" });
-
-    // Create and save new donor
+    }
 
     donor = new Donor({ name, email, password, contactNumber });
+
     await donor.save();
 
     res.status(201).json({ message: "Donor registered successfully" });
   } catch (error) {
+    console.error("Error occurred while registering donor:", error);
     res.status(500).json({ error: "Server error" });
   }
 };
 
-// Authenticate donor and generate token
 exports.loginDonor = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -67,7 +67,8 @@ exports.getFilteredNGOs = async (req, res) => {
 
 exports.deleteDonor = async (req, res) => {
   try {
-    await Donor.findByIdAndDelete(req.params.id);
+    const id = req.body;
+    await Donor.findByIdAndDelete(id);
     res.status(204).send();
   } catch (error) {
     res.status(400).json({ error: error.message });

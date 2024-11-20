@@ -32,20 +32,20 @@ const OrganizationApprovals = () => {
 
   const updateStatus = async (index, status) => {
     const updatedOrganization = organizations[index];
-    const { name } = updatedOrganization;
-
+    const { name } = updatedOrganization; 
+  
     try {
       const response = await fetch('http://localhost:5000/api/admin/verify-ngo', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          ngoId: updatedOrganization._id,
+          ngoName: name, 
           status: status ? 'verified' : 'rejected',
         }),
       });
-
+  
       const result = await response.json();
-
+  
       if (response.ok) {
         setOrganizations((prev) =>
           prev.map((org, i) => (i === index ? { ...org, status } : org))

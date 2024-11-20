@@ -6,6 +6,6 @@ const { registerDonor, loginDonor, getFilteredNGOs, deleteDonor } = require('../
 router.post('/register', registerDonor);
 router.post('/login', loginDonor);
 router.post('/location', getFilteredNGOs);  
-router.delete('/:id', deleteDonor);
+router.delete('/delete', deleteDonor);
 
 module.exports = router;
