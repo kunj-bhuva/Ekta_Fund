@@ -12,8 +12,8 @@ export default function UpdateNGO() {
     mobileNumber: "",
     email: "",
     address: "",
-    updated12A: null, // For file input
-    updated80G: null, // For file input
+    updated12A: null, 
+    updated80G: null,
   });
 
   const [error, setError] = useState(null);
@@ -23,7 +23,7 @@ export default function UpdateNGO() {
     const { name, value, type, files } = e.target;
     setFormData({
       ...formData,
-      [name]: type === "file" ? files[0] : value, // Handle file inputs
+      [name]: type === "file" ? files[0] : value, 
     });
   };
 
@@ -32,7 +32,7 @@ export default function UpdateNGO() {
 
     setLoading(true);
 
-    // Create FormData object to send text and files together
+   
     const formDataToSend = new FormData();
     Object.keys(formData).forEach((key) => {
       formDataToSend.append(key, formData[key]);
@@ -74,28 +74,38 @@ export default function UpdateNGO() {
 
   useEffect(() => {
     const email = localStorage.getItem("loggedInEmail");
-
+  
+    if (email) {
+      setFormData((prevData) => ({
+        ...prevData,
+        email, // Explicitly set the email
+      }));
+    } else {
+      setError("No email found in local storage.");
+    }
+  
     const fetchNGODetails = async () => {
       try {
         const response = await fetch(`http://localhost:5000/api/ngos/profile/`);
         const data = await response.json();
         if (response.ok) {
-          setFormData(data);
+          setFormData((prevData) => ({
+            ...prevData,
+            ...data,
+            email, // Ensure email stays intact
+          }));
         } else {
           setError(data.message || "Failed to fetch NGO details.");
         }
       } catch (error) {
-        setError("Fill the below Details to Update your Profile");
+        setError("Fill the below details to update your profile.");
         console.error("Error fetching NGO details:", error);
       }
     };
-
-    if (email) {
-      fetchNGODetails();
-    } else {
-      setError("No email found in local storage.");
-    }
+  
+    fetchNGODetails();
   }, []);
+  
 
   return (
     <div className="update-ngo">
@@ -183,7 +193,7 @@ export default function UpdateNGO() {
           name="email"
           className="input"
           value={formData.email}
-          disabled
+          readOnly
         />
 
         <textarea

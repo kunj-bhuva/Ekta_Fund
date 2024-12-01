@@ -9,7 +9,9 @@ exports.processDonation = async (req, res) => {
     if (!amount || !name || !mobileNumber || !ngoName) {
       return res.status(400).json({ error: "All fields are required" });
     }
-
+    if (mobileNumber.length !== 10) {
+      return res.status(400).json({ error: "Invalid mobile number" });
+    }
     const donorId = Math.floor(
       Math.random() * (10 ** 15 - 10 ** 10) + 10 ** 10
     ).toString();

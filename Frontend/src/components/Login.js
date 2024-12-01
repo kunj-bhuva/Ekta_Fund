@@ -21,8 +21,12 @@ export default function Login() {
     e.preventDefault();
 
     // Basic validation
-    if (!email || !password) {
-      setError("Please enter both email and password.");
+    if (!email ) {
+      setError("Please enter your email address.");
+      return;
+    }
+    if(!password){
+      setError("Please enter your password.");
       return;
     }
 

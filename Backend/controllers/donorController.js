@@ -3,17 +3,30 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const NGO = require("../models/NGO");
 
-
 exports.registerDonor = async (req, res) => {
   try {
     const { name, email, password, contactNumber } = req.body;
 
+    // Strong password validation
+    const passwordPattern =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}$/;
+    if (!passwordPattern.test(password)) {
+      return res.status(400).json({
+        message:
+          "Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.",
+      });
+    }
+
+    // Check if donor already exists
     let donor = await Donor.findOne({ email });
     if (donor) {
       console.log("Donor already exists:", email);
       return res.status(400).json({ message: "Donor already registered" });
     }
 
+ 
+
+    // Create new donor
     donor = new Donor({ name, email, password, contactNumber });
 
     await donor.save();

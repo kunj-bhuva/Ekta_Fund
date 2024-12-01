@@ -18,17 +18,30 @@ exports.registerNGO = async (req, res) => {
       mission,
     } = req.body;
 
+    // Strong password validation
+    const passwordPattern =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]{8,}$/;
+    if (!passwordPattern.test(password)) {
+      return res.status(400).json({
+        message:
+          "Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.",
+      });
+    }
+
+    // Check if both files are provided
     if (!req.files || !req.files.updated12A || !req.files.updated80G) {
       return res
         .status(400)
         .json({ message: "Both updated12A and updated80G files are required" });
     }
 
+    // Check if NGO already exists
     const existingNGO = await NGO.findOne({ email });
     if (existingNGO) {
       return res.status(400).json({ message: "NGO already registered" });
     }
 
+    // Create and save the NGO
     const ngo = new NGO({
       name,
       location,
@@ -47,6 +60,7 @@ exports.registerNGO = async (req, res) => {
     await ngo.save();
     res.status(201).json({ message: "NGO registered successfully", ngo });
   } catch (error) {
+    console.error("Error occurred while registering NGO:", error.message);
     res.status(500).json({ error: "Server error", details: error.message });
   }
 };
@@ -122,7 +136,6 @@ exports.updateNGOProfile = async (req, res) => {
         .json({ message: "NGO with the specified email not found" });
     }
 
-    const isPasswordValid = await bcrypt.compare(password, ngo.password);
 
     const updateData = {
       name,
