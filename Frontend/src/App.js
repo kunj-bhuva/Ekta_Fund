@@ -20,9 +20,11 @@ import NGOPagegeneral from "./components/ngopagegeneral.js";
 import WebsiteReview from "./components/WebsiteReview.js";
 import DonorReview from "./components/DonorReview.js";
 import Donation from "./components/money.js";
-import Dash_NGO from "./components/dashNGO.js";
+// import Dash_NGO from "./components/dashNGO.js";
 import Login_NGO from "./components/Login_NGO.js";
 import NGOpage from "./components/ngopage.js";
+import NGODash from "./components/ngodashboard.js"
+
 function App() {
   return (
     <Router>
@@ -49,8 +51,9 @@ function App() {
         <Route path="/NGOsearchresults" element={<NGOsearchResults />} />
         <Route path="/NGOpage" element={<NGOpage />} /> 
         <Route path="/ngo/:index" element={<NGOPagegeneral />} />
-        <Route path="/Dash_NGO" element={<Dash_NGO />} />
+        {/* <Route path="/Dash_NGO" element={<Dash_NGO />} /> */}
         <Route path="/Login_NGO" element={<Login_NGO />} />
+        <Route path="/NGODash" element={<NGODash />} />
       </Routes>
     </Router>
   );

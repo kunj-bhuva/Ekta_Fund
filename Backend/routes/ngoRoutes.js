@@ -5,6 +5,7 @@ const {
   loginNGO,
   updateNGOProfile,
   viewPendingRequests,
+  getngobyemail
 } = require("../controllers/ngoController");
 const upload = require("../fileUpload");
 
@@ -27,5 +28,7 @@ router.put(
   ]),
   updateNGOProfile
 );
+
+router.post('/getdetails', getngobyemail);
 
 module.exports = router;

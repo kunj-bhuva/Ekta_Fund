@@ -187,3 +187,34 @@ exports.viewPendingRequests = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
+
+// controllers/ngoController.js
+exports.getngobyemail = async (req, res) => {
+  try {
+    const { email } = req.body;
+    
+    // Find the NGO by email
+    const ngo = await NGO.findOne({ email });
+
+    // Check if the NGO exists
+    if (!ngo) {
+      return res.status(404).json({ message: "NGO not found." });
+    }
+
+    // Return the NGO details
+    res.json({
+      name: ngo.name,
+      location: ngo.location,
+      causeArea: ngo.causeArea,
+      contactPerson: ngo.contactPerson,
+      mobileNumber: ngo.mobileNumber,
+      address: ngo.address,
+      vision: ngo.vision,
+      mission: ngo.mission,
+    });
+  } catch (error) {
+    console.error("Error fetching NGO data:", error);
+    res.status(500).json({ message: "An error occurred while fetching NGO details." });
+  }
+};

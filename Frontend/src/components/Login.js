@@ -70,8 +70,8 @@ export default function Login() {
       // Navigate based on user type
       if (userType === "donor") {
         navigate("/home");
-      } else if (userType === "ngo") {
-        navigate("/ngo-dashboard");
+      } else if (userType === "ngo") {  
+        navigate("/NGODash");
       } else if (userType === "admin") {
         navigate("/admin-dashboard"); // Navigate to admin dashboard
       }
