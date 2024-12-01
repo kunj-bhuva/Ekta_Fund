@@ -44,18 +44,14 @@ const Footer = ({ scrollToMissions, scrollToNgos, scrollToCauses }) => {
                 NGOs
               </Link>
             </li>
-            <li>
-              <Link to="/" onClick={(e) => { e.preventDefault(); scrollToCauses(); }}>
-                Social Causes
-              </Link>
-            </li>
+            
           </ul>
         </div>
 
         <div className="footer-section">
           <h3>Resources</h3>
           <ul>
-            <li><Link to="/Login_NGO ">NGO Login</Link></li>
+            <li><Link to="/Login">NGO Login</Link></li>
             <li><Link to="/NGOregistration">Register Your Organization</Link></li>
             {/* <li><Link to="/NGOupdation">Update Your Organization</Link></li> */}
           </ul>
