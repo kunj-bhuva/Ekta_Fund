@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
-import './Login.css'; // Importing the same CSS as the Login page
-import logo from "../images/logo_big.png"; // Same logo
+import logo from "../images/white.png";
+import "./Login.css";
+import axios from "axios";
+import log from '../images/Mobile-login-Cristina 1.png';
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState('');
@@ -55,34 +56,34 @@ export default function ForgotPassword() {
   };
 
   return (
-    <section className="vh-100" style={{ backgroundColor: '#73e0cc' }}>
-      <div className="container py-5 h-100">
-        <div className="row d-flex justify-content-center align-items-center h-100">
-          <div className="col col-xl-10">
-            <div className="card" style={{ borderRadius: '1rem' }}>
+    <section className="vh-100" style={{ backgroundColor: '#73e1c6' }}>
+      <div className="container py-4 h-104">
+        <div className="row d-flex justify-content-center align-items-center h-99">
+          <div className="col col-xl-9">
+            <div className="card" style={{ borderRadius: '0.99rem' }}>
               <div className="row g-0">
-                <div className="col-md-6 col-lg-5 d-none d-md-block">
+                <div className="col-md-5 col-lg-4 d-none d-md-block" style={{ marginTop: '7rem', marginLeft:'2rem',width:'20rem' }} >
                   <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                    src={log}
                     alt="login form"
                     className="img-fluid"
                     style={{ borderRadius: '1rem 0 0 1rem' }}
                   />
                 </div>
-                <div className="col-md-6 col-lg-7 d-flex align-items-center">
-                  <div className="card-body p-4 p-lg-5 text-black">
+                <div className="col-md-7 col-lg-6 d-flex align-items-center xxx">
+                  <div className="card-body p-3 p-lg-4 text-black">
                     <form onSubmit={handleSubmit}>
-                      <div className="d-flex align-items-center mb-3 pb-1">
+                      <div className="d-flex align-items-center mb-2 pb-1">
                         <i
-                          className="fas fa-cubes fa-2x me-3"
-                          style={{ color: '#ff6219' }}
+                          className="fas fa-cubes fa-1.98x me-2"
+                          style={{ color: '#f0631e' }}
                         ></i>
                         <span className="h1 fw-bold mb-0">
                           <img src={logo} alt="Logo" />
                         </span>
                       </div>
 
-                      <h5 className="fw-normal mb-3 pb-3" style={{ letterSpacing: '1px' }}>
+                      <h5 className="fw-normal mb-2 pb-2" style={{ letterSpacing: '0.99px' }}>
                         Reset Password
                       </h5>
 
@@ -90,11 +91,11 @@ export default function ForgotPassword() {
                       {message && <div className="alert alert-success">{message}</div>}
 
                       {/* Email Field */}
-                      <div className="form-outline mb-4">
+                      <div className="form-outline mb-3">
                         <input
                           type="email"
                           id="emailInput"
-                          className="form-control form-control-lg"
+                          className="form-control form-control-md"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
                           required
@@ -105,11 +106,11 @@ export default function ForgotPassword() {
                       </div>
 
                       {/* Old Password Field */}
-                      <div className="form-outline mb-4">
+                      <div className="form-outline mb-3">
                         <input
                           type="password"
                           id="oldPasswordInput"
-                          className="form-control form-control-lg"
+                          className="form-control form-control-md"
                           value={oldPassword}
                           onChange={(e) => setOldPassword(e.target.value)}
                           required
@@ -124,7 +125,7 @@ export default function ForgotPassword() {
                         <input
                           type="password"
                           id="newPasswordInput"
-                          className="form-control form-control-lg"
+                          className="form-control form-control-md"
                           value={newPassword}
                           onChange={(e) => setNewPassword(e.target.value)}
                           required
@@ -135,15 +136,15 @@ export default function ForgotPassword() {
                       </div>
 
                       {/* Submit Button */}
-                      <div className="pt-1 mb-4">
-                        <button type="submit" className="btn btn-dark btn-lg btn-block">
+                      <div className=" mb-2">
+                        <button type="submit" className="btn btn-dark btn-md btn-block">
                           Reset Password
                         </button>
                       </div>
 
-                      <p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>
+                      <p className="mb-5 pb-lg-2 remember" style={{ color: '#3d4960', fontSize: '1.32rem' }}>
                         Remember your password?{' '}
-                        <a href="#!" style={{ color: '#393f81' }} onClick={() => navigate('/login')}>
+                        <a href="#!" style={{ color: '#3d4960' }} onClick={() => navigate('/login')}>
                           Login here
                         </a>
                       </p>

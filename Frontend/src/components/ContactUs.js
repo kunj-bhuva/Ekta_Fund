@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import Header_white from './Header_white';
+import './WebsiteReview.css';
 
-const ContactUs = () => {
+const WebsiteReview = () => {
   const [formData, setFormData] = useState({
+    reviewerType: 'NGO', // Default value
     name: '',
-    email: '',
-    subject: '',
     message: '',
   });
+
+  const [statusMessage, setStatusMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,80 +19,79 @@ const ContactUs = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Here you can add form submission logic
+    try {
+      const response = await fetch('http://localhost:5000/api/reviews/website-reviews', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          reviewerName: formData.name,
+          reviewerType: formData.reviewerType,
+          message: formData.message,
+        }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setStatusMessage(data.message);
+        setFormData({
+          reviewerType: 'NGO', // Reset to default
+          name: '',
+          message: '',
+        });
+      } else {
+        const errorData = await response.json();
+        setStatusMessage(errorData.message || 'An error occurred.');
+      }
+    } catch (error) {
+      setStatusMessage('Error submitting review. Please try again.');
+    }
   };
 
   return (
     <>
-    <Header_white/>
-    <div style={{ fontFamily: 'Outfit, sans-serif', padding: '2rem', maxWidth: '800px', margin: '0 auto' ,marginTop: '4rem'}}>
-      <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '1rem' }}>Contact Us</h2>
-      <p style={{ textAlign: 'center', fontSize: '1.2rem', color: '#555' }}>
-        We’d love to hear from you! Please fill out the form below to reach out.
-      </p>
-
-      <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginTop: '2rem' }}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
-          style={{ padding: '1rem', fontSize: '1rem', borderRadius: '5px', border: '1px solid #ccc' }}
-          required
-        />
-
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
-          style={{ padding: '1rem', fontSize: '1rem', borderRadius: '5px', border: '1px solid #ccc' }}
-          required
-        />
-
-        <input
-          type="text"
-          name="subject"
-          placeholder="Subject"
-          value={formData.subject}
-          onChange={handleChange}
-          style={{ padding: '1rem', fontSize: '1rem', borderRadius: '5px', border: '1px solid #ccc' }}
-          required
-        />
-
-        <textarea
-          name="message"
-          placeholder="Your Message"
-          value={formData.message}
-          onChange={handleChange}
-          rows="5"
-          style={{ padding: '1rem', fontSize: '1rem', borderRadius: '5px', border: '1px solid #ccc' }}
-          required
-        />
-
-        <button
-          type="submit"
-          style={{
-            padding: '1rem',
-            fontSize: '1.2rem',
-            color: '#fff',
-            backgroundColor: '#D9534F',
-            border: 'none',
-            borderRadius: '5px',
-            cursor: 'pointer',
-          }}
-        >
-          Submit
-        </button>
-      </form>
-    </div>
+      <Header_white />
+      <div className="websitereview-container">
+        <h2 className="websitereview-title">Contact Us</h2>
+        <form className="websitereview-form" onSubmit={handleSubmit}>
+          <select
+            name="reviewerType"
+            value={formData.reviewerType}
+            onChange={handleChange}
+            className="websitereview-select"
+          >
+            <option value="NGO">NGO</option>
+            <option value="Donor">Donor</option>
+          </select>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            value={formData.name}
+            onChange={handleChange}
+            className="websitereview-input"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Message"
+            value={formData.message}
+            onChange={handleChange}
+            className="websitereview-textarea"
+            rows="5"
+            required
+          />
+          <button type="submit" className="websitereview-submit">
+            Submit
+          </button>
+        </form>
+        {statusMessage && <p className="websitereview-status">{statusMessage}</p>}
+      </div>
     </>
   );
 };
 
-export default ContactUs;
+export default WebsiteReview;

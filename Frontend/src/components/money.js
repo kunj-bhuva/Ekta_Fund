@@ -54,7 +54,7 @@ const DonationForm = () => {
         alert(
           `Thank you, ${formData.name}, for donating ₹${formData.amount} to ${formData.ngoName}!`
         );
-        navigate("/"); // Redirect to the home page
+        navigate("/home"); // Redirect to the home page
       } else {
         alert("Something went wrong. Please try again.");
       }

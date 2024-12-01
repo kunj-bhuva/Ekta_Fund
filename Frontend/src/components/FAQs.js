@@ -37,7 +37,7 @@ const FAQAccordion = () => {
             }}
           >
             <h2 style={{ color: '#2d6a4f', marginBottom: '20px' }}>
-        For more details, contact us at: <a href="mailto:info@ektafund.org" style={{ color: '#2d6a4f' }}>info@ektafund.org</a>
+        For more details, contact us at: <a href="mailto:info.ektafund@gmail.com" style={{ color: '#2d6a4f' }}>info.ektafund@gmail.com</a>
             </h2>
             <div
         className="accordion accordion-flush"

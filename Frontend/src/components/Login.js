@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import logo from "../images/white.png";
 import "./Login.css";
 import axios from "axios";
+import log from '../images/Mobile-login-Cristina 1.png';
+// C:\Users\kunjb\OneDrive\Desktop\JavaScript\okk\Frontend\src\images\Mobile-login-Cristina 1.png
 
 // API URLs
 const DONOR_LOGIN_API_URL = "http://localhost:5000/api/donors/login";
@@ -87,24 +89,24 @@ export default function Login() {
   };
 
   return (
-    <section className="vh-1000" style={{ backgroundColor: "#73e0cc" }}>
+    <section className="vh-1000 making" style={{ backgroundColor: "#73e0cc" }}>
       <div className="container py-3 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col col-xl-10">
             <div className="card" style={{ borderRadius: "1rem" }}>
               <div className="row g-0">
-                <div className="col-md-6 col-lg-5 d-none d-md-block">
+              <div className="col-md-11 col-lg-4 d-none d-md-block">
                   <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
-                    alt="login form"
+                    src={log}
+                    alt="register form"
                     className="img-fluid"
-                    style={{ borderRadius: "1rem 0 0 1rem" }}
+                    style={{ borderRadius: '15rem 0 0 1rem', marginTop: '10rem', marginLeft: '1.3rem' ,width:'25rem' }}
                   />
                 </div>
-                <div className="col-md-6 col-lg-7 d-flex align-items-center">
-                  <div className="card-body p-4 p-lg-5xx text-black">
+                <div className="col-md-7 col-lg-7 d-flex align-items-center">
+                  <div className="card-body  p-lg-5xx text-black">
                     <form onSubmit={handleSubmit}>
-                      <div className="d-flex align-items-center mb-3 pb-1">
+                      <div className="d-flex align-items-center mb-4 pb-1">
                         <span className="h1 fw-bold mb-0">
                           <img src={logo} alt="Logo" />
                         </span>
@@ -169,7 +171,7 @@ export default function Login() {
                         
                       </div>
 
-                      <div className="pt-1 mb-4">
+                      <div className="pt-1 mb-2">
                         <button
                           type="submit"
                           className="btn btn-dark btn-lg btn-block"

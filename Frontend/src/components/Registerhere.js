@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import log from '../images/Mobile-login-Cristina 1.png';
 
 export default function Register() {
   const [name, setName] = useState('');
@@ -77,24 +78,24 @@ export default function Register() {
       <div className="container py-5 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col col-xl-10">
-            <div className="card" style={{ borderRadius: '1rem' }}>
+            <div className="card" style={{ borderRadius: '1rem'}}>
               <div className="row g-0">
-                <div className="col-md-6 col-lg-5 d-none d-md-block">
+                <div className="col-md-11 col-lg-4 d-none d-md-block">
                   <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                    src={log}
                     alt="register form"
                     className="img-fluid"
-                    style={{ borderRadius: '1rem 0 0 1rem' }}
+                    style={{ borderRadius: '15rem 0 0 1rem', marginTop: '10rem', marginLeft: '2.1rem' ,width:'22rem' }}
                   />
                 </div>
                 <div className="col-md-6 col-lg-7 d-flex align-items-center">
-                  <div className="card-body p-4 p-lg-5 text-black">
+                  <div className="card-body p-3 p-lg-5 text-black">
                     <form onSubmit={handleSubmit}>
                       <div className="d-flex align-items-center mb-3 pb-1">
                         <span className="h1 fw-bold mb-0">Register</span>
                       </div>
 
-                      <h5 className="fw-normal mb-3 pb-3" style={{ letterSpacing: '1px' }}>
+                      <h5 className="fw-normal mb-3 pb-1" style={{ letterSpacing: '1px' }}>
                         Register a New Account
                       </h5>
 
@@ -103,7 +104,7 @@ export default function Register() {
                       {message && <div className="alert alert-success">{message}</div>}
 
                       {/* Name Field */}
-                      <div className="form-outline mb-4x">
+                      <div className="form-outline ">
                       <label className="form-label" htmlFor="formName">
                           Name
                         </label>
@@ -118,7 +119,7 @@ export default function Register() {
                       </div>
 
                       {/* Email Field */}
-                      <div className="form-outline mb-4x">
+                      <div className="form-outline ">
                       <label className="form-label" htmlFor="form2Example17">
                           Email address
                         </label>
@@ -163,7 +164,7 @@ export default function Register() {
                       </div>
 
                       {/* Submit Button */}
-                      <div className="pt-1 mb-4x">
+                      <div className="pt mb-x">
                         <button type="submit" className="btn btn-dark btn-lg btn-block">
                           Register
                         </button>
