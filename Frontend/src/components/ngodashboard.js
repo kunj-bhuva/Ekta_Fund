@@ -14,7 +14,7 @@ export default function NGODash() {
   useEffect(() => {
     const fetchNgoData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/ngos/getdetails", {
+        const response = await fetch("https://ektafund-backend.onrender.com/api/ngos/getdetails", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -48,7 +48,7 @@ export default function NGODash() {
 
   const handleDownloadDonationHistory = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/billing/NGOhistory", {
+      const response = await fetch("https://ektafund-backend.onrender.com/api/billing/NGOhistory", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

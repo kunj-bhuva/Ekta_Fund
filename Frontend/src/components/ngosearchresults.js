@@ -20,7 +20,7 @@ export default function NGOsearchResults() {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/donors/location", {
+      const response = await fetch("https://ektafund-backend.onrender.com/api/donors/location", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

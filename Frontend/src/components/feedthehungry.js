@@ -22,7 +22,7 @@ export default function FeedTheHungry() {
   const handleDownloadDonationHistory = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/billing/NGOhistory",
+        "https://ektafund-backend.onrender.com/api/billing/NGOhistory",
         {
           method: "POST",
           headers: {

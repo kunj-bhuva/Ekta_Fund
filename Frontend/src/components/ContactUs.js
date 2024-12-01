@@ -22,7 +22,7 @@ const WebsiteReview = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/reviews/website-reviews', {
+      const response = await fetch('https://ektafund-backend.onrender.com/api/reviews/website-reviews', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

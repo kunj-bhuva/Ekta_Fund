@@ -54,7 +54,7 @@ export default function Register() {
     console.log('User data saved to localStorage:', formData);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/donors/register', formData);
+      const response = await axios.post('https://ektafund-backend.onrender.com/api/donors/register', formData);
 
       setMessage('Registration successful! Please log in.');
       setError('');

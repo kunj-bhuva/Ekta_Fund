@@ -35,7 +35,7 @@ export default function ForgotPassword() {
 
     try {
       // Send request to backend to update the password
-      const response = await axios.post('http://localhost:5000/api/forget-password/reset', {
+      const response = await axios.post('https://ektafund-backend.onrender.com/api/forget-password/reset', {
         email,
         oldPassword,
         newPassword,

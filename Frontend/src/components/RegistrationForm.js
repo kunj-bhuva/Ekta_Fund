@@ -68,7 +68,7 @@ export default function RegistrationForm() {
     });
 
     try {
-      const response = await fetch("http://localhost:5000/api/ngos/register", {
+      const response = await fetch("https://ektafund-backend.onrender.com/api/ngos/register", {
         method: "POST",
         body: formDataToSend,
       });

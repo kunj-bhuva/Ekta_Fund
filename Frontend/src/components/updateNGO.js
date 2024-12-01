@@ -52,7 +52,7 @@ export default function UpdateNGO() {
     formDataToSend.append("password", password);
 
     try {
-      const response = await fetch(`http://localhost:5000/api/ngos/profile`, {
+      const response = await fetch(`https://ektafund-backend.onrender.com/api/ngos/profile`, {
         method: "PUT",
         body: formDataToSend,
       });
@@ -86,7 +86,7 @@ export default function UpdateNGO() {
   
     const fetchNGODetails = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/ngos/profile/`);
+        const response = await fetch(`https://ektafund-backend.onrender.com/api/ngos/profile/`);
         const data = await response.json();
         if (response.ok) {
           setFormData((prevData) => ({

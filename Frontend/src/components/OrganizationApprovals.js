@@ -11,7 +11,7 @@ const OrganizationApprovals = () => {
   useEffect(() => {
     const fetchOrganizations = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/admin/pending-verifications');
+        const response = await fetch('https://ektafund-backend.onrender.com/api/admin/pending-verifications');
         const data = await response.json();
 
         if (response.ok) {
@@ -35,7 +35,7 @@ const OrganizationApprovals = () => {
     const { name } = updatedOrganization; 
   
     try {
-      const response = await fetch('http://localhost:5000/api/admin/verify-ngo', {
+      const response = await fetch('https://ektafund-backend.onrender.com/api/admin/verify-ngo', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

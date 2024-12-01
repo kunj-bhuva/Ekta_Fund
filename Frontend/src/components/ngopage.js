@@ -26,7 +26,7 @@ export default function NGOPage() {
 
   const handleDownloadDonationHistory = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/billing/NGOhistory", {
+      const response = await fetch("https://ektafund-backend.onrender.com/api/billing/NGOhistory", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

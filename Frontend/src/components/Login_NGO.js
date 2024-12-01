@@ -5,9 +5,9 @@ import "./Login.css";
 import axios from "axios";
 
 // API URLs
-// const DONOR_LOGIN_API_URL = "http://localhost:5000/api/donors/login";
-const NGO_LOGIN_API_URL = "http://localhost:5000/api/ngos/login";
-// const ADMIN_LOGIN_API_URL = "http://localhost:5000/api/admin/login"; // Admin login API
+// const DONOR_LOGIN_API_URL = "https://ektafund-backend.onrender.com/api/donors/login";
+const NGO_LOGIN_API_URL = "https://ektafund-backend.onrender.com/api/ngos/login";
+// const ADMIN_LOGIN_API_URL = "https://ektafund-backend.onrender.com/api/admin/login"; // Admin login API
 
 export default function Login() {
   const [email, setEmail] = useState("");
