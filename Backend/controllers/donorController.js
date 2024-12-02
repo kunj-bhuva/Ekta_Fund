@@ -65,7 +65,7 @@ exports.getFilteredNGOs = async (req, res) => {
   try {
     const { location } = req.body;
 
-    let filterCriteria = {};
+    let filterCriteria = { verificationStatus: "verified" };
     if (location) filterCriteria.location = location;
 
     const ngos = await NGO.find(filterCriteria);
