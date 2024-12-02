@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732040298072,92,HTTP Request,500,Internal Server Error,Thread Group 1-1,text,false,,393,293,4,4,http://localhost:5000/api/donations/donate,92,0,64
+1732040298075,121,HTTP Request,200,OK,Thread Group 1-3,text,true,,2511,294,3,3,http://localhost:5000/api/donations/donate,118,0,47
+1732040298076,192,HTTP Request,200,OK,Thread Group 1-2,text,true,,2515,292,3,3,http://localhost:5000/api/donations/donate,191,0,49
+1732040298228,113,HTTP Request,200,OK,Thread Group 1-4,text,true,,2512,294,3,3,http://localhost:5000/api/donations/donate,110,0,4
+1732040298243,122,HTTP Request,200,OK,Thread Group 1-5,text,true,,2513,296,2,2,http://localhost:5000/api/donations/donate,121,0,1
+1732040298305,97,HTTP Request,200,OK,Thread Group 1-6,text,true,,2518,297,2,2,http://localhost:5000/api/donations/donate,96,0,4
+1732040298396,58,HTTP Request,200,OK,Thread Group 1-7,text,true,,2517,295,1,1,http://localhost:5000/api/donations/donate,57,0,3
+1732040298488,43,HTTP Request,200,OK,Thread Group 1-8,text,true,,2515,296,1,1,http://localhost:5000/api/donations/donate,43,0,2
+1732040298737,47,HTTP Request,200,OK,Thread Group 1-9,text,true,,2515,296,1,1,http://localhost:5000/api/donations/donate,46,0,1
+1732040298824,45,HTTP Request,200,OK,Thread Group 1-10,text,true,,2513,295,1,1,http://localhost:5000/api/donations/donate,44,0,5
