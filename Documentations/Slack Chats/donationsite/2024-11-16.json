@@ -1,0 +1,154 @@
+[
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731744444.948889",
+        "client_msg_id": "067b1392-a66d-4aca-a5c9-60241cb60713",
+        "text": "Ngo updation with frontend files and backend file done",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ckaB\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ngo updation with frontend files and backend file done"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731744667.451159",
+        "client_msg_id": "B506D25D-511B-416D-8A6E-285ED25CBFA3",
+        "text": "Search page done,only need to update some css",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cYJJL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Search page done,only need to update some css"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731779143.482189",
+        "client_msg_id": "606b4030-e461-47ab-a5eb-cb00ef49a1aa",
+        "text": "Ngo search and filter integration is done all who uses this repo plz pull before doing any changes",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qstmA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ngo search and filter integration is done all who uses this repo plz pull before doing any changes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731779166.366199",
+        "client_msg_id": "0e79acb9-b21e-4c55-85c9-82fda6130467",
+        "text": "And check the css for ngopage.css rest is done for searching",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ujYsL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And check the css for ngopage.css rest is done for searching"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

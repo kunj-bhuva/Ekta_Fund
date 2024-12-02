@@ -1,0 +1,114 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07GFRHCTBN",
+        "text": "<@U07GFRHCTBN> has joined the channel",
+        "type": "message",
+        "ts": "1726061244.643019"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07H6QHJ4C8",
+        "text": "<@U07H6QHJ4C8> has joined the channel",
+        "inviter": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726061254.989069"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G3F30B1D",
+        "text": "<@U07G3F30B1D> has joined the channel",
+        "inviter": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726061255.056829"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GC1FRPQD",
+        "text": "<@U07GC1FRPQD> has joined the channel",
+        "inviter": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726061255.149229"
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726061264.931939",
+        "client_msg_id": "60b28ebd-8aaf-48ef-b767-52013de87ab6",
+        "text": "Hey there :wave:",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wRAPw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey there "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wave",
+                                "unicode": "1f44b"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GC1FRPQD",
+        "type": "message",
+        "ts": "1726110782.638439",
+        "client_msg_id": "12AA9F62-D0F5-4D93-8E23-E28E0833080E",
+        "text": "What’d I miss?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "484d58e9d337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-11\/7552305415366_484d58e9d33712aa472f_72.png",
+            "first_name": "Devamm",
+            "real_name": "Devamm Patel",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201292",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4H9Yj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "What’d I miss?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

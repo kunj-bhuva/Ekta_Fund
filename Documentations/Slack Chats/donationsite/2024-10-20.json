@@ -1,0 +1,49 @@
+[
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1729482859.338449",
+        "client_msg_id": "7E05B933-A9F1-4454-B25D-BDB7C2CDA125",
+        "text": "Lets start the work again, send the designs so we can complete the max work in next two weeks",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rswOs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lets start the work again, send the designs so we can complete the max work in next two weeks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U07GASBEWBY"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1724607248.394849",
+        "client_msg_id": "395d54c9-36fa-4c1c-8d2f-15eed6e95898",
+        "text": "Abse isme hee baat karni haoo",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4VaDA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Abse isme hee baat karni haoo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

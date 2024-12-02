@@ -1,0 +1,239 @@
+[
+    {
+        "user": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731513558.703739",
+        "client_msg_id": "7a30ada7-750e-457d-bd9a-82756a214a3f",
+        "text": "hello people\ncan one of you people from the front and back end sides confirm the tech stack you're working on?\njust need to verify it before pushing it onto the documentation",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "d31c5ae5e97e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7558641987029_d31c5ae5e97ef58ccce7_72.png",
+            "first_name": "Tanay",
+            "real_name": "Tanay Kewalramani",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201362",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k78eO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hello people\ncan one of you people from the front and back end sides confirm the tech stack you're working on?\njust need to verify it before pushing it onto the documentation"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731513789.723749",
+        "client_msg_id": "69C5FB0F-6B16-402B-8FAC-FC53C9388CB4",
+        "text": "Frontend we are using html css javascript and reactJS so React JS stack ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j3UQW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Frontend we are using html css javascript and reactJS so React JS stack "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U07GASBEWBY"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "this is how our website's frontend look like now ,many more changes to go..",
+        "files": [
+            {
+                "id": "F0813MR7NP3",
+                "created": 1731519658,
+                "timestamp": 1731519658,
+                "name": "Screen-Recording.mp4",
+                "title": "Screen-Recording.mp4",
+                "mimetype": "video\/x-matroska",
+                "filetype": "mkv",
+                "pretty_type": "Matroska Video",
+                "user": "U07GJ042KD0",
+                "user_team": "T07GDAV8RMY",
+                "editable": false,
+                "size": 23013837,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "transcription": {
+                    "status": "none"
+                },
+                "mp4": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F0813MR7NP3-d2a75c77e6\/screen-recording.mp4?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "url_private": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F0813MR7NP3-d2a75c77e6\/screen-recording.mp4?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F0813MR7NP3\/download\/screen-recording.mp4?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "hls": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F0813MR7NP3-d2a75c77e6\/file.m3u8?_xcb=d8a26&t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "hls_embed": "data:application\/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1JTkRFUEVOREVOVC1TRUdNRU5UUwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9ODk2OTkxLEFWRVJBR0UtQkFORFdJRFRIPTU4OTk4MCxDT0RFQ1M9ImF2YzEuNjQwMDI4LG1wNGEuNDAuNSIsUkVTT0xVVElPTj0xOTIweDEwODAsRlJBTUUtUkFURT0yOS45NzAKZGF0YTphcHBsaWNhdGlvbi92bmQuYXBwbGUubXBlZ3VybDtiYXNlNjQsSTBWWVZFMHpWUW9qUlZoVUxWZ3RWa1ZTVTBsUFRqb3pDaU5GV0ZRdFdDMVVRVkpIUlZSRVZWSkJWRWxQVGpvM0NpTkZXRlF0V0MxTlJVUkpRUzFUUlZGVlJVNURSVG94Q2lORldGUXRXQzFRVEVGWlRFbFRWQzFVV1ZCRk9sWlBSQW9qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQTNSMFJCVmpoU1RWa3RSakE0TVROTlVqZE9VRE10WkRKaE56VmpOemRsTmk5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXdNUzUwY3dvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREEzUjBSQlZqaFNUVmt0UmpBNE1UTk5VamRPVURNdFpESmhOelZqTnpkbE5pOW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3TWk1MGN3b2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBM1IwUkJWamhTVFZrdFJqQTRNVE5OVWpkT1VETXRaREpoTnpWak56ZGxOaTltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd015NTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQTNSMFJCVmpoU1RWa3RSakE0TVROTlVqZE9VRE10WkRKaE56VmpOemRsTmk5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXdOQzUwY3dvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREEzUjBSQlZqaFNUVmt0UmpBNE1UTk5VamRPVURNdFpESmhOelZqTnpkbE5pOW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3TlM1MGN3b2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBM1IwUkJWamhTVFZrdFJqQTRNVE5OVWpkT1VETXRaREpoTnpWak56ZGxOaTltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd05pNTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQTNSMFJCVmpoU1RWa3RSakE0TVROTlVqZE9VRE10WkRKaE56VmpOemRsTmk5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXdOeTUwY3dvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREEzUjBSQlZqaFNUVmt0UmpBNE1UTk5VamRPVURNdFpESmhOelZqTnpkbE5pOW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3T0M1MGN3b2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBM1IwUkJWamhTVFZrdFJqQTRNVE5OVWpkT1VETXRaREpoTnpWak56ZGxOaTltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd09TNTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQTNSMFJCVmpoU1RWa3RSakE0TVROTlVqZE9VRE10WkRKaE56VmpOemRsTmk5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXhNQzUwY3dvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREEzUjBSQlZqaFNUVmt0UmpBNE1UTk5VamRPVURNdFpESmhOelZqTnpkbE5pOW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF4TVM1MGN3b2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBM1IwUkJWamhTVFZrdFJqQTRNVE5OVWpkT1VETXRaREpoTnpWak56ZGxOaTltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBeE1pNTBjd29qUlZoVVNVNUdPakF1TnpBeExBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQTNSMFJCVmpoU1RWa3RSakE0TVROTlVqZE9VRE10WkRKaE56VmpOemRsTmk5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXhNeTUwY3dvalJWaFVMVmd0UlU1RVRFbFRWQW89Cg==",
+                "mp4_low": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F0813MR7NP3-d2a75c77e6\/screen-recording_trans.mp4?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "duration_ms": 72772,
+                "media_display_type": "video",
+                "thumb_video": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F0813MR7NP3-d2a75c77e6\/screen-recording_thumb_video.jpeg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_video_w": 1920,
+                "thumb_video_h": 1080,
+                "permalink": "https:\/\/se-19-workspace.slack.com\/files\/U07GJ042KD0\/F0813MR7NP3\/screen-recording.mp4",
+                "permalink_public": "https:\/\/slack-files.com\/T07GDAV8RMY-F0813MR7NP3-c98a3bc1aa",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U07GJ042KD0",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6pKiL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "this is how our website's frontend look like now ,many more changes to go.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1731519716.370579",
+        "client_msg_id": "14237302-ca12-4c98-bda3-f6e4d3edddb8"
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731523604.773149",
+        "client_msg_id": "3a7e69a9-a0d4-4b06-a57a-b9100a4dc74a",
+        "text": "Sure <@U07GASBEWBY> \nWe are using javascript as main language also for database storage we are using mongoDB as NoSQL database",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y5xKn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U07GASBEWBY"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nWe are using javascript as main language also for database storage we are using mongoDB as NoSQL database"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731523630.848979",
+        "client_msg_id": "44f442d2-ea88-4803-adb5-79d9819a857f",
+        "text": "Looks nice !!",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7lpTM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Looks nice !!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "user": "U07GC1FRPQD",
+        "type": "message",
+        "ts": "1731492928.749469",
+        "client_msg_id": "C5E9BA09-10DC-4742-892C-0DDA53AFBF87",
+        "text": "Yes sure ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "484d58e9d337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-11\/7552305415366_484d58e9d33712aa472f_72.png",
+            "first_name": "Devamm",
+            "real_name": "Devamm Patel",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201292",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1fgVT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes sure "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GC1FRPQD",
+        "type": "message",
+        "ts": "1731492956.142589",
+        "client_msg_id": "D32603DC-98AE-4F41-98CA-4CE71FB69DB2",
+        "text": "Let’s again meet at 9PM today ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "484d58e9d337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-11\/7552305415366_484d58e9d33712aa472f_72.png",
+            "first_name": "Devamm",
+            "real_name": "Devamm Patel",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201292",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UUHMO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Let’s again meet at 9PM today "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731493414.473959",
+        "client_msg_id": "21d70093-6ab2-44ef-a03e-a546e15c63dd",
+        "text": "Sure no problem.",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xDP5h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure no problem."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731493438.477479",
+        "client_msg_id": "f73f14c4-85ba-4aef-8844-653767e8eb62",
+        "text": "All sprints are over i believe. Will start with testing today",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZTKPJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "All sprints are over i believe. Will start with testing today"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731523500.250049",
+        "client_msg_id": "5c0ab569-f4e9-43bd-aef3-0fb9a133e7e2",
+        "text": "And also started with the commits in github",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bggpX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And also started with the commits in github"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731523726.153799",
+        "client_msg_id": "f66376c0-3091-4bd8-b77f-480268bdf2c2",
+        "text": "Also we had a little chat with sir today about payment gateway page. We told sir that the KYC for payment gateway are getting rejected by 3 4 websites , so sir told to do a fake payment portal as implementation",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "X2AdO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Also we had a little chat with sir today about payment gateway page. We told sir that the KYC for payment gateway are getting rejected by 3 4 websites , so sir told to do a fake payment portal as implementation"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

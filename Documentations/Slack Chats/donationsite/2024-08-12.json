@@ -1,0 +1,133 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07GASBEWBY",
+        "text": "<@U07GASBEWBY> has joined the channel",
+        "type": "message",
+        "ts": "1723458131.159829"
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1723463701.094559",
+        "client_msg_id": "f69c0333-37dd-43da-a705-318ee54fcafc",
+        "text": "helloo guys",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Lna0p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "helloo guys"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ042KD0",
+        "text": "<@U07GJ042KD0> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1723466454.297419"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07H6QHJ4C8",
+        "text": "<@U07H6QHJ4C8> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1723466454.446169"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G3F30B1D",
+        "text": "<@U07G3F30B1D> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1723466454.555359"
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1723466487.278779",
+        "client_msg_id": "2ABE7F3A-4BEA-43F5-997D-84DDFEF7D550",
+        "text": "Hi",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4fvff",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G4GMLC4F",
+        "text": "<@U07G4GMLC4F> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1723476226.779219"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ7P52TV",
+        "text": "<@U07GJ7P52TV> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1723476226.873029"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GCE9NF7G",
+        "text": "<@U07GCE9NF7G> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1723476272.689309"
+    }
+]

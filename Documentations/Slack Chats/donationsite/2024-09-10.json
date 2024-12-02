@@ -1,0 +1,722 @@
+[
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1725981510.934739",
+        "client_msg_id": "0A4B6AE0-BAE8-4FFF-84E7-B5F46C4E7DE1",
+        "text": "Yee weekend push kar dena padhai and all\nNext weekday me start karte hai thoda thoda code karna",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YBY20",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yee weekend push kar dena padhai and all\nNext weekday me start karte hai thoda thoda code karna"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726034892.245359",
+        "client_msg_id": "a7554a77-db70-4999-9ef3-28e7ff7356d4",
+        "text": "Back end vale aap bhi dekhlena",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Yq11",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Back end vale aap bhi dekhlena"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726035802.109259",
+        "client_msg_id": "B2450EFB-D978-4520-9A7D-B220BD7A2746",
+        "text": "Kon kya kr raha hai vo bhi specify kr do",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y8AAk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Kon kya kr raha hai vo bhi specify kr do"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726035809.987699",
+        "client_msg_id": "8B7C4F76-99D3-4E61-A21B-89CA8503720F",
+        "text": "Sakshi-frontend",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PP8HQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sakshi-frontend"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1726035834.097769",
+        "client_msg_id": "837ac6b6-3db0-4245-bde0-aee3b43659f3",
+        "text": "Ansh - Backend \nJal - backend \nRam - backend",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EMibp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ansh - Backend \nJal - backend \nRam - backend"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1726035836.782579",
+        "client_msg_id": "797c1ad7-a69c-4fc8-91c3-442b7dbff335",
+        "text": "As of now",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KRzdP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "As of now"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726035857.784079",
+        "client_msg_id": "33B0AB84-9335-4D89-9AE6-06D29F169689",
+        "text": "Kunj-frontend",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "71lOZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Kunj-frontend"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ7P52TV",
+        "type": "message",
+        "ts": "1726035965.970909",
+        "client_msg_id": "0375c3bf-48e8-453e-99d4-80ffbb9898a3",
+        "text": "Frontend",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g8f714fc41cb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8f714fc41cb0e96fab49a911b4cd2a86.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Harsh",
+            "real_name": "Harsh Mangukiya",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201363",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OGMWB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Frontend"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726036917.593949",
+        "client_msg_id": "E6C028EE-6872-4CDB-9FD5-C463B5F3212B",
+        "text": "React final kiya hai",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ARUn+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "R"
+                            },
+                            {
+                                "type": "text",
+                                "text": "eact final kiya hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726036924.706439",
+        "client_msg_id": "8E0A87B9-FF74-4128-8118-45CD08D4CA3F",
+        "text": "To vo sikh lena",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2GcGU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "To vo sikh lena"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726036928.622409",
+        "client_msg_id": "1DEF44D1-F17D-45ED-807D-D4E688B2A73E",
+        "text": "Frontend k liye",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r8viZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Frontend k liye"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GC1FRPQD",
+        "type": "message",
+        "ts": "1726036978.933599",
+        "client_msg_id": "2716D2A6-9F57-4435-A244-264D97405E0A",
+        "text": "Devamm - Backend ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "484d58e9d337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-11\/7552305415366_484d58e9d33712aa472f_72.png",
+            "first_name": "Devamm",
+            "real_name": "Devamm Patel",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201292",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cTEF0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Devamm - Backend "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726037020.492999",
+        "client_msg_id": "30E5297C-D943-4930-BC65-D3FD902CC3DF",
+        "text": "sab apna user name change karlona",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PhcBL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sab apna user name change karlona"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726037028.932609",
+        "client_msg_id": "4E0976B6-F310-4A4C-AA56-533EE21A9732",
+        "text": "Real name",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LhZda",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Real name"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1726037276.363919",
+        "client_msg_id": "8C5065C1-4815-4951-8B82-E90F3128B1E2",
+        "text": "TanA - front end UI design",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "d31c5ae5e97e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7558641987029_d31c5ae5e97ef58ccce7_72.png",
+            "first_name": "Tanay",
+            "real_name": "Tanay Kewalramani",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201362",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R7eug",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TanA - front end UI design"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726037471.863749",
+        "client_msg_id": "151E4AF3-9ACC-48C5-A4C4-500ABF8FB083",
+        "text": "Backend me 3 jaan enough hai <@U07GFRHCTBN> <@U07H6QHJ4C8> <@U07G3F30B1D> ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A+\/9z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Backend me 3 jaan enough hai "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U07GFRHCTBN"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U07H6QHJ4C8"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U07G3F30B1D"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726037523.969269",
+        "client_msg_id": "EEC1F830-A58C-4988-A0ED-99C79C8C8C27",
+        "text": "Achaa 4 haina",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AKHxl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Achaa 4 haina"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726037536.509739",
+        "client_msg_id": "9F1E8235-FB9D-4B32-87A0-B676652F741A",
+        "text": "4 enough hai? <@U07GC1FRPQD> ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KRmGg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "4 enough hai? "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U07GC1FRPQD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

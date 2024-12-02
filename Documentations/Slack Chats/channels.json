@@ -1,0 +1,201 @@
+[
+{
+    "id": "C07G6MRUXGW",
+    "name": "random",
+    "created": 1723294753,
+    "creator": "U07G6MRTVK8",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07G6MRTVK8",
+        "U07GASBEWBY",
+        "U07GC1FRPQD",
+        "U07GFRHCTBN"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This channel is for... well, everything else. It’s a place for team jokes, spur-of-the-moment ideas and funny GIFs.",
+        "creator": "U07G6MRTVK8",
+        "last_set": 1723294753
+    }
+},
+{
+    "id": "C07GAE89KE1",
+    "name": "general",
+    "created": 1723294752,
+    "creator": "U07G6MRTVK8",
+    "is_archived": false,
+    "is_general": true,
+    "members": [
+        "U07G3F30B1D",
+        "U07G4GMLC4F",
+        "U07G6MRTVK8",
+        "U07GASBEWBY",
+        "U07GC1FRPQD",
+        "U07GCE9NF7G",
+        "U07GFRHCTBN",
+        "U07GJ042KD0",
+        "U07GJ7P52TV",
+        "U07H6QHJ4C8",
+        "U07NPLBDCHF"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This is the one channel that will always include everyone. It’s a great spot for announcements and team-wide conversations.",
+        "creator": "U07G6MRTVK8",
+        "last_set": 1723294752
+    }
+},
+{
+    "id": "C07GDAY3CSE",
+    "name": "donationsite",
+    "created": 1723294836,
+    "creator": "U07G6MRTVK8",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07G3F30B1D",
+        "U07G4GMLC4F",
+        "U07G6MRTVK8",
+        "U07GASBEWBY",
+        "U07GC1FRPQD",
+        "U07GCE9NF7G",
+        "U07GFRHCTBN",
+        "U07GJ042KD0",
+        "U07GJ7P52TV",
+        "U07H6QHJ4C8",
+        "U07NPLBDCHF"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This channel is for everything #donationsite. Hold meetings, share docs and make decisions together with your team.",
+        "creator": "U07G6MRTVK8",
+        "last_set": 1723294836
+    }
+},
+{
+    "id": "C07LVMNLM9T",
+    "name": "backend_se19",
+    "created": 1726061244,
+    "creator": "U07GFRHCTBN",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07G3F30B1D",
+        "U07G6MRTVK8",
+        "U07GC1FRPQD",
+        "U07GFRHCTBN",
+        "U07H6QHJ4C8"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+},
+{
+    "id": "C07N4E9LC1L",
+    "name": "front_end",
+    "created": 1726833663,
+    "creator": "U07GASBEWBY",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07G4GMLC4F",
+        "U07G6MRTVK8",
+        "U07GASBEWBY",
+        "U07GC1FRPQD",
+        "U07GCE9NF7G",
+        "U07GJ042KD0",
+        "U07GJ7P52TV",
+        "U07NPLBDCHF"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+},
+{
+    "id": "C080T5L6A5V",
+    "name": "documentation",
+    "created": 1731856713,
+    "creator": "U07GASBEWBY",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07G3F30B1D",
+        "U07G4GMLC4F",
+        "U07G6MRTVK8",
+        "U07GASBEWBY",
+        "U07GC1FRPQD",
+        "U07GCE9NF7G",
+        "U07GFRHCTBN",
+        "U07GJ042KD0",
+        "U07GJ7P52TV",
+        "U07H6QHJ4C8"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+},
+{
+    "id": "C0820PPB1KJ",
+    "name": "testing",
+    "created": 1731945629,
+    "creator": "U07GASBEWBY",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U07G3F30B1D",
+        "U07G4GMLC4F",
+        "U07G6MRTVK8",
+        "U07GASBEWBY",
+        "U07GC1FRPQD",
+        "U07GCE9NF7G",
+        "U07GFRHCTBN",
+        "U07GJ042KD0",
+        "U07GJ7P52TV",
+        "U07H6QHJ4C8"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    }
+}
+]

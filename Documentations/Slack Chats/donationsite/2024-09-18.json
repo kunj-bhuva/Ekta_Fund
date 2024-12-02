@@ -1,0 +1,677 @@
+[
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726684773.701569",
+        "client_msg_id": "F7962818-05FA-467E-A997-3C50D4842DAA",
+        "text": "Hello,\nIn next lab we have to submit sequence diagram \nSo should we meet before and discuss about it\nOr you are sure that we will be able to do it in two hours ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zxx8s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hello,\nIn next lab we have to submit sequence diagram \nSo should we meet before and discuss about it\nOr you are sure that we will be able to do it in two hours "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726684861.298269",
+        "client_msg_id": "B1E0804A-8BCE-4B22-AB33-67A1920934A9",
+        "text": "And we also have to get our sprints verified from sir ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kaf8O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And we also have to get our sprints verified from sir "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726720631.482409",
+        "client_msg_id": "b9125367-197a-464b-b29c-8519574bb5b1",
+        "text": "Let's meet tomorrow after lecture or 1 to 3",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zwCws",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Let's meet tomorrow after lecture or 1 to 3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726720640.615679",
+        "client_msg_id": "6f11cda5-4e84-44cd-b3cd-5573149f9099",
+        "text": "Or should we meet today ?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4YXqI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Or should we meet today ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726720656.575389",
+        "client_msg_id": "B29883DF-8FD0-474A-B34D-F907B8960E38",
+        "text": "Tomr",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Imep",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tomr"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726720669.570929",
+        "client_msg_id": "2ADB7116-0724-4CA4-9579-BF61CB63C92B",
+        "text": "Isme pool nhi ata",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+rOK6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Isme pool nhi ata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726720676.305809",
+        "client_msg_id": "7A7B4D69-F350-42AC-8371-D96AA06F9647",
+        "text": "Today @7 ?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qw1FE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Today @7 ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GC1FRPQD",
+        "type": "message",
+        "ts": "1726720761.208269",
+        "client_msg_id": "B3DA48A1-E7DB-44D2-8DAA-D50947A0B5B5",
+        "text": "Tomorrow would be better ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "484d58e9d337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-11\/7552305415366_484d58e9d33712aa472f_72.png",
+            "first_name": "Devamm",
+            "real_name": "Devamm Patel",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201292",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FPUh1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tomorrow would be better "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1726720778.039809",
+        "client_msg_id": "a58e66e5-09ca-4567-94b0-3c789a178bb2",
+        "text": "Aaj bhi mil sakte hai",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "07P8r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aaj bhi mil sakte hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726720898.728779",
+        "client_msg_id": "0617afb9-462a-4200-80c2-37542744b961",
+        "text": "Sprints bhi karna hai and me nai hu weekend par",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aD0U9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sprints bhi karna hai and me nai hu weekend par"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726720910.063679",
+        "client_msg_id": "a67e56df-fe55-4eb1-82cf-b36da6dd474d",
+        "text": "Sprint**",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O1zth",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sprint**"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726720933.721479",
+        "client_msg_id": "7A1EB357-7F97-48E8-BE45-5D42FE156BE7",
+        "text": "Kal haina??",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3cFkg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Kal haina??"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1726720980.194089",
+        "client_msg_id": "f3785f84-dd9b-4530-8c74-5d9af3284a77",
+        "text": "Haan",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+VXII",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Haan"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726721145.949649",
+        "client_msg_id": "55F68436-D103-41EA-B376-124EEAC90DFA",
+        "text": "So let’s meet today..so we can do sequence diagram today and sprints tomorrow if not completed today ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0nEbv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "S"
+                            },
+                            {
+                                "type": "text",
+                                "text": "o "
+                            },
+                            {
+                                "type": "text",
+                                "text": "let’s"
+                            },
+                            {
+                                "type": "text",
+                                "text": " meet today..so we can do sequence diagram today and sprints tomorrow if not completed today "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1726721207.311079",
+        "client_msg_id": "7D6C5B3E-D71A-4D76-8F15-4090735BA409",
+        "text": "But aaj free he nhi hai log",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "204ec7fbee62",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-10\/7557266466563_204ec7fbee626c65cacd_72.png",
+            "first_name": "kunj",
+            "real_name": "kunj Bhuva",
+            "display_name": "Kunj",
+            "team": "T07GDAV8RMY",
+            "name": "appleeye894",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "l4wLZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But aaj free he nhi hai log"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U07GC1FRPQD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726721255.515719",
+        "client_msg_id": "B767F631-3217-4FF9-8909-2CB52699CF63",
+        "text": "I am okay with tomorrow also..just suggesting if its okay with everyone ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mBc\/P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I am okay with tomorrow also..just suggesting if its okay with everyone "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726721291.164999",
+        "client_msg_id": "84553BBB-7101-4C45-9BA6-7A92382CD073",
+        "text": "We would have more time..that’s the only concern ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Gc+5W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "We would have more time.."
+                            },
+                            {
+                                "type": "text",
+                                "text": "that’s"
+                            },
+                            {
+                                "type": "text",
+                                "text": " the only concern "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

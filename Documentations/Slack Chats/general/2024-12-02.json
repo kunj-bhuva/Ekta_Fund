@@ -1,0 +1,45 @@
+[
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F0837HHC867",
+                "created": 1733133596,
+                "timestamp": 1733133596,
+                "name": "mainDocumentation.pdf",
+                "title": "mainDocumentation.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U07GASBEWBY",
+                "user_team": "T07GDAV8RMY",
+                "editable": false,
+                "size": 2749667,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F0837HHC867\/maindocumentation.pdf?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F0837HHC867\/download\/maindocumentation.pdf?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F0837HHC867-2cb91ee01f\/maindocumentation_thumb_pdf.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/se-19-workspace.slack.com\/files\/U07GASBEWBY\/F0837HHC867\/maindocumentation.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T07GDAV8RMY-F0837HHC867-806113fc9c",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U07GASBEWBY",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1733133604.477639",
+        "client_msg_id": "c272d6a2-1867-48b8-a7d0-52258921ce97"
+    }
+]

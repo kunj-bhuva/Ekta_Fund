@@ -1,0 +1,581 @@
+[
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731584277.530169",
+        "client_msg_id": "2e269006-29ce-41ac-a043-53a13a8ab6ce",
+        "text": "Okay works.. we will work on it today @7pm after se paper checking",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s5gxP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okay works.. we will work on it today @7pm after se paper checking"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731584298.081229",
+        "client_msg_id": "2f370cf6-5c94-4d1d-b867-0acb13dc937e",
+        "text": "Sabki testing ho gayi hai mostly sprints ki individual level pe",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gJCvL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sabki testing ho gayi hai mostly sprints ki individual level pe"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731584319.925879",
+        "client_msg_id": "9565e4c8-903b-486b-97ac-53c372493f06",
+        "text": "Aj aur kal milke commits kr denge",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PGdYQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aj aur kal milke commits kr denge"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G3F30B1D",
+        "type": "message",
+        "ts": "1731584390.339249",
+        "client_msg_id": "41d86dda-a371-4da1-bfd0-8655c76d7743",
+        "text": "Today we'll customize all the sprints and take a follow up of the frontend",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g2d22a56da57",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/2d22a56da57771aaa61b8cc07a77d055.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Ram_Kulkarni",
+            "real_name": "Ram_Kulkarni",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201354",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rjORW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Today we'll customize all the sprints and take a follow up of the frontend"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731584435.707469",
+        "client_msg_id": "c5e14d68-b4d6-4637-892b-59e2178dc63e",
+        "text": "Yes that wors for me \n\n\nSent all git hub repo of your spints",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TfaZF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes that wors for me \n\n\nSent all git hub repo of your spints"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GC1FRPQD",
+        "type": "message",
+        "ts": "1731584447.090669",
+        "client_msg_id": "58bba49c-de8f-4a83-b6f2-93d066be6bb2",
+        "text": "Will also see a short tutorial on how to connect backend with frontend",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "484d58e9d337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-11\/7552305415366_484d58e9d33712aa472f_72.png",
+            "first_name": "Devamm",
+            "real_name": "Devamm Patel",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201292",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wjFxE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Will also see a short tutorial on how to connect backend with frontend"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GC1FRPQD",
+        "type": "message",
+        "ts": "1731584472.921129",
+        "client_msg_id": "826cab86-ea7b-46f8-bc9f-ae953b1b6884",
+        "text": "I have already gone through a few and got an idea",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "484d58e9d337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-11\/7552305415366_484d58e9d33712aa472f_72.png",
+            "first_name": "Devamm",
+            "real_name": "Devamm Patel",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201292",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "weTj\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I have already gone through a few and got an idea"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731584746.964199",
+        "client_msg_id": "51204dab-daf6-44fc-b17d-98cbe603ae59",
+        "text": "Ohhk seems nice",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Isn6g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ohhk seems nice"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07G3F30B1D",
+        "type": "message",
+        "ts": "1731584800.592489",
+        "client_msg_id": "69af556d-03c7-49db-8ef3-0676db253948",
+        "text": "There are many technicalities regarding the frontend connection which we'll have to discuss with guys doing frontend",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g2d22a56da57",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/2d22a56da57771aaa61b8cc07a77d055.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Ram_Kulkarni",
+            "real_name": "Ram_Kulkarni",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201354",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aQ1Vg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There are many technicalities regarding the frontend connection which we'll have to discuss with guys doing frontend"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731590454.654819",
+        "client_msg_id": "1515d5d1-3808-402b-9a84-32b6e7a43e86",
+        "text": "Meeting at 10 pm tonight",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TpjE4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Meeting at 10 pm tonight"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731590570.197909",
+        "client_msg_id": "419bd7b7-8599-4809-b59f-56383c90e92d",
+        "text": "Okay works :+1:.",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CxW7k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okay works "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1",
+                                "unicode": "1f44d"
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731590578.644589",
+        "client_msg_id": "4d1d06b0-7357-419c-8f35-1bbe9e4ddb15",
+        "text": "Venue?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8aHRy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Venue?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731642520.365969",
+        "client_msg_id": "2d872d4f-919a-4fac-9638-892ecf89ba43",
+        "text": "Let's finalize and complete any remaining tasks for efficient project closure.",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q+OaO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Let's finalize and complete any remaining tasks for efficient project closure."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731642879.061069",
+        "client_msg_id": "f1603f79-547b-4db7-8b75-1340e7f8c1e8",
+        "text": "2 pm",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zy9cC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2 pm"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1731642910.208039",
+        "client_msg_id": "b6ecca0a-aa8f-4972-8432-813b6d51d601",
+        "text": "Works milte hai 2 baje",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "POHUz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Works milte hai 2 baje"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

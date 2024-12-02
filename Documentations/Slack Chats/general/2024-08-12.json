@@ -1,0 +1,89 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07GASBEWBY",
+        "text": "<@U07GASBEWBY> has joined the channel",
+        "type": "message",
+        "ts": "1723458131.142929"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ042KD0",
+        "text": "<@U07GJ042KD0> has joined the channel",
+        "type": "message",
+        "ts": "1723465190.427599"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07H6QHJ4C8",
+        "text": "<@U07H6QHJ4C8> has joined the channel",
+        "type": "message",
+        "ts": "1723465658.366329"
+    },
+    {
+        "user": "U07H6QHJ4C8",
+        "type": "message",
+        "ts": "1723465703.329389",
+        "client_msg_id": "931e4f68-272f-423a-b010-1816187250bf",
+        "text": "Hi",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g9ccbad09992",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9ccbad09992c2afeebba91d1c44538a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Ansh",
+            "real_name": "Ansh",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201303",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4fvff",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G3F30B1D",
+        "text": "<@U07G3F30B1D> has joined the channel",
+        "type": "message",
+        "ts": "1723465872.955609"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ7P52TV",
+        "text": "<@U07GJ7P52TV> has joined the channel",
+        "type": "message",
+        "ts": "1723469288.725329"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G4GMLC4F",
+        "text": "<@U07G4GMLC4F> has joined the channel",
+        "type": "message",
+        "ts": "1723476200.048049"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GCE9NF7G",
+        "text": "<@U07GCE9NF7G> has joined the channel",
+        "type": "message",
+        "ts": "1723476243.641959"
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F081QKJJ5J5",
+                "created": 1731945410,
+                "timestamp": 1731945410,
+                "name": "documentationFinalAsOnNov18.pdf",
+                "title": "documentationFinalAsOnNov18.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U07GASBEWBY",
+                "user_team": "T07GDAV8RMY",
+                "editable": false,
+                "size": 2749696,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F081QKJJ5J5\/documentationfinalasonnov18.pdf?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F081QKJJ5J5\/download\/documentationfinalasonnov18.pdf?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F081QKJJ5J5-44fee71030\/documentationfinalasonnov18_thumb_pdf.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/se-19-workspace.slack.com\/files\/U07GASBEWBY\/F081QKJJ5J5\/documentationfinalasonnov18.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T07GDAV8RMY-F081QKJJ5J5-4218a144df",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U07GASBEWBY",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1731945419.294939",
+        "client_msg_id": "395572e5-5acd-4a66-ba30-a9ae24870b4b"
+    }
+]

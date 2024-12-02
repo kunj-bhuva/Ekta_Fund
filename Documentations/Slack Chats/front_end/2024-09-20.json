@@ -1,0 +1,278 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07GASBEWBY",
+        "text": "<@U07GASBEWBY> has joined the channel",
+        "type": "message",
+        "ts": "1726833663.354209"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ042KD0",
+        "text": "<@U07GJ042KD0> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1726833682.635669"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G6MRTVK8",
+        "text": "<@U07G6MRTVK8> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1726833682.749049"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07NPLBDCHF",
+        "text": "<@U07NPLBDCHF> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1726833682.846869"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GCE9NF7G",
+        "text": "<@U07GCE9NF7G> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1726833682.936829"
+    },
+    {
+        "user": "U07NPLBDCHF",
+        "type": "message",
+        "ts": "1726833866.048159",
+        "client_msg_id": "7560bd92-0ca1-436e-9d0a-67d1aac84ae7",
+        "text": "1st task",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "a3184d52fb4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-20\/7752444225958_a3184d52fb4f1a67890f_72.png",
+            "first_name": "KUNJ_BHUVA",
+            "real_name": "KUNJ_BHUVA",
+            "display_name": "Kunj college",
+            "team": "T07GDAV8RMY",
+            "name": "202201275",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RDtlo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1st task"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07NPLBDCHF",
+        "type": "message",
+        "ts": "1726833877.600839",
+        "client_msg_id": "2d01d6c8-40d5-4c2f-af11-9bd622f1ab85",
+        "text": "NGO registration page",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "a3184d52fb4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-20\/7752444225958_a3184d52fb4f1a67890f_72.png",
+            "first_name": "KUNJ_BHUVA",
+            "real_name": "KUNJ_BHUVA",
+            "display_name": "Kunj college",
+            "team": "T07GDAV8RMY",
+            "name": "202201275",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3\/dBe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "NGO registration page"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07NPLBDCHF",
+        "type": "message",
+        "ts": "1726833883.534879",
+        "client_msg_id": "b947ca67-4529-480b-974c-a9e74c059c5e",
+        "text": "UI deadline tuesday",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "a3184d52fb4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-20\/7752444225958_a3184d52fb4f1a67890f_72.png",
+            "first_name": "KUNJ_BHUVA",
+            "real_name": "KUNJ_BHUVA",
+            "display_name": "Kunj college",
+            "team": "T07GDAV8RMY",
+            "name": "202201275",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3j9Rc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "UI deadline tuesday"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07NPLBDCHF",
+        "type": "message",
+        "ts": "1726833892.593279",
+        "client_msg_id": "5a1d2701-f94c-4af4-aa2c-25114fd41f47",
+        "text": "develop deadline sunday",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "a3184d52fb4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-09-20\/7752444225958_a3184d52fb4f1a67890f_72.png",
+            "first_name": "KUNJ_BHUVA",
+            "real_name": "KUNJ_BHUVA",
+            "display_name": "Kunj college",
+            "team": "T07GDAV8RMY",
+            "name": "202201275",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Hobx7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "develop deadline sunday"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "reminder_add",
+        "user": "U07NPLBDCHF",
+        "type": "message",
+        "ts": "1726834189.081899",
+        "text": " set up a reminder “[progress on UI\/UX work]” in this channel at 09:00 Tuesday 24th September, India Standard Time."
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1726834198.875689",
+        "client_msg_id": "5eeee0bc-e667-4343-83e2-af24ae5ea396",
+        "text": ":wave: Hello, team! I was browsing across the web for inspiration..<https:\/\/www.smilefoundationindia.org\/>  I found this website, we could take inspiration from this for our website",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726834198.875689",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1727891515.764429",
+        "reply_users": [
+            "U07GJ042KD0"
+        ],
+        "replies": [
+            {
+                "user": "U07GJ042KD0",
+                "ts": "1727891515.764429"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.smilefoundationindia.org\/",
+                "id": 1,
+                "original_url": "https:\/\/www.smilefoundationindia.org\/",
+                "fallback": "Smile Foundation: NGO in India for Education, Healthcare, Women Empowerment",
+                "text": "Explore Smile Foundation, a leading NGO in Delhi, India. Visit our NGO website to support education, healthcare, women empowerment, and livelihood initiatives in Delhi and across India.",
+                "title": "NGO in India for Education, Healthcare, Women Empowerment",
+                "title_link": "https:\/\/www.smilefoundationindia.org\/",
+                "service_name": "Smile Foundation"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j3+m3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "wave",
+                                "unicode": "1f44b"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Hello, team! I was browsing across the web for inspiration.."
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.smilefoundationindia.org\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  I found this website, we could take inspiration from this for our website"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

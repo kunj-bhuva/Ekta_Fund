@@ -1,0 +1,83 @@
+[
+    {
+        "text": "have completed these test cases so far, do i need to redo these (atleast the login page) ones with the new deployed site since wo waala has kaafi different UI",
+        "files": [
+            {
+                "id": "F082YAU52TY",
+                "created": 1733061036,
+                "timestamp": 1733061036,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U07GCE9NF7G",
+                "user_team": "T07GDAV8RMY",
+                "editable": false,
+                "size": 293591,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F082YAU52TY\/image.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F082YAU52TY\/download\/image.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_64.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_80.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_360.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_360_w": 360,
+                "thumb_360_h": 225,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_480.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_480_w": 480,
+                "thumb_480_h": 300,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_160.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_720.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_720_w": 720,
+                "thumb_720_h": 450,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_800.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_800_w": 800,
+                "thumb_800_h": 500,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_960.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_960_w": 960,
+                "thumb_960_h": 600,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F082YAU52TY-4bbc69311a\/image_1024.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 640,
+                "original_w": 2560,
+                "original_h": 1600,
+                "thumb_tiny": "AwAeADC95EWf9Wv5CgwRD\/llH\/3yKf3p1AEfkQ\/88o\/++RR5EP8AzyT\/AL5FSUg60AM8iH\/nkn\/fIo8iH\/nkn\/fIqSjtQAnftRTc04HNABRS5ozQAZozRmkJ4oA\/\/9k=",
+                "permalink": "https:\/\/se-19-workspace.slack.com\/files\/U07GCE9NF7G\/F082YAU52TY\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T07GDAV8RMY-F082YAU52TY-ecd1c9150e",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U07GCE9NF7G",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vt+pO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "have completed these test cases so far, do i need to redo these (atleast the login page) ones with the new deployed site since wo waala has kaafi different UI"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1733061108.537859",
+        "client_msg_id": "1c802cb2-0aef-4374-bae5-9b9dbd30df42"
+    }
+]

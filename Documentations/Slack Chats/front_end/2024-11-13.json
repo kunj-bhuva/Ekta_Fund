@@ -1,0 +1,564 @@
+[
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731494979.037949",
+        "client_msg_id": "16D26E5A-B1D9-4A97-A66C-2A47B0A6D3D7",
+        "text": "<@U07GCE9NF7G> Admin dashboard ho gaya ?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Np+ut",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U07GCE9NF7G"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Admin dashboard ho gaya ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1731495018.411829",
+        "client_msg_id": "16036d0f-d8b8-4dcf-a9bf-bc7c198539e7",
+        "text": "Thoda he bacha hai",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gX4tL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thoda he bacha hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1731495025.789429",
+        "client_msg_id": "5f9fbec0-e7b2-4df5-a084-08ab193c4e3b",
+        "text": "Jaldi se kardounga",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c4tYV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Jaldi se kardounga"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731495048.816219",
+        "client_msg_id": "29620DA8-E789-4292-817C-11DE40880C26",
+        "text": "Also add images for the login on the figma file so bo bhi edit kr de hum",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PCsXZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Also add images for the login on the figma file so bo bhi edit kr de hum"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731495057.312999",
+        "client_msg_id": "971E262E-C54F-4EC4-8AE6-38EE07EE0F12",
+        "text": "Okayy okayy",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fJuG8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okayy okayy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1731495063.798549",
+        "client_msg_id": "9a1c9184-5852-4854-bc4a-f612ab377c9c",
+        "text": "Theek hai",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8SBm2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Theek hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731512917.667579",
+        "client_msg_id": "7BC63F13-0DB3-4EC5-B7E6-E06FE1B02238",
+        "text": "Pls do it asap so we can start,is it ready ?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+bd+E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pls do it asap so we can start,is it ready ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1731512949.945829",
+        "client_msg_id": "998aa744-641b-4a94-983f-72e9e34461f4",
+        "text": "Doing it abhi",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ztzR6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Doing it abhi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731513807.110579",
+        "client_msg_id": "8CB36EC0-7767-424A-A44F-EBC1665600BC",
+        "text": "Okayy okayy",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fJuG8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okayy okayy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F080V2RUFGC",
+                "created": 1731537206,
+                "timestamp": 1731537206,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U07GCE9NF7G",
+                "user_team": "T07GDAV8RMY",
+                "editable": false,
+                "size": 506532,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F080V2RUFGC\/image.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F080V2RUFGC\/download\/image.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_64.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_80.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_360.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_360_w": 360,
+                "thumb_360_h": 225,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_480.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_480_w": 480,
+                "thumb_480_h": 300,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_160.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_720.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_720_w": 720,
+                "thumb_720_h": 450,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_800.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_800_w": 800,
+                "thumb_800_h": 500,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_960.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_960_w": 960,
+                "thumb_960_h": 600,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F080V2RUFGC-6a2a10c839\/image_1024.png?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 640,
+                "original_w": 2560,
+                "original_h": 1600,
+                "thumb_tiny": "AwAeADCz5Me7H2bjPXinLbRZwYlqcdaAOc0ARfZoP+ea\/lR9lg\/55r+VTY5zQRmgCE20A6xp+VNNnEWyAAPTAqWVikZI6ikTKhQzbie9AiTFJkUbhTSw5oGPoqPcOetKGBoAccY5pFVV+6MUjEECgEZoA\/\/Z",
+                "permalink": "https:\/\/se-19-workspace.slack.com\/files\/U07GCE9NF7G\/F080V2RUFGC\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T07GDAV8RMY-F080V2RUFGC-05c5bf8a50",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U07GCE9NF7G",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1731537213.133479",
+        "client_msg_id": "99747e18-673c-4923-ba45-bc7e617c4658"
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1731537223.914189",
+        "client_msg_id": "98d4ee75-8ae5-4a8b-a5d5-21ac3930e1e0",
+        "text": "give suggestions for stats part",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1XRXk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "give suggestions for stats part"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1731537229.979439",
+        "client_msg_id": "7609849e-14fa-4119-948a-edb23d042757",
+        "text": "like how the data should be?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mnP7f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "like how the data should be?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1731537238.763919",
+        "client_msg_id": "ff6ad01e-c4ad-4572-b4d7-763ae6f41ed7",
+        "text": "and which data exactly",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1+GsQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and which data exactly"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1731570906.489399",
+        "client_msg_id": "26CE93EA-F32F-40D2-AF76-CE6E15062D87",
+        "text": "Pending ngo approval requests",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TmiEM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pending ngo approval requests"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

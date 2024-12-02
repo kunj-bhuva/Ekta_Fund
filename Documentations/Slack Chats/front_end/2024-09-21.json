@@ -1,0 +1,61 @@
+[
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1726917967.972629",
+        "client_msg_id": "d0b99fb4-da73-4e33-88e6-1fb892a8fdd0",
+        "text": "For inspiration <https:\/\/give.do\/>",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/cfstatic.give.do\/8961e30a-3b12-42a2-8c7f-783dedebbaa9.png",
+                "image_width": 1200,
+                "image_height": 630,
+                "image_bytes": 45527,
+                "from_url": "https:\/\/give.do\/",
+                "service_icon": "https:\/\/cfstatic.give.do\/e501c4e4-668c-44b5-8a41-40a54cb18787.png",
+                "id": 1,
+                "original_url": "https:\/\/give.do\/",
+                "fallback": "Give",
+                "text": "Discover social causes and give easily to fundraisers by verified NGOs. Donate to causes related to children, elderly, animal, environment, etc. on <http:\/\/give.do|give.do>",
+                "title": "Give",
+                "title_link": "https:\/\/give.do\/",
+                "service_name": "Give"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "naliZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "For inspiration "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/give.do\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

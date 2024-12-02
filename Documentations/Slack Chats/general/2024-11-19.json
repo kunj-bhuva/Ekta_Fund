@@ -1,0 +1,49 @@
+[
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1732089342.068279",
+        "client_msg_id": "50824f9b-44fe-4da5-822f-15ce70ff89b6",
+        "text": "Both e-mail functionality works now at Admin site when admin approves\/rejects ngo and when donor review any particular ngo. It takes 20 to 30 sec to sent \nFor that functionality \nUse below .env file \nMONGO_URI = \"<mongodb+srv:\/\/jal:8ebq4t11@cluster0.hq3kx.mongodb.net\/Sprint_2?retryWrites=true&amp;w=majority|mongodb+srv:\/\/jal:8ebq4t11@cluster0.hq3kx.mongodb.net\/Sprint_2?retryWrites=true&amp;w=majority> \"\n\nJWT_SECRET=\"JWT_SCRET\"\n\nPORT=5000\n\nEMAIL_USER=jal.dani47112@gmail.com\nEMAIL_PASS=bepp wudv ecrt ggwc\n\nADMIN_EMAIL=jal.dani47112@gmail.com\nADMIN_PASSWORD=meua sxra efml mkni",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Avmay",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Both e-mail functionality works now at Admin site when admin approves\/rejects ngo and when donor review any particular ngo. It takes 20 to 30 sec to sent \nFor that functionality \nUse below .env file \nMONGO_URI = \""
+                            },
+                            {
+                                "type": "link",
+                                "url": "mongodb+srv:\/\/jal:8ebq4t11@cluster0.hq3kx.mongodb.net\/Sprint_2?retryWrites=true&w=majority",
+                                "text": "mongodb+srv:\/\/jal:8ebq4t11@cluster0.hq3kx.mongodb.net\/Sprint_2?retryWrites=true&w=majority"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \"\n\nJWT_SECRET=\"JWT_SCRET\"\n\nPORT=5000\n\nEMAIL_USER=jal.dani47112@gmail.com\nEMAIL_PASS=bepp wudv ecrt ggwc\n\nADMIN_EMAIL=jal.dani47112@gmail.com\nADMIN_PASSWORD=meua sxra efml mkni"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

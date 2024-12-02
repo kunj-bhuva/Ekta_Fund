@@ -1,0 +1,204 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07GASBEWBY",
+        "text": "<@U07GASBEWBY> has joined the channel",
+        "type": "message",
+        "ts": "1731945629.852629"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G4GMLC4F",
+        "text": "<@U07G4GMLC4F> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945643.523869"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07H6QHJ4C8",
+        "text": "<@U07H6QHJ4C8> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945643.601599"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GC1FRPQD",
+        "text": "<@U07GC1FRPQD> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945643.837209"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ7P52TV",
+        "text": "<@U07GJ7P52TV> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945643.912829"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GFRHCTBN",
+        "text": "<@U07GFRHCTBN> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945644.089009"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G6MRTVK8",
+        "text": "<@U07G6MRTVK8> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945659.321209"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07G3F30B1D",
+        "text": "<@U07G3F30B1D> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945659.417019"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GCE9NF7G",
+        "text": "<@U07GCE9NF7G> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945659.494769"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ042KD0",
+        "text": "<@U07GJ042KD0> has joined the channel",
+        "inviter": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945659.568409"
+    },
+    {
+        "user": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1731945705.478659",
+        "client_msg_id": "47d6ca1d-e65f-4e35-883b-6039ec13cba5",
+        "text": "how do you guys propose we document our testing?\nshould we make our own independent documents or have one separate combined doc, or just have a single complete documentation with the testing?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "d31c5ae5e97e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7558641987029_d31c5ae5e97ef58ccce7_72.png",
+            "first_name": "Tanay",
+            "real_name": "Tanay Kewalramani",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201362",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UR0AL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "how do you guys propose we document our testing?\nshould we make our own independent documents or have one separate combined doc, or just have a single complete documentation with the testing?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731946072.867979",
+        "client_msg_id": "d2f5dea3-b3d6-4c67-9591-54a83f834df3",
+        "text": "I don't think combining the both looks good \nSo I would suggest to make separate documentation",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "veryQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't think combining the both looks good \nSo I would suggest to make separate documentation"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1731946124.525869",
+        "client_msg_id": "ed4ea7be-edc7-45c9-9cbb-4df3d26c8e0f",
+        "text": "And all members have different kind of testing so I would suggest that let us make different documentation for each testing If needed we can merge at the end",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "gc7d8a723915",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7d8a72391533c3e5ab3cca03ad192ed.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Jal",
+            "real_name": "Jal Dani",
+            "display_name": "Jal",
+            "team": "T07GDAV8RMY",
+            "name": "202201315",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MwVj+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And all members have different kind of testing so I would suggest that let us make different documentation for each testing If needed we can merge at the end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U07GASBEWBY"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

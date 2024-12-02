@@ -1,0 +1,610 @@
+[
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1727859899.997899",
+        "client_msg_id": "f589e6ff-a784-46e4-966a-c4bbbee0b2d3",
+        "text": "The whole \"Register your org\" and uske nicche waala part should be aligned with the logo toh better lagega",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Ch4s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "The whole \"Register your org\" and uske nicche waala part should be aligned with the logo toh better lagega"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U07GASBEWBY"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1727859902.990129",
+        "client_msg_id": "bd5ccce2-7668-423a-acfc-b48300a81e8d",
+        "text": "if possible",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7Tr9V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if possible"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1727859941.314119",
+        "client_msg_id": "9AB4DBFC-0C04-4655-B0A6-2CB78C81A3DD",
+        "text": "Okay I’ll try",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ntAeT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okay I’ll try"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1727859946.824329",
+        "client_msg_id": "2f29536c-2050-48c1-9e7a-6110d9819982",
+        "text": "and the angle of the teal color in the background change",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VZdQ5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and the angle of the teal color in the background change"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1727859967.677089",
+        "client_msg_id": "3F7A03E8-1B0F-45A8-857C-F1C9ECA2BC38",
+        "text": ":+1: :+1: ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "swIe0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "thumbsup",
+                                "unicode": "1f44d"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "thumbsup",
+                                "unicode": "1f44d"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1727860018.349589",
+        "client_msg_id": "92721b65-ff4b-4764-8581-66482d0a047f",
+        "text": "mei aur tanay will try to complete the landing page by today or tmrw",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uQOea",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mei aur tanay will try to complete the landing page by today or tmrw"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GCE9NF7G",
+        "type": "message",
+        "ts": "1727860065.324629",
+        "client_msg_id": "9572d740-513c-458e-b58f-f3be5e39d31c",
+        "text": "Also give us ideas ki landing page mei kya kya daal sakte hai",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "g16ee88a7455",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16ee88a7455b746b7176fa4caeaecd4d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Rishabh",
+            "real_name": "Rishabh Jain",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201271",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WeZAd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Also give us ideas ki landing page mei kya kya daal sakte hai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U07GASBEWBY"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U07GASBEWBY",
+        "type": "message",
+        "ts": "1727860068.295969",
+        "client_msg_id": "273AD597-5B7A-4A53-8839-66200616229B",
+        "text": "Haan\nI’ll send a sketch of how it should look and Rishabh and I will try to duplicate that on figma ",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "d31c5ae5e97e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7558641987029_d31c5ae5e97ef58ccce7_72.png",
+            "first_name": "Tanay",
+            "real_name": "Tanay Kewalramani",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201362",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A\/23E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Haan\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "I’ll"
+                            },
+                            {
+                                "type": "text",
+                                "text": " send a sketch of how it should look and Rishabh and I will try to duplicate that on figma "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U07GCE9NF7G"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "This is where I’ve gotten so far\n\nConsidering a desktop aspect ratio, we can have just the stuff above the search bar on the landing page, and the remaining stuff would show once the users scrolls\n\nSuggestions\/thoughts?",
+        "files": [
+            {
+                "id": "F07Q2CPNRR8",
+                "created": 1727881233,
+                "timestamp": 1727881233,
+                "name": "IMG_0091.jpg",
+                "title": "IMG_0091",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U07GASBEWBY",
+                "user_team": "T07GDAV8RMY",
+                "editable": false,
+                "size": 1194759,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F07Q2CPNRR8\/img_0091.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T07GDAV8RMY-F07Q2CPNRR8\/download\/img_0091.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_64.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_80.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_360.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_360_w": 270,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_480.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_480_w": 360,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_160.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_720.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_720_w": 540,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_800.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1067,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_960.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_960_w": 720,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T07GDAV8RMY-F07Q2CPNRR8-e53987324c\/img_0091_1024.jpg?t=xoxe-7557369297746-8133868579168-8123761357873-f5b949dfe69e2e6921d29192962d1c38",
+                "thumb_1024_w": 768,
+                "thumb_1024_h": 1024,
+                "original_w": 3024,
+                "original_h": 4032,
+                "thumb_tiny": "AwAwACR+DnjpSjNONFADee9G0j3FOFANADStJtqQ9aSkMeRTcU\/FIBkUxDQKAB6U\/FIBQAEc0mKeaTFSMDSjFVY7hRGu5xnHOTThcxf31\/OqEWDSEjPAqH7VF\/z1WkN1CP8AloD9AaYE+aM1W+2Qf3j\/AN8mj7ZB\/eP\/AHyaQH\/\/2Q==",
+                "permalink": "https:\/\/se-19-workspace.slack.com\/files\/U07GASBEWBY\/F07Q2CPNRR8\/img_0091.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T07GDAV8RMY-F07Q2CPNRR8-50608d65e5",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U07GASBEWBY",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4Uw9k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This is where "
+                            },
+                            {
+                                "type": "text",
+                                "text": "I’ve"
+                            },
+                            {
+                                "type": "text",
+                                "text": " gotten so far\n\nConsidering a desktop aspect ratio, we can have just the stuff above the search bar on the landing page, and the remaining stuff would show once the users scrolls\n\nSuggestions\/thoughts?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1727881290.800659",
+        "client_msg_id": "937B7349-884C-4497-90BF-D558B150FAB3",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U07GCE9NF7G"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1727891515.764429",
+        "client_msg_id": "B025F7AA-A65F-4FF5-996B-838054F393EE",
+        "text": "Something like this ?",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726834198.875689",
+        "parent_user_id": "U07GJ042KD0",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vFxJE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Something like this ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1727891622.194409",
+        "client_msg_id": "6BD68FDA-CCFB-4784-B6DE-33E5F27A5B4D",
+        "text": "I was thinking we could make something like this <https:\/\/www.smilefoundationindia.org\/|https:\/\/www.smilefoundationindia.org\/>",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/www.smilefoundationindia.org\/wp-content\/uploads\/2022\/09\/Banner1-scaled.jpg",
+                "image_width": 2560,
+                "image_height": 1286,
+                "image_bytes": 99219,
+                "from_url": "https:\/\/www.smilefoundationindia.org\/",
+                "service_icon": "https:\/\/www.smilefoundationindia.org\/wp-content\/uploads\/2022\/09\/SMILE-FOUNDATION-LOGO-e1662456150120.png",
+                "id": 1,
+                "original_url": "https:\/\/www.smilefoundationindia.org\/",
+                "fallback": "Smile Foundation: NGO in India for Education, Healthcare, Women Empowerment",
+                "text": "Explore Smile Foundation, a leading NGO in Delhi, India. Visit our NGO website to support education, healthcare, women empowerment, and livelihood initiatives in Delhi and across India.",
+                "title": "NGO in India for Education, Healthcare, Women Empowerment",
+                "title_link": "https:\/\/www.smilefoundationindia.org\/",
+                "service_name": "Smile Foundation"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YZibD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I was thinking we could make something like this "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.smilefoundationindia.org\/",
+                                "text": "https:\/\/www.smilefoundationindia.org\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U07GCE9NF7G"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U07GJ042KD0",
+        "type": "message",
+        "ts": "1727891719.013929",
+        "client_msg_id": "561E92FA-AF08-45EC-9F0C-D46E9889855B",
+        "text": "Can go with yours also but need to modify the header and add the footer and some changes in body too..just my opinion..can continue on yours too..",
+        "team": "T07GDAV8RMY",
+        "user_team": "T07GDAV8RMY",
+        "source_team": "T07GDAV8RMY",
+        "user_profile": {
+            "avatar_hash": "e4000ea10339",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-08-12\/7547459089175_e4000ea10339c71ea570_72.png",
+            "first_name": "Sakshi",
+            "real_name": "Sakshi Shah",
+            "display_name": "",
+            "team": "T07GDAV8RMY",
+            "name": "202201281",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wlUWZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Can go with yours also but need to modify the header and add the footer and some changes in body too..just my opinion..can continue on yours too.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U07GCE9NF7G",
+                    "U07GASBEWBY"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

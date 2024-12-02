@@ -1,0 +1,18 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07G4GMLC4F",
+        "text": "<@U07G4GMLC4F> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1730814176.319069"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U07GJ7P52TV",
+        "text": "<@U07GJ7P52TV> has joined the channel",
+        "inviter": "U07G6MRTVK8",
+        "type": "message",
+        "ts": "1730815350.916589"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07G6MRTVK8",
+        "text": "<@U07G6MRTVK8> has joined the channel",
+        "inviter": "U07GFRHCTBN",
+        "type": "message",
+        "ts": "1733150271.148339"
+    },
+    {
+        "subtype": "channel_convert_to_public",
+        "user": "U07G6MRTVK8",
+        "text": "made this channel *public*. Any member in this workspace can see and join it.",
+        "type": "message",
+        "ts": "1733150963.105429"
+    }
+]
