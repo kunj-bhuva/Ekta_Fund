@@ -86,7 +86,7 @@
     align-items: center;
     gap: 4px; /* Adjusts spacing between elements */
     font: Roboto, sans-serif; /* Set to your desired font */
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .inline {

@@ -24,12 +24,14 @@ import Donation from "./components/money.js";
 import Login_NGO from "./components/Login_NGO.js";
 import NGOpage from "./components/ngopage.js";
 import NGODash from "./components/ngodashboard.js"
+import Land from "./components/land.js";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Land />} />
+        <Route path="/land" element={<Land />} />
         <Route path="/admin-dashboard" element={<Admin />} />
         <Route path="/donation" element={<Donation />} />
         <Route path="/login" element={<Login />} />

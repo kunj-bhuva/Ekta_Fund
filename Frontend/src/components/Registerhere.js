@@ -89,9 +89,9 @@ export default function Register() {
                   />
                 </div>
                 <div className="col-md-6 col-lg-7 d-flex align-items-center">
-                  <div className="card-body p-3 p-lg-5 text-black">
+                  <div className="card-body p-3 p-lg-4 text-black">
                     <form onSubmit={handleSubmit}>
-                      <div className="d-flex align-items-center mb-3 pb-1">
+                      <div className="d-flex align-items-center mb-3 pb-1" style={{marginTop:'0.4rem'}}>
                         <span className="h1 fw-bold mb-0">Register</span>
                       </div>
 
@@ -165,17 +165,17 @@ export default function Register() {
 
                       {/* Submit Button */}
                       <div className="pt mb-x">
-                        <button type="submit" className="btn btn-dark btn-lg btn-block">
+                        <button type="submit" className="btn btn-dark btn-lg btn-block" style={{marginTop:'1rem'}}>
                           Register
                         </button>
                       </div>
 
                       {/* Link to login page */}
-                      <p className="mb-5x pb-lg-2x" style={{ color: '#393f81' }}>
+                      <p className="mb-5x pb-lg-2x" style={{ color: '#393f81',fontSize:'1.2rem' ,marginTop:'0.31rem'}}>
                         Already have an account?{' '}
                         <span
                           onClick={handleNavigation}
-                          style={{ color: '#393f81', cursor: 'pointer', textDecoration: 'underline' }}
+                          style={{ color: '#393f81', cursor: 'pointer', textDecoration: 'underline' ,fontSize:'1.2rem'}}
                         >
                           Login here
                         </span>

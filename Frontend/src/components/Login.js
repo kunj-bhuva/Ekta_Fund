@@ -41,8 +41,8 @@ export default function Login() {
       return;
     }
 
-    if (password.length < 6) {
-      setError("Password must be at least 6 characters long.");
+    if (password.length < 8) {
+      setError("Password must be at least 8 characters long.");
       return;
     }
 
@@ -108,13 +108,13 @@ export default function Login() {
                     <form onSubmit={handleSubmit}>
                       <div className="d-flex align-items-center mb-4 pb-1">
                         <span className="h1 fw-bold mb-0">
-                          <img src={logo} alt="Logo" />
+                          <img src={logo} style={{marginTop:'0.6rem'}}  alt="Logo" />
                         </span>
                       </div>
 
                       <h5
                         className="fw-normal mb-3 pb-3"
-                        style={{ letterSpacing: "1px" }}
+                        style={{ letterSpacing: "1px" }} 
                       >
                         Sign into your account
                       </h5>
@@ -190,7 +190,7 @@ export default function Login() {
                       </a>
                       <p
                         className="mb-5x pb-lg-2x"
-                        style={{ color: "#393f81" }}
+                        style={{ color: "#393f81",fontSize:'1.2rem' ,marginTop:'0.5rem'}}
                       >
                         Don't have an account?{" "}
                         <a

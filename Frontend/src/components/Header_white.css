@@ -106,15 +106,17 @@
 
 /* Sign Out Button Styles */
 .signout-btn {
-    background-color: #696969; /* Blue background for the Sign Out button */
+    background-color: #303030; /* Blue background for the Sign Out button */
     color: white; /* White text */
     font-size: 1.2rem;
-    padding: 0.2rem 0.2rem;
+    padding: 0.5rem 1rem; /* Adjust padding for size */
     border: none;
-    border-radius: 20px;
+    border-radius: 25px; /* Rounded corners */
+    /* font-weight: bold; */
     text-align: center;
-    margin-top: 0.2rem;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+
 }
 /* 
 .signout-btn:hover {

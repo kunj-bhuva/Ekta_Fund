@@ -24,7 +24,7 @@ function Header_white() {
 
     const handleSignOutClick = () => {
         // Add sign-out logic here
-        navigate('/login');  // Navigate to the login page
+        navigate('/land');  // Navigate to the login page
     };
 
     return (
