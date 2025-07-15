@@ -7,5 +7,4 @@ const reviewSchema = new mongoose.Schema({
   approved: { type: Boolean, default: false }, 
   createdAt: { type: Date, default: Date.now },
 });
-
 module.exports = mongoose.model("Review", reviewSchema);
